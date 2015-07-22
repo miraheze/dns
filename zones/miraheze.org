@@ -1,0 +1,44 @@
+$TTL 300
+$ORIGIN miraheze.org.
+
+@	SOA ns1 hostmaster (
+	20150711000001	; serial
+	7200		; refresh
+	30M		; retry
+	3D		; expire
+	900		; ncache
+)
+
+; Wildcard services
+@	DYNA	weighted!mw
+*	DYNA	weighted!mw
+
+; Name servers
+@	NS	ns1.miraheze.org.
+@	NS	ns2.miraheze.org.
+
+;; A records
+ns1	A	192.184.82.120
+	AAAA	2604:180:0:ec::2
+ns2	A	185.52.1.76
+	AAAA	2a00:d880:6:787::2
+
+; Mail exchangers
+@	MX	10	mail.miraheze.org.
+
+; Servers
+db1	A	185.52.1.77
+mw1	A	185.52.1.75
+	AAAA	2a00:d880:6:786::2
+misc1	A	185.52.1.76
+	AAAA	2a00:d880:6:787::3
+
+; Services
+ganglia	CNAME	misc1
+icinga	CNAME	misc1
+mail	A	185.52.1.76
+	AAAA	2a00:d880:6:787::3
+piwik	CNAME	misc1
+static	DYNA	weighted!mw
+
+; Other

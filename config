@@ -1,0 +1,22 @@
+options => {
+	listen = any
+	http_listen = [ 127.0.0.1, ::1 ],
+	# false (default) should be true eventually
+	zones_strict_data = false,
+}
+
+plugins => {
+	weighted => {
+		multi = false
+		up_thresh => 0.3
+		service_types = up
+		mw => {
+			addrs_v4 => {
+				mw1 = [ 185.52.1.75, 1 ]
+			}
+			addrs_v6 => {
+				mw1 = [ 2a00:d880:6:786::2, 1 ]
+			}
+		}
+	}
+}
