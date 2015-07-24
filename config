@@ -1,8 +1,8 @@
 options => {
 	listen = any
 	http_listen = [ 127.0.0.1, ::1 ],
-	# false (default) should be true eventually
-	zones_strict_data = false,
+	zones_strict_data = true,
+        tcp_threads = 2,
 }
 
 plugins => {
