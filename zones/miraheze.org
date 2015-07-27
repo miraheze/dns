@@ -41,4 +41,7 @@ mail	A	185.52.1.76
 piwik	CNAME	misc1
 static	DYNA	weighted!mw
 
+; load balancers
+mw-lb	DYNA	weighted!me
+
 ; Other
