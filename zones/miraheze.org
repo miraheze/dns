@@ -42,6 +42,6 @@ piwik	CNAME	misc1
 static	DYNA	weighted!mw
 
 ; load balancers
-mw-lb	DYNA	weighted!me
+mw-lb	DYNA	weighted!mw
 
 ; Other
