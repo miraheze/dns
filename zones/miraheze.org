@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @	SOA ns1 hostmaster (
-	20150728000001	; serial
+	20150729000001	; serial
 	7200		; refresh
 	30M		; retry
 	3D		; expire
@@ -16,12 +16,15 @@ $ORIGIN miraheze.org.
 ; Name servers
 @	NS	ns1.miraheze.org.
 @	NS	ns2.miraheze.org.
+@	NS	ns3.miraheze.org.
 
 ;; A records
 ns1	A	192.184.82.120
 	AAAA	2604:180:0:ec::2
 ns2	A	185.52.1.76
 	AAAA	2a00:d880:6:787::2
+ns3	A	128.199.196.94
+	AAAA	2400:6180:0:d0::4d:3001
 
 ; Mail exchangers
 @	MX	10	mail.miraheze.org.
