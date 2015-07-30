@@ -1,6 +1,6 @@
 options => {
 	listen = any
-	http_listen = [ 127.0.0.1, ::1 ],
+	http_listen = 0.0.0.0,
 	zones_strict_data = true,
         tcp_threads = 2,
 }
