@@ -2,7 +2,8 @@ options => {
 	listen = any
 	http_listen = 0.0.0.0,
 	zones_strict_data = true,
-        tcp_threads = 2,
+	tcp_threads = 2,
+	lock_mem = true,
 }
 
 plugins => {
