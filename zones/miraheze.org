@@ -29,6 +29,9 @@ ns3		A	128.199.196.94
 ; Mail exchangers
 @		MX	10	mail.miraheze.org.
 
+; Mail policies
+miraheze.org.	TXT	"v=spf1 include:_spf.google.com ip4:185.52.1.75 ip4:185.52.1.76 ?all"
+
 ; Servers
 db1		A	185.52.1.77
 mw1		A	185.52.1.75
