@@ -12,7 +12,7 @@ plugins => {
 		service_types = up
 		mw => {
 			addrs_v4 => {
-				mw1 = [ 185.52.1.75, 1 ]
+				mw1 = [ 185.34.216.183, 1 ]
 			}
 			addrs_v6 => {
 				mw1 = [ 2a00:d880:6:786::2, 1 ]
