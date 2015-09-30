@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN permanentfuturelab.wiki.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20150925000001	; serial
+		20150930000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -22,6 +22,7 @@ $ORIGIN permanentfuturelab.wiki.
 ; Servers
 
 ; Services
+www		DYNA	weighted!mw
 
 ; load balancers
 
