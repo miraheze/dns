@@ -10,7 +10,6 @@ $ORIGIN miraheze.org.
 )
 
 ; Wildcard services
-@		DYNA	weighted!mw
 *		DYNA	weighted!mw
 
 ; Name servers
