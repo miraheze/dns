@@ -1,0 +1,31 @@
+$TTL 300
+$ORIGIN allthetropes.org.
+
+@		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
+		20151017000001	; serial
+		7200		; refresh
+		30M		; retry
+		3D		; expire
+		900		; ncache
+)
+
+; Wildcard services
+@		DYNA	weighted!mw
+
+; Name servers
+@		NS	ns1.miraheze.org.
+@		NS	ns2.miraheze.org.
+@		NS	ns3.miraheze.org.
+
+; Mail exchangers
+@		MX	1	ASPMX.L.GOOGLE.COM.
+@		MX	5	ALT1.ASPMX.L.GOOGLE.COM.
+@		MX	10	ALT3.ASPMX.L.GOOGLE.COM.
+
+; Servers
+
+; Services
+
+; load balancers
+
+; Other
