@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN antiguabarbudacalypso.com.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20150915000001	; serial
+		20150926000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -10,7 +10,7 @@ $ORIGIN antiguabarbudacalypso.com.
 )
 
 ; Wildcard services
-@		DYNA	weighted!mw
+@		DYNA	geoip!mw
 
 ; Name servers
 @		NS	ns1.miraheze.org.

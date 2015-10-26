@@ -6,19 +6,61 @@ options => {
 }
 
 plugins => {
-	weighted => {
-		multi = false
-		up_thresh => 0.1
-		service_types = up
-		mw => {
-			addrs_v4 => {
-				mw1 = [ 185.52.1.75, 1048575 ]
-				mw1-dos = [ 185.34.216.183, 1 ]
-				cp1 = [ 81.4.124.61, 524847 ]
-			}
-			addrs_v6 => {
-				mw1 = [ 2a00:d880:6:786::2, 100 ]
-				cp1 = [ 2a00:d880:5:569::2, 50 ]
+	geoip => {
+		maps => {
+			generic-map {
+				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
+				datacenters => [cp1 cp2 mw1]
+				map => {
+					AF => [cp1, mw1],
+					AS => {
+						AP => [cp2, cp1, mw1],
+						DB => [cp2, cp1, mw1],
+						BT => [cp2, cp1, mw1],
+						CC => [cp2, cp1, mw1],
+						CN => [cp2, cp1, mw1],
+						ID => [cp2, cp1, mw1],
+						JP => [cp2, cp1, mw1],
+						KH => [cp2, cp1, mw1],
+						KP => [cp2, cp1, mw1],
+						KR => [cp2, cp1, mw1],
+						LA => [cp2, cp1, mw1],
+						MM => [cp2, cp1, mw1],
+						MY => [cp2, cp1, mw1],
+						PH => [cp2, cp1, mw1],
+						SG => [cp2, cp1, mw1],
+						TH => [cp2, cp1, mw1],
+						SG => [cp2, cp1, mw1],
+						TH => [cp2, cp1, mw1],
+						TW => [cp2, cp1, mw1],
+						VN => [cp2, cp1, mw1],
+					},
+					EU => [cp1, mw1],
+					NA => [cp2, cp1, mw1],
+					OC => [cp2, cp1, mw1],
+					SA => [cp2, cp1, mw1],
+					default => [cp1, mw1],
+				},
+			},
+		},
+	},
+	resources => {
+		mw =>
+			map => generic-map
+			service_types => up
+			dcmap => {
+				cp1 => {
+					addrs_v4 => 81.4.124.61,
+					addrs_v6 => 2a00:d880:5:569::2,
+				}
+				cp2 => {
+					addrs_v4 => 107.191.126.23,
+					addrs_v6 => 2604:180:0:33b::2,
+				}
+				mw1 => {
+					addrs_v4 => 185.52.1.75,
+					addrs_v6 => 2a00:d880:6:786::2,
+				}
 			}
 		}
 	}
