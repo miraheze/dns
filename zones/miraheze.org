@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @		SOA ns1 hostmaster (
-		20151026000001	; serial
+		20151010000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -10,8 +10,8 @@ $ORIGIN miraheze.org.
 )
 
 ; Wildcard services
-@		DYNA	geoip!mw
-*		DYNA	geoip!mw
+@		DYNA	weighted!mw
+*		DYNA	weighted!mw
 
 ; Name servers
 @		NS	ns1.miraheze.org.
@@ -48,9 +48,9 @@ icinga		CNAME	misc1
 mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
 piwik		CNAME	misc1
-static		DYNA	geoip!mw
+static		DYNA	weighted!mw
 
 ; load balancers
-mw-lb		DYNA	geoip!mw
+mw-lb		DYNA	weighted!mw
 
 ; Other
