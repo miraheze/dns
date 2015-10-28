@@ -5,6 +5,13 @@ options => {
         tcp_threads = 2,
 }
 
+service_types => {
+	tcp80 => {
+		plugin => tcp_connect,
+		port => 80,
+	}
+}
+
 plugins => {
 	geoip => {
 		maps => {
@@ -44,7 +51,7 @@ plugins => {
 		resources => {
 			mw => {
 				map => generic-map
-				service_types => up
+				service_types => tcp80
 				dcmap => {
 					cp1 => {
 						addrs_v4 => 81.4.124.61,
