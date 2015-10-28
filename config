@@ -15,7 +15,7 @@ plugins => {
 					AF => [cp1, mw1],
 					AS => {
 						AP => [cp2, cp1, mw1],
-						DB => [cp2, cp1, mw1],
+						BD => [cp2, cp1, mw1],
 						BT => [cp2, cp1, mw1],
 						CC => [cp2, cp1, mw1],
 						CN => [cp2, cp1, mw1],
@@ -41,23 +41,23 @@ plugins => {
 				},
 			},
 		},
-	},
-	resources => {
-		mw => {
-			map => generic-map
-			service_types => up
-			dcmap => {
-				cp1 => {
-					addrs_v4 => 81.4.124.61,
-					addrs_v6 => 2a00:d880:5:569::2,
-				}
-				cp2 => {
-					addrs_v4 => 107.191.126.23,
-					addrs_v6 => 2604:180:0:33b::2,
-				}
-				mw1 => {
-					addrs_v4 => 185.52.1.75,
-					addrs_v6 => 2a00:d880:6:786::2,
+		resources => {
+			mw => {
+				map => generic-map
+				service_types => up
+				dcmap => {
+					cp1 => {
+						addrs_v4 => 81.4.124.61,
+						addrs_v6 => 2a00:d880:5:569::2,
+					}
+					cp2 => {
+						addrs_v4 => 107.191.126.23,
+						addrs_v6 => 2604:180:0:33b::2,
+					}
+					mw1 => {
+						addrs_v4 => 185.52.1.75,
+						addrs_v6 => 2a00:d880:6:786::2,
+					}
 				}
 			}
 		}
