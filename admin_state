@@ -1,0 +1,5 @@
+# Used to mark service as down
+#
+# To make an entire server as down;
+# 	geoip/generic-map/cp1 => DOWN
+#
