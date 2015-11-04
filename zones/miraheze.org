@@ -35,6 +35,8 @@ miraheze.org.	TXT	"v=spf1 include:_spf.google.com ip4:185.52.1.75 ip4:185.52.1.7
 ; Servers
 cp1		A	81.4.124.61
 		AAAA	2a00:d880:5:569::2
+cp2		A	107.191.126.23
+		AAAA	2604:180:0:33b::2
 db1		A	185.52.1.77
 mw1		A	185.52.1.75
 		AAAA	2a00:d880:6:786::2
