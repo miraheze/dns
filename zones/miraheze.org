@@ -23,8 +23,8 @@ ns1		A	192.184.82.120
 		AAAA	2604:180:0:ec::2
 ns2		A	185.52.1.76
 		AAAA	2a00:d880:6:787::2
-ns3		A	128.199.196.94
-		AAAA	2400:6180:0:d0::4d:3001
+ns3		A	185.52.1.76
+		AAAA	2a00:d880:6:787::2
 
 ; Mail exchangers
 @		MX	10	mail.miraheze.org.
