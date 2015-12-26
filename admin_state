@@ -3,4 +3,3 @@
 # To make an entire server as down;
 # 	geoip/generic-map/cp1 => DOWN
 #
-geoip/generic-map/cp2 => DOWN
