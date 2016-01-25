@@ -1,9 +1,6 @@
 sudo: required
 dist: trusty
 
-before_install:
-  - echo "deb http://apt.wikimedia.org/wikimedia jessie-wikimedia backports" | sudo tee -a /etc/apt/sources.list
-  - sudo apt-get update
 
 install:
   - sudo apt-get install -y --force-yes gdnsd
