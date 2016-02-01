@@ -51,6 +51,7 @@ misc1		A	185.52.1.76
 parsoid1	A	185.52.1.144
 
 ; Services
+cp3		CNAME	ns3
 ganglia		CNAME	misc1
 icinga		CNAME	misc1
 surveys		CNAME	misc1
