@@ -58,6 +58,7 @@ surveys		CNAME	misc1
 mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
 piwik		CNAME	misc1
+servermon	CNAME	misc1
 static		DYNA	geoip!mw
 
 ; load balancers
