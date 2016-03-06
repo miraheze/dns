@@ -15,7 +15,6 @@ $ORIGIN anuwiki.com.
 ; Name servers
 @		NS	ns1.miraheze.org.
 @		NS	ns2.miraheze.org.
-@		NS	ns3.miraheze.org.
 
 ; Mail exchangers
 
