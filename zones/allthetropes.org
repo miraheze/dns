@@ -24,6 +24,7 @@ $ORIGIN allthetropes.org.
 ; Servers
 
 ; Services
+www		DYNA	geoip!mw
 
 ; load balancers
 
