@@ -17,6 +17,7 @@ $ORIGIN wikiparkinson.org.
 @               NS      ns2.miraheze.org.
 
 ; Mail exchangers
+@		MX	10	mx.hover.com.cust.hostedemail.com.
 
 ; Servers
 
