@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @		SOA ns1 hostmaster (
-		20160425000001	; serial
+		20160425000002	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -52,7 +52,7 @@ parsoid1	A	185.52.1.144
 
 ; Services
 cp3		CNAME	ns3
-ganglia		CNAME	misc1
+ganglia		CNAME	misc2
 icinga		CNAME	misc1
 surveys		CNAME	misc1
 mail		A	185.52.1.76
