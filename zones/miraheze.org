@@ -54,7 +54,6 @@ parsoid1	A	185.52.1.144
 cp3		CNAME	ns3
 ganglia		CNAME	misc2
 icinga		CNAME	misc1
-surveys		CNAME	misc1
 mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
 piwik		CNAME	misc2
