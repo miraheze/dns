@@ -1,5 +1,5 @@
 $TTL 300
-$ORIGIN wiki.garyjohnsonmeetups.com.
+$ORIGIN drone-regulation.info.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
 		20160708000001	; serial
@@ -10,6 +10,7 @@ $ORIGIN wiki.garyjohnsonmeetups.com.
 )
 
 ; Wildcard services
+@		DYNA	geoip!mw
 
 ; Name servers
 @		NS	ns1.miraheze.org.
@@ -20,7 +21,6 @@ $ORIGIN wiki.garyjohnsonmeetups.com.
 ; Servers
 
 ; Services
-wiki	DYNA	geoip!mw
 
 ; load balancers
 
