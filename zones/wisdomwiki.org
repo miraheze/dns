@@ -21,6 +21,7 @@ $ORIGIN wisdomwiki.org.
 ; Servers
 
 ; Services
+sandbox		DYNA	geoip!mw
 
 ; load balancers
 
