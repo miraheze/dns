@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN fibromyalgia-engineer.com.
 
 @   SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20160721000001	; serial
+		20160721000002	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -11,6 +11,7 @@ $ORIGIN fibromyalgia-engineer.com.
 
 ; Wildcard services
 @		DYNA	geoip!mw
+www		DYNA	geoip!mw
 
 ; Name servers
 @		NS	ns1.miraheze.org.
