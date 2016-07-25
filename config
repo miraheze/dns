@@ -4,6 +4,7 @@ options => {
 	zones_strict_data = true,
         tcp_threads = 2,
 	state_dir = /etc/gdnsd/,
+	zones_rfc1035_auto = true,
 }
 
 service_types => {
