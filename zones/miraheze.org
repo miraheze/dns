@@ -52,7 +52,6 @@ misc2		A	81.4.127.174
 parsoid1	A	185.52.1.144
 
 ; Services
-cp3		CNAME	ns3
 ganglia		CNAME	misc2
 icinga		CNAME	misc1
 mail		A	185.52.1.76
