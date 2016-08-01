@@ -21,7 +21,7 @@ $ORIGIN thinkingliquid.org.
 ; Servers
 
 ; Services
-www		DYNA	geoip!Mw
+www		DYNA	geoip!mw
 
 ; load balancers
 
