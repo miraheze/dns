@@ -29,7 +29,7 @@ phabricator	MX	10	mail.miraheze.org.
 
 ; Mail policies
 ;; SPF - Policy: Mail not from misc1,mw1,mw2 is rejected.
-miraheze.org.	TXT	"v=spf1 include:_spf.google.com ip4:185.52.1.75 ip4:185.52.1.76 ip4:185.52.2.113 ip6:2a00:d880:6:787::3 ip6:2a00:d880:6:786::2 ip6:2a00:d880:5:799::2 -all"
+miraheze.org.	TXT	"v=spf1 include:_spf.google.com ip4:185.52.1.75 ip4:185.52.1.76 ip4:185.52.2.113 ip4:81.4.127.174 ip6:2a00:d880:6:787::3 ip6:2a00:d880:6:786::2 ip6:2a00:d880:5:799::2 ip6:2a00:d880:5:4cd::2 -all"
 
 ;; DKIM - Policy: Mail may be signed. Not required.
 mail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLIGrjEMDm0fgER69Wv3OQEPmVPpzfbvspXe+FjFyHnZ2kbuQhMHjDgwX6E/tA5NzDG+dhgaUV0D90H12dhu3wXWaocyLjxrAs9dNkqK69hG8oLdDj8KFpPI6JAm6LskBXHmlOpdzRc+yNBRm5wT9fIsw8in7fnAW170Jb3fdEbwIDAQAB"
