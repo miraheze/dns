@@ -26,6 +26,7 @@ ns2		A	185.52.1.76
 ; Mail exchangers
 @		MX	10	mail.miraheze.org.
 phabricator	MX	10	mail.miraheze.org.
+lists		MX	10	mail.miraheze.org
 
 ; Mail policies
 ;; SPF - Policy: Mail not from misc1,mw1,mw2 is rejected.
@@ -61,6 +62,8 @@ parsoid1	A	185.52.1.144
 ganglia		CNAME	misc2
 git-private	CNAME	misc1
 icinga		CNAME	misc1
+lists		A	185.52.1.76
+		AAA	2a00:d880:6:787::2
 mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
 piwik		CNAME	misc2
