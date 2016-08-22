@@ -63,7 +63,7 @@ ganglia		CNAME	misc2
 git-private	CNAME	misc1
 icinga		CNAME	misc1
 lists		A	185.52.1.76
-		AAA	2a00:d880:6:787::2
+		AAAA	2a00:d880:6:787::2
 mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
 piwik		CNAME	misc2
