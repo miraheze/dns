@@ -10,6 +10,7 @@ $ORIGIN miraheze.wiki.
 )
 
 ; Wildcard services
+@		DYNA	geoip!mw
 
 ; Name servers
 @		NS	ns1.miraheze.org.
