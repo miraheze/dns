@@ -1,4 +1,5 @@
-$TTL 300 $ORIGIN takethatwiki.com.
+$TTL 
+300 $ORIGIN takethatwiki.com.
 
 @   SOA ns1.miraheze.org. hostmaster.miraheze.org. (
 		20160310000001	; serial
