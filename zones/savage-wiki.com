@@ -21,7 +21,7 @@ $ORIGIN savage-wiki.com.
 ; Servers
 
 ; Services
-wiki		DYNA	geoip!mw
+www		DYNA	geoip!mw
 
 ; load balancers
 
