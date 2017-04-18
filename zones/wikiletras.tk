@@ -21,6 +21,7 @@ $ORIGIN wikiletras.tk.
 ; Servers
 
 ; Services
+www		DYNA	geoip!mw
 
 ; load balancers
 
