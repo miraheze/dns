@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.wiki.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20160426000001	; serial
+		20170418000001	; serial
 		7200			; refresh
 		30M				; retry
 		3D				; expire
@@ -23,6 +23,7 @@ $ORIGIN miraheze.wiki.
 ; Servers
 
 ; Services
+status		CNAME	stats.uptimerobot.com.
 
 ; load balancers
 
