@@ -1,5 +1,5 @@
 $TTL 300
-$ORIGIN wiki.livesnowmap.com.
+$ORIGIN livesnowmap.com.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
 		20170506000001	; serial
