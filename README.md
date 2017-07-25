@@ -7,7 +7,7 @@ Syntax is checked for changes go live however so please be aware when pushing ch
 
 From September 2017, CAA records will be mandatory for CAs.
 A CAA record is a DNS record which allows DNS admins to authorise CAs to issue SSL certificates for certain domains.
-This decreases the chance of phising through fake issuance of SSL certificates from *geniune* CAs.
+This decreases the chance of phising through fake issuance of SSL certificates from *genuine* CAs.
 Further, this allows Miraheze to more realistically control which [CAs are allowed onto our platform](https://meta.miraheze.org/wiki/Special:Diff/13904#WoSign_and_StartSSL_untrusted_on_FF).
 
 Unfortunately due to a lack of upstream implementation, CAA records have to defined using TYPE257 instead of the more appealing CAA.
