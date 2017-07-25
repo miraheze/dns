@@ -21,6 +21,7 @@ $ORIGIN livesnowmap.com.
 ; Servers
 
 ; Services
+wiki		DYNA	geoip!mw
 
 ; load balancers
 
