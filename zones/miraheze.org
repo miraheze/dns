@@ -58,6 +58,7 @@ misc2		A	81.4.127.174
 		AAAA	2a00:d880:5:4cd::2
 parsoid1	A	185.52.1.144
 puppet1		A	81.4.127.229
+test1		A	185.52.2.243
 
 ; Services
 ganglia		CNAME	misc2
