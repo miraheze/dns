@@ -31,5 +31,5 @@ $ORIGIN orain.org.
 ; load balancers
 
 ; Other
-allthetropes  DYNA  geoip!mw
-meta  DYNA  geoip!mw
+allthetropes	DYNA	geoip!mw
+meta		DYNA	geoip!mw
