@@ -33,3 +33,4 @@ $ORIGIN orain.org.
 ; Other
 allthetropes	DYNA	geoip!mw
 meta		DYNA	geoip!mw
+poserdazfreebies DYNA   geoip!mw
