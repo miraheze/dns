@@ -25,6 +25,7 @@ $ORIGIN alwiki.net.
 ; Servers
 
 ; Services
+www		DYNA	geoip!mw
 
 ; load balancers
 
