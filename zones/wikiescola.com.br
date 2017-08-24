@@ -28,6 +28,7 @@ $ORIGIN wikiescola.com.br.
 ; Servers
 
 ; Services
+www		DYNA	geoip!mw
 
 ; load balancers
 
