@@ -45,8 +45,6 @@ miraheze.org.   TXT     "google-site-verification=7WSUzjqZswhi5NfG45XJQ46IY_nKda
 
 ; Servers
 bacula1		A	172.245.38.205
-cp1		A	81.4.124.61
-		AAAA	2a00:d880:5:569::2
 cp2		A	107.191.126.23
 		AAAA	2604:180:0:33b::2
 cp4		A	81.4.109.133
