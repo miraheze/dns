@@ -1,0 +1,45 @@
+$TTL 300
+$ORIGIN ftvh.org.
+
+@		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
+		20171013000001	; serial
+		7200		; refresh
+		30M		; retry
+		3D		; expire
+		900		; ncache
+)
+
+; Wildcard services
+@		DYNA	geoip!mw
+
+; Name servers
+@		NS	ns1.miraheze.org.
+@		NS	ns2.miraheze.org.
+
+; CAA (issue: comodoca.com, iodef: operations)
+@		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
+@		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
+
+; Mail exchangers
+@		MX	10	mx.yandex.net.
+
+; Servers
+kwangniyen  A kwangniyen.wordpress.com
+
+; Services
+www		CNAME	ghs.google.com # Personal CNAMEs
+2016.lichthienvan		CNAME	ghs.google.com.
+2017.lichthienvan		CNAME	ghs.google.com.
+admin		CNAME	ghs.google.com.
+amlich		CNAME	ghs.google.com.
+langkinhbaochi		CNAME	ghs.google.com.
+lichthienvan		CNAME	ghs.google.com.
+mail		CNAME	ghs.google.com.
+tudien  DYNA	geoip!mw
+tv		CNAME	ghs.google.com.
+ungho		CNAME	ghs.google.com.
+mail-login		CNAME domain.mail.yandex.net.
+
+; load balancers
+
+; Other
