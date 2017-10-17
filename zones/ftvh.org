@@ -10,7 +10,6 @@ $ORIGIN ftvh.org.
 )
 
 ; Wildcard services
-@		DYNA	geoip!mw
 
 ; Name servers
 @		NS	ns1.miraheze.org.
@@ -28,6 +27,7 @@ kwangniyen  A kwangniyen.wordpress.com
 
 ; Services
 www		CNAME	ghs.google.com # Personal CNAMEs
+@		CNAME	ghs.google.com # Personal CNAMEs
 2016.lichthienvan		CNAME	ghs.google.com.
 2017.lichthienvan		CNAME	ghs.google.com.
 admin		CNAME	ghs.google.com.
