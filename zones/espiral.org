@@ -21,7 +21,7 @@ $ORIGIN espiral.org.
 @		MX	50	fb.mail.gandi.net.
 
 ; Mail policies
-@		TXT "v=spf1 include:_mailcust.gandi.net ?all" 
+"espiral.org."		TXT "v=spf1 include:_mailcust.gandi.net ?all" 
 
 ; CAA (issue: comodoca.com, iodef: operations)
 @		TYPE257 \# 19 00056973737565636F6D6F646F63612E636F6D
