@@ -11,7 +11,6 @@ $ORIGIN sdiy.info.
 
 ; Wildcard services
 @		DYNA	geoip!mw
-*		DYNA	geoip!mw
 
 ; Name servers
 @		NS	ns1.miraheze.org.
