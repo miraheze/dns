@@ -25,6 +25,7 @@ $ORIGIN sdiy.info.
 ; Servers
 
 ; Services
+www		DYNA	geoip!mw
 
 ; load balancers
 
