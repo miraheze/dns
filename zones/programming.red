@@ -25,6 +25,7 @@ $ORIGIN programming.red.
 ; Servers
 
 ; Services
+www		DYNA	geoip!mw
 
 ; load balancers
 
