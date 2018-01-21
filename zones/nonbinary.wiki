@@ -25,6 +25,7 @@ $ORIGIN nonbinary.wiki.
 ; Servers
 
 ; Services
+pl		DYNA	geoip!mw
 
 ; load balancers
 
