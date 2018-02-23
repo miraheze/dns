@@ -8,9 +8,15 @@ options => {
 }
 
 service_types => {
-	tcp80 => {
-		plugin => tcp_connect,
+	cpweb => {
+		plugin => http_status,
 		port => 80,
+		ok_codes => [ 301 ],
+		up_thresh => 20,
+		ok_thresh => 10,
+		down_thresh => 10,
+		interval => 10,
+		timeout => 3,
 	}
 }
 
@@ -54,7 +60,7 @@ plugins => {
 		resources => {
 			mw => {
 				map => generic-map
-				service_types => tcp80
+				service_types => cpweb
 				dcmap => {
 					cp2 => {
 						addrs_v4 => 107.191.126.23,
