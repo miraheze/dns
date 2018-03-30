@@ -25,6 +25,7 @@ $ORIGIN gtsc.vn.
 ; Servers
 
 ; Services
+wiki	DYNA	geoip!mw
 
 ; load balancers
 
