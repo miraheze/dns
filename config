@@ -25,35 +25,35 @@ plugins => {
 		maps => {
 			generic-map => {
 				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
-				datacenters => [cp2 cp4]
+				datacenters => [cp2 cp4 cp5]
 				map => {
-					AF => [cp4, cp2],
+					AF => [cp4, cp2, cp5],
 					AS => {
-						AP => [cp2, cp4],
-						BD => [cp2, cp4],
-						BT => [cp2, cp4],
-						CC => [cp2, cp4],
-						CN => [cp2, cp4],
-						ID => [cp2, cp4],
-						JP => [cp2, cp4],
-						KH => [cp2, cp4],
-						KP => [cp2, cp4],
-						KR => [cp2, cp4],
-						LA => [cp2, cp4],
-						MM => [cp2, cp4],
-						MY => [cp2, cp4],
-						NZ => [cp2, cp4],
-						PH => [cp2, cp4],
-						SG => [cp2, cp4],
-						TH => [cp2, cp4],
-						TW => [cp2, cp4],
-						VN => [cp2, cp4],
+						AP => [cp5, cp2, cp4],
+						BD => [cp5, cp2, cp4],
+						BT => [cp5, cp2, cp4],
+						CC => [cp5, cp2, cp4],
+						CN => [cp5, cp2, cp4],
+						ID => [cp5, cp2, cp4],
+						JP => [cp5, cp2, cp4],
+						KH => [cp5, cp2, cp4],
+						KP => [cp5, cp2, cp4],
+						KR => [cp5, cp2, cp4],
+						LA => [cp5, cp2, cp4],
+						MM => [cp5, cp2, cp4],
+						MY => [cp5, cp2, cp4],
+						NZ => [cp5, cp2, cp4],
+						PH => [cp5, cp2, cp4],
+						SG => [cp5, cp2, cp4],
+						TH => [cp5, cp2, cp4],
+						TW => [cp5, cp2, cp4],
+						VN => [cp5, cp2, cp4],
 					},
-					EU => [cp4, cp2],
-					NA => [cp2, cp4],
-					OC => [cp2, cp4],
-					SA => [cp2, cp4],
-					default => [cp4, cp2],
+					EU => [cp4, cp2, cp5],
+					NA => [cp2, cp5, cp4],
+					OC => [cp5, cp2, cp4],
+					SA => [cp2, cp4, cp5],
+					default => [cp4, cp2, cp5],
 				},
 			},
 		},
@@ -69,6 +69,10 @@ plugins => {
 					cp4 => {
 						addrs_v4 => 81.4.109.133,
 						addrs_v6 => 2a00:d880:5:8ea::ebc7,
+					}
+					cp5 => {
+						addrs_v4 => 172.104.111.8,
+						addrs_v6 => 2400:8902::f03c:91ff:fe07:444e,
 					}
 				}
 			}
