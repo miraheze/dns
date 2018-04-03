@@ -27,7 +27,7 @@ plugins => {
 				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
 				datacenters => [cp2 cp4 cp5]
 				map => {
-					AF => [cp4, cp2, cp5],
+					AF => [cp2, cp5, cp4],
 					AS => {
 						AP => [cp5, cp2, cp4],
 						BD => [cp5, cp2, cp4],
@@ -49,11 +49,11 @@ plugins => {
 						TW => [cp5, cp2, cp4],
 						VN => [cp5, cp2, cp4],
 					},
-					EU => [cp4, cp2, cp5],
+					EU => [cp2, cp5, cp4],
 					NA => [cp2, cp5, cp4],
 					OC => [cp5, cp2, cp4],
 					SA => [cp2, cp4, cp5],
-					default => [cp4, cp2, cp5],
+					default => [cp2, cp5, cp4],
 				},
 			},
 		},
