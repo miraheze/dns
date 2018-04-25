@@ -81,7 +81,7 @@ static		DYNA	geoip!mw
 phabricator	A       185.52.1.76
 		AAAA    2a00:d880:6:787::2
 
-; load balancers
+; Load Balancers
 mw-lb		DYNA	geoip!mw
 parsoid-lb	DYNC	weighted!parsoid
 
