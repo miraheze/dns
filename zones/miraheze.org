@@ -54,7 +54,6 @@ cp5		A	172.104.111.8
 db2		A	81.4.125.112
 db3		A	81.4.127.157
 db4		A	81.4.109.166
-db5		A	51.15.90.39
 mw1		A	185.52.1.75
 		AAAA	2a00:d880:6:786::2
 mw2		A	185.52.2.113
@@ -73,7 +72,6 @@ test1		A	185.52.2.243
 
 ; Services
 ganglia		CNAME	misc2
-git-private	CNAME	misc1
 icinga		CNAME	misc1
 icinga2         CNAME   test1
 mail		A	185.52.1.76
