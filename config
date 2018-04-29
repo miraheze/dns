@@ -29,6 +29,9 @@ plugins => {
 		parsoid => {
 			misc3 = [ misc3.miraheze.org., 1 ]
 		}
+		ocg => {
+			misc3 = [ misc3.miraheze.org., 1 ]
+		}
 	}
 	geoip => {
 		maps => {
