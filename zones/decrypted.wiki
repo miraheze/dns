@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN decrypted.wiki.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20180330000001	; serial
+		20180503000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
