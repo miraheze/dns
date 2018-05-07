@@ -83,6 +83,7 @@ phabricator	A       185.52.1.76
 
 ; Load Balancers
 mw-lb		DYNA	geoip!mw
+mathoid-lb	DYNC	weighted!mathoid
 parsoid-lb	DYNC	weighted!parsoid
 restbase-lb	DYNC	weighted!restbase
 
