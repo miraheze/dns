@@ -72,6 +72,7 @@ test1		A	185.52.2.243
 
 ; Services
 ganglia		CNAME	misc2
+grafana		CNAME	misc2
 icinga		CNAME	misc1
 icinga2         CNAME   test1
 mail		A	185.52.1.76
