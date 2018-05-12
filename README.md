@@ -17,4 +17,3 @@ To allow a CA to issue a certificate, check the box at [SSLMate CAA Generator](h
 
 All CAA definitions should end with a location to email violations too which can be done as:
 TYPE257	\# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
-
