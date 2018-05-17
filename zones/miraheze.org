@@ -26,6 +26,7 @@ ns2		A	185.52.1.76
 ; Mail exchangers
 @		MX	10	mail.miraheze.org.
 phabricator	MX	10	mail.miraheze.org.
+mailman-test	MX	10	db3.miraheze.org.
 
 ; Mail policies
 ;; SPF - Policy: Mail not from misc1 is rejected.
