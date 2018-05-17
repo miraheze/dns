@@ -3,7 +3,7 @@ dist: xenial
 
 
 install:
-  - sudo apt-get install -y --force-yes gdnsd gunzip
+  - sudo apt-get install -y --force-yes gdnsd gzip
 
 before_script:
   - sudo curl http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz --output /usr/share/GeoIP/GeoLite2-Country.tar.gz
