@@ -3,10 +3,10 @@ $ORIGIN guiasdobrasil.com.br.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
 		20180518000001	; serial
-		7200			; refresh
-		30M				; retry
-		3D				; expire
-		900				; ncache
+		7200		; refresh
+		30M		; retry
+		3D		; expire
+		900		; ncache
 )
 
 ; Wildcard services
@@ -18,10 +18,10 @@ $ORIGIN guiasdobrasil.com.br.
 
 ; Mail exchangers
 
-@		MX	10	mx364.umbler.com
-@		MX 	20	mx128.umbler.in
-@		MX	30	mx783.umbler.com.br
-@		MX	40	mx240.umbler.co.uk
+@		MX	10	mx364.umbler.com.
+@		MX 	20	mx128.umbler.in.
+@		MX	30	mx783.umbler.com.br.
+@		MX	40	mx240.umbler.co.uk.
 
 ; Mail policies
 ;; SPF - Policy: Respect choice of original DNS
