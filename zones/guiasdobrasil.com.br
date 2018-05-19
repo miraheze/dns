@@ -35,8 +35,8 @@ $ORIGIN guiasdobrasil.com.br.
 
 ; Services
 translate		CNAME	cname.crowdin.com
-blog			CNAME	ghs.google.com
-webmail			CNAME	webmail.umbler.com
+blog		        CNAME	ghs.google.com
+webmail		        CNAME	webmail.umbler.com
 5ln7ynvubpbl		CNAME	gv-32ouhgr7xg4vgc.dv.googlehosted.com
 
 ; load balancers
