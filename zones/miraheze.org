@@ -27,7 +27,7 @@ ns2		A	185.52.1.76
 @		MX	10	mail.miraheze.org.
 phabricator	MX	10	mail.miraheze.org.
 mailman-test	MX	10	db3.miraheze.org.
-mailman 	MX	10	mail.miraheze.org.
+list    	MX	10	mail.miraheze.org.
 
 ; Mail policies
 ;; SPF - Policy: Mail not from misc1 is rejected.
@@ -77,10 +77,10 @@ ganglia		CNAME	misc2
 grafana		CNAME	misc2
 icinga		CNAME	misc1
 icinga2         CNAME   test1
+list	        A	185.52.1.76
+list	        AAAA	2a00:d880:6:787::3
 mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
-mailman	        A	185.52.1.76
-mailman	        AAAA	2a00:d880:6:787::3
 mailman-test	A	81.4.127.157
 piwik		CNAME	misc2
 static		DYNA	geoip!mw
