@@ -42,5 +42,5 @@ webmail			CNAME	webmail.umbler.com
 ; load balancers
 
 ; Miscellaneous
-_autodiscover._tcp	SRV	autodiscover370.umbler.com.
+_autodiscover._tcp   5M  IN SRV      0 1 2380 autodiscover370.umbler.com.
 @			TXT	"google-site-verification=TSLC-rL8TFGpuQX54sIvgZ8W9TwZd5in1bXPPqBvXbg"
