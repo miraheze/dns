@@ -94,3 +94,4 @@ parsoid-lb	DYNC	weighted!parsoid
 restbase-lb	DYNC	weighted!restbase
 
 ; Other
+status2.miraheze.org.   CNAME  miraheze.hund.io.
