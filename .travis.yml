@@ -10,6 +10,7 @@ before_script:
   - sudo gunzip ~/GeoLite2-Country.tar.gz
   - sudo tar -xvf ~/GeoLite2-Country.tar
   - sudo mkdir -p /usr/share/GeoIP
+  - ls -lah ~/GeoLite2-Country_*/
   - sudo cp ~/GeoLite2-Country_*/GeoLite2-Country.mmdb /usr/share/GeoIP/GeoLite2-Country.mmdb
   - sudo cp config /etc/gdnsd/
   - sudo cp admin_state /etc/gdnsd/
