@@ -9,7 +9,7 @@ before_script:
   - sudo curl http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz --output ~/GeoLite2-Country.tar.gz
   - sudo gunzip ~/GeoLite2-Country.tar.gz
   - sudo tar -xvf ~/GeoLite2-Country.tar
-  - sudo mkdir -r /usr/share/GeoIP
+  - sudo mkdir -p /usr/share/GeoIP
   - sudo cp ~/GeoLite2-Country_*/GeoLite2-Country.mmdb /usr/share/GeoIP/GeoLite2-Country.mmdb
   - sudo cp config /etc/gdnsd/
   - sudo cp admin_state /etc/gdnsd/
