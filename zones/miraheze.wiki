@@ -28,7 +28,7 @@ $ORIGIN miraheze.wiki.
 
 ; Services
 phab		               CNAME	phabricator.miraheze.org.
-status.miraheze.wiki           CNAME    miraheze.hund.io.
+status.miraheze.wiki.          CNAME    miraheze.hund.io.
 
 ; load balancers
 
