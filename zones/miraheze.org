@@ -92,5 +92,6 @@ mw-lb		DYNA	geoip!mw
 mathoid-lb	DYNC	weighted!mathoid
 parsoid-lb	DYNC	weighted!parsoid
 restbase-lb	DYNC	weighted!restbase
+swift-lb	DYNC	weighted!swift
 
 ; Other
