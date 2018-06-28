@@ -1,0 +1,46 @@
+$TTL 300
+$ORIGIN guiasdobrasil.com.br.
+
+@		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
+		20180518000001	; serial
+		7200		; refresh
+		30M		; retry
+		3D		; expire
+		900		; ncache
+)
+
+; Wildcard services
+@		DYNA	geoip!mw
+
+; Name servers
+@		NS	ns1.miraheze.org.
+@		NS	ns2.miraheze.org.
+
+; Mail exchangers
+
+@		MX	10	mx364.umbler.com.
+@		MX 	20	mx128.umbler.in.
+@		MX	30	mx783.umbler.com.br.
+@		MX	40	mx240.umbler.co.uk.
+
+; Mail policies
+;; SPF - Policy: Respect choice of original DNS
+@		TXT	"v=spf1 include:spf.umbler.com ~all"
+
+; CAA (issue: letsencrypt.com, iodef: operations)
+@		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
+@		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
+
+; Servers
+
+; Services
+translate		CNAME	cname.crowdin.com
+blog		        CNAME	ghs.google.com
+webmail		        CNAME	webmail.umbler.com
+5ln7ynvubpbl		CNAME	gv-32ouhgr7xg4vgc.dv.googlehosted.com
+
+; load balancers
+
+; Miscellaneous
+_autodiscover._tcp   5M  IN SRV      0 1 2380 autodiscover370.umbler.com.
+@			TXT	"google-site-verification=TSLC-rL8TFGpuQX54sIvgZ8W9TwZd5in1bXPPqBvXbg"
