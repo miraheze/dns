@@ -36,7 +36,7 @@ plugins => {
 			misc3 = [ misc3.miraheze.org., 1 ]
 		}
 		swift => {
-			swift1 = [ swift1.miraheze.org., 1 ]
+			swift1 = [ nfs1.miraheze.org., 1 ]
 		}
 	}
 	geoip => {
