@@ -73,7 +73,7 @@ plugins => {
 			},
 		},
 		resources => {
-			mw => {
+			cp => {
 				map => generic-map
 				service_types => cpweb
 				dcmap => {
