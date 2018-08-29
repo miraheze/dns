@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN eerstelijnszones.be.
 
 @   SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20180301000001	; serial
+		20180826000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -10,7 +10,7 @@ $ORIGIN eerstelijnszones.be.
 )
 
 ; Wildcard services
-@		DYNA	geoip!mw
+@		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.miraheze.org.
@@ -25,7 +25,7 @@ $ORIGIN eerstelijnszones.be.
 ; Servers
 
 ; Services
-www		DYNA	geoip!mw
+www		DYNA	geoip!cp
 
 ; load balancers
 

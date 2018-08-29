@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN fikcyjnatv.pl.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20180221000001	; serial
+		20180829000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -10,7 +10,7 @@ $ORIGIN fikcyjnatv.pl.
 )
 
 ; Wildcard services
-@		DYNA	geoip!mw
+@		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.miraheze.org.

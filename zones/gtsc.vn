@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN gtsc.vn.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20180330000001	; serial
+		20180829000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -10,7 +10,7 @@ $ORIGIN gtsc.vn.
 )
 
 ; Wildcard services
-@		DYNA	geoip!mw
+@		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.miraheze.org.
@@ -25,7 +25,7 @@ $ORIGIN gtsc.vn.
 ; Servers
 
 ; Services
-wiki	DYNA	geoip!mw
+wiki	DYNA	geoip!cp
 
 ; load balancers
 

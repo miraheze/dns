@@ -2,15 +2,15 @@ $TTL 300
 $ORIGIN miraheze.com.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20170418000001	; serial
-		7200			; refresh
-		30M				; retry
-		3D				; expire
-		900				; ncache
+		20180829000001	; serial
+		7200		; refresh
+		30M		; retry
+		3D		; expire
+		900		; ncache
 )
 
 ; Wildcard services
-@		DYNA	geoip!mw
+@		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.miraheze.org.
