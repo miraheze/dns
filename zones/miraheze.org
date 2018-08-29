@@ -78,6 +78,7 @@ lizard		CNAME	misc4
 mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
 piwik		CNAME	misc2
+matomo		CNAME	misc2
 static		DYNA	geoip!mw
 phabricator	A	185.52.3.121
 		AAAA	2a00:d880:5:7c6::2
