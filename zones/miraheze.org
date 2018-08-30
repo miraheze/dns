@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @		SOA ns1 hostmaster (
-		20180829000001	; serial
+		20180830000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -74,7 +74,7 @@ test1		A	185.52.2.243
 ; Services
 grafana		CNAME	misc1
 icinga		CNAME	misc1
-lizard		CNAME	misc4
+lizard		DYNA	geoip!cp
 mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
 matomo		DYNA	geoip!cp
