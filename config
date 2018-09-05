@@ -26,9 +26,6 @@ plugins => {
 	weighted => {
 		multi = false
 		service_types = up
-		mathoid => {
-			misc3 = [ misc3.miraheze.org., 1 ]
-		}
 		parsoid => {
 			misc3 = [ misc3.miraheze.org., 1 ]
 		}
