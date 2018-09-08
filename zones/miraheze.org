@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @		SOA ns1 hostmaster (
-		20180830000001	; serial
+		20180908000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -43,6 +43,7 @@ _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc
 
 ; Miscellaneous
 miraheze.org.   TXT     "google-site-verification=7WSUzjqZswhi5NfG45XJQ46IY_nKdaUhkSD7MN4wY94"
+miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpfkWK0jbiKG8VnK"
 
 ; Servers
 bacula1		A	172.245.38.205
