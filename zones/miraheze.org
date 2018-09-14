@@ -82,6 +82,7 @@ matomo		DYNA	geoip!cp
 static		DYNA	geoip!cp
 phabricator	A	185.52.3.121
 		AAAA	2a00:d880:5:7c6::2
+blog		CNAME	phabricator
 
 ; Load Balancers
 mw-lb		DYNA	geoip!cp
