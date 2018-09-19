@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN b1tcash.org.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20180914000001	; serial
+		20180919000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
