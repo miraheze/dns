@@ -6,11 +6,10 @@ install:
   - sudo apt-get install -y --force-yes gdnsd
 
 before_script:
-  - sudo curl https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz --output ~/GeoLite2-Country.tar.gz
+  - sudo wget https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz -O ~/GeoLite2-Country.tar.gz
   - sudo cp config /etc/gdnsd/
   - sudo cp admin_state /etc/gdnsd/
   - sudo cp zones/* /etc/gdnsd/zones/
-  - cd ~
   - gunzip ~/GeoLite2-Country.tar.gz
   - tar -xvf ~/GeoLite2-Country.tar
   - sudo mkdir -p /usr/share/GeoIP
