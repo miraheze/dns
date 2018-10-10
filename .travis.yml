@@ -14,7 +14,7 @@ before_script:
   - gunzip ~/GeoLite2-Country.tar.gz
   - tar -xvf ~/GeoLite2-Country.tar
   - sudo mkdir -p /usr/share/GeoIP
-  - sudo cp ~/GeoLite2-Country_*/GeoLite2-Country.mmdb /usr/share/GeoIP/GeoLite2-Country.mmdb
+  - sudo find . ! -iregex "~/GeoLite2-Country_*/GeoLite2-Country.mmdb" -exec cp {} /usr/share/GeoIP/ \;
 
 script:
   - sudo gdnsd checkconf
