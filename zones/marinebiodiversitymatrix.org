@@ -25,6 +25,7 @@ $ORIGIN marinebiodiversitymatrix.org.
 ; Servers
 
 ; Services
+www	DYNA	geoip!cp
 
 ; load balancers
 
