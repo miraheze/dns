@@ -44,7 +44,7 @@ _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc
 ; Miscellaneous
 miraheze.org.   TXT     "google-site-verification=7WSUzjqZswhi5NfG45XJQ46IY_nKdaUhkSD7MN4wY94"
 miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpfkWK0jbiKG8VnK"
-meta._domainkey.   TXT    "google-site-verification=KnSB9zVVG-Eb8M7vJLlRh3qlgUcj1xQWRU8hORpU7EI"
+meta.miraheze.org.   TXT    "google-site-verification=KnSB9zVVG-Eb8M7vJLlRh3qlgUcj1xQWRU8hORpU7EI"
 
 ; Servers
 bacula1		A	172.245.38.205
