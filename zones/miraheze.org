@@ -82,6 +82,7 @@ test1		A	185.52.2.243
 grafana		CNAME	misc1
 icinga		CNAME	misc1
 lizard		DYNA	geoip!cp
+m		DYNA	geoip!cp
 mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
 matomo		DYNA	geoip!cp
