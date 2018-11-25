@@ -25,6 +25,7 @@ $ORIGIN wikitranslate.tk.
 ; Servers
 
 ; Services
+m		DYNA	geoip!cp
 
 ; load balancers
 
