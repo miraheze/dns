@@ -21,8 +21,8 @@ $ORIGIN miraheze.com.
 ; Mail policies
 
 ; Miscellaneous
-_acme-challenge.miraheze.com.   TXT     "CUN47gahRUkSi2S1JdyTcQwvpZ_dfyI2XImOjbmCjmQ"
-_acme-challenge.miraheze.com.   TXT     "EmpX2RK1ryycYVe2iIXpJR9S2T7BMTF0nUFIW9vk4z4"
+_acme-challenge.miraheze.com.   TXT     "3cbVoX26a4NWn_pUCl2r95P6TmENGOxSQkpvs3tJi9c"
+_acme-challenge.miraheze.com.   TXT     "G0-9pGmFOlR5nwrtWHAlJShcxFjTIl4hrrIZaIh5-38"
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
