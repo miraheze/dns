@@ -25,6 +25,7 @@ $ORIGIN nenawiki.org.
 ; Servers
 
 ; Services
+ndg		DYNA	geoip!cp
 
 ; load balancers
 
