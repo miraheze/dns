@@ -25,6 +25,7 @@ $ORIGIN islamkosh.tk.
 ; Servers
 
 ; Services
+m		DYNA	geoip!cp
 
 ; load balancers
 
