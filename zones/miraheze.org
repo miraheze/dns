@@ -51,6 +51,9 @@ miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpf
 
 _acme-challenge.m.miraheze.org.   TXT     "eOqtRL9Ff5mPn5NLRlOpotTihcbxvEDnogyfL8VlZP0"
 
+_acme-challenge.m.miraheze.org.   TXT     "utCz9VjUP5DWYjtXnXCK5L_EizlUmokOBQr5LLAEM7Q"
+_acme-challenge.m.miraheze.org.   TXT     "kphusadfi3GHxrG15aNckQXtgZuGaoe6cHwaakdPKlA"
+
 ; Servers
 bacula1		A	172.245.38.205
 cp2		A	107.191.126.23
