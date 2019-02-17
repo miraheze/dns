@@ -24,10 +24,8 @@ $ORIGIN miraheze.wiki.
 _acme-challenge.miraheze.wiki.   TXT     "o45RxIwrY15EQxKM8hZewfqiMY9vdo1TsU2WZ7bNWtk"
 _acme-challenge.miraheze.wiki.   TXT     "cCGdKxE_mYrW3YTMgBaX2lF8Vfy-qr5ub0Pv7o3Y8wQ"
 
-_acme-challenge.miraheze.wiki.   TXT     "7g7IZh0cLBCVDjhlYg4TDJmyJqZwJg9F7F54-UTOAJ4"
-_acme-challenge.miraheze.wiki.   TXT     "PoXo1oDyfiCQiWXdd9sJov4hN1k4x1VDgGh4Njk-V0k"
-
-
+_acme-challenge.miraheze.wiki.   TXT     "8YTCMDy7UYGd-5UCN9WM8cGZOG0Obbsb3xjtUjZQ-CE"
+_acme-challenge.miraheze.wiki.   TXT     "i_heax0ld-tbf9tYVDMffesN1YYUfNVcb_oT0qKwS7Q"
 
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
