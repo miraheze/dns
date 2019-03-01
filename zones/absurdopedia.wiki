@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN absurdopedia.wiki.
 
 @   SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20190206000001	; serial
+		20190301000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
