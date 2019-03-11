@@ -26,6 +26,9 @@ plugins => {
 	weighted => {
 		multi = false
 		service_types = up
+		elasticsearch => {
+			elasticsearch1 = [ elasticsearch1.miraheze.org., 1 ]
+		}
 		parsoid => {
 			misc4 = [ misc4.miraheze.org., 1 ]
 		}
