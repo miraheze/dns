@@ -69,6 +69,7 @@ db4		A	81.4.109.166
 elasticsearch1	A	81.4.122.121
 lizardfs1	A	81.4.101.157
 lizardfs2	A	81.4.124.61
+lizardfs3	A	168.235.109.27
 mw1		A	185.52.1.75
 		AAAA	2a00:d880:6:786::2
 mw2		A	185.52.2.113
