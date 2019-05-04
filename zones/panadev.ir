@@ -25,6 +25,7 @@ $ORIGIN panadev.ir.
 ; Servers
 
 ; Services
+m		DYNA	geoip!cp
 
 ; load balancers
 
