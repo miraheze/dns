@@ -25,6 +25,7 @@ $ORIGIN mh142.com.
 ; Servers
 
 ; Services
+www		DYNA	geoip!cp
 
 ; load balancers
 
