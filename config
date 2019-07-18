@@ -26,6 +26,9 @@ plugins => {
 	weighted => {
 		multi = false
 		service_types = up
+		es => {
+			es1 = [ es1.miraheze.org., 1 ]
+		}
 		elasticsearch => {
 			elasticsearch1 = [ elasticsearch1.miraheze.org., 1 ]
 		}
