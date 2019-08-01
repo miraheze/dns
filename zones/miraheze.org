@@ -60,6 +60,9 @@ _acme-challenge.m.miraheze.org.   TXT     "kphusadfi3GHxrG15aNckQXtgZuGaoe6cHwaa
 _acme-challenge.m.miraheze.org.   TXT     "yw7lIxJBpZ_kD8M3CQNDX_XhL4r91maozDbCd-_yz1A"
 _acme-challenge.m.miraheze.org.   TXT     "zES_3Vu4b9j46Iz5w8ZkFDO__CjFW4OWD5muXsbUEE8"
 
+_acme-challenge.m.miraheze.org.   TXT     "teChhgRAWWCRjDjX_B1Bjf0cnRgEhQg0wNnMjrGDe5A"
+_acme-challenge.m.miraheze.org.   TXT     "dLnBVEAJHeCJBUa5yPiHK-yqTI06z6fgAjj52oQUrJs"
+
 ; Servers
 bacula1		A	172.245.38.205
 cp2		A	107.191.126.23
