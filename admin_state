@@ -3,4 +3,4 @@
 # To mark an entire server as down;
 # 	geoip/generic-map/cp2 => DOWN
 #
-geoip/generic-map/cp4 => DOWN
+geoip/generic-map/cp3 => DOWN
