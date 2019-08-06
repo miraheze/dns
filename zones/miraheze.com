@@ -21,11 +21,6 @@ $ORIGIN miraheze.com.
 ; Mail policies
 
 ; Miscellaneous
-_acme-challenge.miraheze.com.   TXT     "3cbVoX26a4NWn_pUCl2r95P6TmENGOxSQkpvs3tJi9c"
-_acme-challenge.miraheze.com.   TXT     "G0-9pGmFOlR5nwrtWHAlJShcxFjTIl4hrrIZaIh5-38"
-
-_acme-challenge.miraheze.com.   TXT     "3qKX_VTCSOU3wcMNAqg3-YGkh6Zy6919VcPAXF-lVZk"
-_acme-challenge.miraheze.com.   TXT     "Ptyt-iCn3cErDOFaZJti90OkB1Rjg9BK1_1AC2rSIVs"
 
 _acme-challenge.miraheze.com.   TXT     "4J6nF7XhcPa5boRo9Mia-KoIc-hZZt75Iqkoon808FM"
 _acme-challenge.miraheze.com.   TXT     "etuezgd6z75VT4cEuKk8CG_GuGvR-I9dI2gBtJKzBl4"
