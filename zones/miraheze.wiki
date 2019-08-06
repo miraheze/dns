@@ -21,11 +21,6 @@ $ORIGIN miraheze.wiki.
 ; Mail policies
 
 ; Miscellaneous
-_acme-challenge.miraheze.wiki.   TXT     "o45RxIwrY15EQxKM8hZewfqiMY9vdo1TsU2WZ7bNWtk"
-_acme-challenge.miraheze.wiki.   TXT     "cCGdKxE_mYrW3YTMgBaX2lF8Vfy-qr5ub0Pv7o3Y8wQ"
-
-_acme-challenge.miraheze.wiki.   TXT     "8YTCMDy7UYGd-5UCN9WM8cGZOG0Obbsb3xjtUjZQ-CE"
-_acme-challenge.miraheze.wiki.   TXT     "i_heax0ld-tbf9tYVDMffesN1YYUfNVcb_oT0qKwS7Q"
 
 _acme-challenge.miraheze.wiki.   TXT     "NFqOHRztQpjakgSepAzhsMEb_D-C-5fTLFlOe3LjlRg"
 _acme-challenge.miraheze.wiki.   TXT     "tS1IWMkfA21x36mPjWJDBIrv6O5br-8ND8d3SrjJqBI"
