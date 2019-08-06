@@ -22,10 +22,6 @@ $ORIGIN orain.org.
 ; Mail policies
 
 ; Miscellaneous
-_acme-challenge.orain.org.   TXT     "4oQ3XI-OlQUa5taVM9QF_hfcb0LQYsdUKftLrpCCyYA"
-_acme-challenge.orain.org.   TXT     "o9oFsIyTL76mUVUfwWrYb1WV3vwNrT4cv0iqXb7L1bs"
-_acme-challenge.orain.org.   TXT     "npC2B2YDM0G5aPxZjZwj6jSH2LR99JO31PZ33cEz6X4"
-_acme-challenge.orain.org.   TXT     "acjtPawAwlXcRXGC1KjCwFS7en-YHfJdERBjUWZBnRA"
 
 _acme-challenge.orain.org.   TXT     "6FhosESB8EouF2YCNYhklEgJP42HTykkC_mtWyKjhA4"
 _acme-challenge.orain.org.   TXT     "a6f_f57W3LM4yg-34g-boYzn5XG66IR_wcmjDWsex5s"
