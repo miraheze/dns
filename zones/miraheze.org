@@ -73,6 +73,7 @@ lizardfs1	A	81.4.101.157
 lizardfs2	A	81.4.124.61
 lizardfs3	A	168.235.109.27
 lizardfs4	A	81.4.122.238
+lizardfs5	A	81.4.122.196
 mw1		A	185.52.1.75
 		AAAA	2a00:d880:6:786::2
 mw2		A	185.52.2.113
