@@ -70,7 +70,9 @@ es2     	A	168.235.110.49
 es3     	A	168.235.110.25
 es4     	A	168.235.110.7
 glusterfs1     	A	81.4.100.90
+		AAAA	2a00:d880:11::a5
 glusterfs2     	A	81.4.100.77
+		AAAA	2a00:d880:11::d0 
 lizardfs4	A	81.4.122.238
 lizardfs5	A	81.4.122.196
 mw1		A	185.52.1.75
