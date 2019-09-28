@@ -65,10 +65,6 @@ cp4		A	81.4.109.133
 		AAAA	2a00:d880:5:8ea::ebc7
 db4		A	81.4.109.166
 db5		A	185.52.1.89
-glusterfs1     	A	81.4.100.90
-		AAAA	2a00:d880:11::a5
-glusterfs2     	A	81.4.100.77
-		AAAA	2a00:d880:11::d0 
 lizardfs4	A	81.4.122.238
 lizardfs5	A	81.4.122.196
 mw1		A	185.52.1.75
@@ -97,7 +93,6 @@ mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
 matomo		DYNA	geoip!cp
 static		DYNA	geoip!cp
-static-temp	DYNA	geoip!cp
 donate		DYNA	geoip!cp
 phabricator	A	185.52.3.121
 		AAAA	2a00:d880:5:7c6::2
