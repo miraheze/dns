@@ -100,8 +100,6 @@ blog		CNAME	phabricator
 webmail		CNAME	misc1
 
 ; Load Balancers
-es-lb	                DYNC	weighted!es
-elasticsearch-lb	DYNC	weighted!elasticsearch	
 mw-lb			DYNA	geoip!cp
 parsoid-lb		DYNC	weighted!parsoid
 restbase-lb		DYNC	weighted!restbase
