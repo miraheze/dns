@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @		SOA ns1 hostmaster (
-		20180908000001	; serial
+		20191016000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -67,6 +67,7 @@ db4		A	81.4.109.166
 db5		A	185.52.1.89
 lizardfs4	A	81.4.122.238
 lizardfs5	A	81.4.122.196
+lizardfs6	A	51.158.176.139
 mw1		A	185.52.1.75
 		AAAA	2a00:d880:6:786::2
 mw2		A	185.52.2.113
