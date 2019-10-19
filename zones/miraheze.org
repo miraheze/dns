@@ -49,11 +49,15 @@ _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc
 miraheze.org.   TXT     "google-site-verification=7WSUzjqZswhi5NfG45XJQ46IY_nKdaUhkSD7MN4wY94"
 miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpfkWK0jbiKG8VnK"
 
+; m.miraheze.org challenge (acme)
 _acme-challenge.m.miraheze.org.   TXT     "yw7lIxJBpZ_kD8M3CQNDX_XhL4r91maozDbCd-_yz1A"
 _acme-challenge.m.miraheze.org.   TXT     "zES_3Vu4b9j46Iz5w8ZkFDO__CjFW4OWD5muXsbUEE8"
 
 _acme-challenge.m.miraheze.org.   TXT     "teChhgRAWWCRjDjX_B1Bjf0cnRgEhQg0wNnMjrGDe5A"
 _acme-challenge.m.miraheze.org.   TXT     "dLnBVEAJHeCJBUa5yPiHK-yqTI06z6fgAjj52oQUrJs"
+
+_acme-challenge.m.miraheze.org.   TXT     "vP5oSUdY-QIauMHagJiaPEF8mYe_zR3ynplTtIDEefY"
+_acme-challenge.m.miraheze.org.   TXT     "KCciAnQ_lvrArThB0XmknwhdsSm5fffmfOh4sFLM4bw"
 
 ; Servers
 bacula1		A	172.245.38.205
