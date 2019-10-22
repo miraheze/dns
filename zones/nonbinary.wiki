@@ -26,6 +26,8 @@ $ORIGIN nonbinary.wiki.
 
 ; Services
 pl		DYNA	geoip!cp
+data		DYNA	geoip!cp
+
 
 ; load balancers
 
