@@ -64,6 +64,10 @@ _acme-challenge.m.miraheze.org.   TXT     "KCciAnQ_lvrArThB0XmknwhdsSm5fffmfOh4s
 _acme-challenge.miraheze.org.   TXT     "0QPHUi2cMrYY_SMpdBsQdlZFIxfaCE4Kl94XHUM3Js4"
 _acme-challenge.miraheze.org.   TXT     "SMkRTztUb23ULjb0hDnYIhkOMfrf584tJ9dVtdCaty8"
 
+; Name
+
+_BAEC62EAD34458441029BDC2FED3C80B. TXT "9B4FD90CDA039DE6236CA1F50A053D6D.1FA333B747495C6A2799B7FB5CC6CFB9.5db0cdabf262c.comodoca.com"
+
 ; Servers
 bacula1		A	172.245.38.205
 cp2		A	107.191.126.23
