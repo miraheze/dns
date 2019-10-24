@@ -66,8 +66,8 @@ _acme-challenge.miraheze.org.   TXT     "SMkRTztUb23ULjb0hDnYIhkOMfrf584tJ9dVtdC
 
 ; Name
 
-miraheze.org.  IN  CAA 0 issue "ca.example.net"
-miraheze.org.  IN  CAA 0 issuewild "ca.example.net"
+miraheze.org.  IN  CAA 0 issue "comodoca.com"
+miraheze.org.  IN  CAA 0 issuewild "comodoca.com"
 
 ; Servers
 bacula1		A	172.245.38.205
