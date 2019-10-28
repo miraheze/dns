@@ -42,8 +42,9 @@ mail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLI
 ;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
 _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc@miraheze.org; fo=1; adkim=r; aspf=r; pct=100; rf=afrf; ri=86400; sp=none"
 
-; CAA (issue: , iodef: operations) pending GlobalSign CAA adoption
-@		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
+; CAA (issue: , iodef: operations)
+@		TYPE257	\# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
+@		TYPE257	\# 18 000569737375657365637469676F2E636F6D
 
 ; Miscellaneous
 miraheze.org.   TXT     "google-site-verification=7WSUzjqZswhi5NfG45XJQ46IY_nKdaUhkSD7MN4wY94"
@@ -65,9 +66,6 @@ _acme-challenge.miraheze.org.   TXT     "0QPHUi2cMrYY_SMpdBsQdlZFIxfaCE4Kl94XHUM
 _acme-challenge.miraheze.org.   TXT     "SMkRTztUb23ULjb0hDnYIhkOMfrf584tJ9dVtdCaty8"
 
 ; Name
-
-miraheze.org.  IN  CAA 0 issue "comodoca.com"
-miraheze.org.  IN  CAA 0 issuewild "comodoca.com"
 
 ; Servers
 bacula1		A	172.245.38.205
