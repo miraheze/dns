@@ -38,7 +38,7 @@ mail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLI
 ;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
 _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc@miraheze.org; fo=1; adkim=r; aspf=r; pct=100; rf=afrf; ri=86400; sp=none"
 
-; CAA (issue; sectigo.com, letsencrypt.com, iodef: operations)
+; CAA (issue: sectigo.com, letsencrypt.com, iodef: operations)
 @		TYPE257	\# 18 000569737375657365637469676F2E636F6D
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
