@@ -74,8 +74,6 @@ cp4		A	81.4.109.133
 		AAAA	2a00:d880:5:8ea::ebc7
 db4		A	81.4.109.166
 db5		A	185.52.1.89
-lizardfs4	A	81.4.122.238
-lizardfs5	A	81.4.122.196
 lizardfs6	A	54.36.165.161
 mw1		A	185.52.1.75
 		AAAA	2a00:d880:6:786::2
@@ -95,7 +93,6 @@ test1		A	185.52.2.243
 ; Services
 grafana		CNAME	misc1
 icinga		CNAME	misc1
-lizard		DYNA	geoip!cp
 m		DYNA	geoip!cp
 test1.m		CNAME	test1
 *.m		DYNA	geoip!cp
@@ -103,7 +100,6 @@ mail		A	185.52.1.76
 		AAAA	2a00:d880:6:787::3
 matomo		DYNA	geoip!cp
 static		DYNA	geoip!cp
-static-temp		DYNA	geoip!cp
 donate		DYNA	geoip!cp
 phabricator	A	185.52.3.121
 		AAAA	2a00:d880:5:7c6::2
