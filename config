@@ -27,7 +27,7 @@ plugins => {
 		multi = false
 		service_types = up
 		parsoid => {
-			misc3 = [ misc3.miraheze.org., 1 ]
+			misc4 = [ misc4.miraheze.org., 1 ]
 		}
 		restbase => {
 			misc3 = [ misc3.miraheze.org., 1 ]
