@@ -32,4 +32,8 @@ www		DYNA	geoip!cp
 
 ; load balancers
 
+; Miscellaneous
+
+portalsofphereon.com.   TXT     "google-site-verification=07tDAfwRr6KvnZRzcIdMCm7dfyJm9pOSRVMpxPxZxqM"
+
 ; Other
