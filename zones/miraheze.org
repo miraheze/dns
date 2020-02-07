@@ -102,7 +102,8 @@ puppet1		A	81.4.127.229
 test1		A	185.52.2.243
 
 ; Services
-cloud		CNAME	cloud1
+cloud		A	54.36.165.86
+		AAAA	2001:41d0:800:1056::1
 grafana		CNAME	misc1
 icinga		CNAME	misc1
 m		DYNA	geoip!cp
