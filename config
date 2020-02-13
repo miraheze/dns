@@ -27,10 +27,10 @@ plugins => {
 		multi = false
 		service_types = up
 		parsoid => {
-			misc4 = [ misc4.miraheze.org., 1 ]
+			misc4 = [ services1.miraheze.org., 1 ]
 		}
 		restbase => {
-			misc3 = [ misc3.miraheze.org., 1 ]
+			misc3 = [ services1.miraheze.org., 1 ]
 		}
 	}
 	geoip => {
