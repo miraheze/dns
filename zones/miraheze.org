@@ -152,8 +152,8 @@ mail		A	185.52.1.76
 matomo		DYNA	geoip!cp
 static		DYNA	geoip!cp
 donate		DYNA	geoip!cp
-phabricator	A	185.52.3.121
-		AAAA	2a00:d880:5:7c6::2
+phabricator		A	51.89.160.139
+		AAAA	2001:41d0:800:105a::7
 blog		CNAME	phabricator
 webmail		CNAME	misc1
 
