@@ -157,7 +157,7 @@ webmail		CNAME	misc1
 
 ; Load Balancers
 mw-lb			DYNA	geoip!cp
-parsoid-lb		DYNC	weighted!parsoid
-restbase-lb		DYNC	weighted!restbase
+parsoid-lb		DYNC	weighted!services
+restbase-lb		DYNC	weighted!services
 
 ; Other
