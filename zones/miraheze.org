@@ -20,8 +20,8 @@ $ORIGIN miraheze.org.
 ;; A records
 ns1		A	192.184.82.120
 		AAAA	2604:180:0:ec::2
-ns2		A	185.52.1.76
-		AAAA	2a00:d880:6:787::2
+ns2		A	51.89.247.234
+		AAAA	2001:41d0:800:1056::11
 
 ; Mail exchangers
 @		MX	10	mail.miraheze.org.
