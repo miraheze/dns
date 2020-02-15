@@ -35,15 +35,15 @@ plugins => {
 		maps => {
 			generic-map => {
 				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
-				datacenters => [cp3 cp6 cp8]
+				datacenters => [cp3 cp4 cp8]
 				map => {
-					AF => [cp6, cp3, cp8],
-					AS => [cp3, cp6, cp8],
-					EU => [cp6, cp8, cp3],
-					NA => [cp8, cp6, cp3],
-					OC => [cp3, cp8, cp6],
-					SA => [cp8, cp6, cp3],
-					default => [cp6, cp8, cp3],
+					AF => [cp4, cp3, cp8],
+					AS => [cp3, cp4, cp8],
+					EU => [cp4, cp8, cp3],
+					NA => [cp8, cp4, cp3],
+					OC => [cp3, cp8, cp4],
+					SA => [cp8, cp4, cp3],
+					default => [cp4, cp8, cp3],
 				},
 			},
 		},
