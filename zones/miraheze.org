@@ -158,3 +158,4 @@ parsoid-lb		DYNC	weighted!services
 restbase-lb		DYNC	weighted!services
 
 ; Other
+dreamverse		CNAME	cp7
