@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @		SOA ns1 hostmaster (
-		20200219000003	; serial
+		20200219000004	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -162,6 +162,8 @@ concordance		CNAME	cp7
 concordance.m		CNAME	cp7
 dreamverse		CNAME	cp7
 dreamverse.m		CNAME	cp7
+hispano 		CNAME	cp7
+hispano.m		CNAME	cp7
 onepiece		CNAME	cp7
 onepiece.m		CNAME	cp7
 rotompedia		CNAME	cp7
