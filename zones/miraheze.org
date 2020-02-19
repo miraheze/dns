@@ -159,7 +159,10 @@ restbase-lb		DYNC	weighted!services
 
 ; Other
 concordance		CNAME	cp7
+concordance.m		CNAME	cp7
 dreamverse		CNAME	cp7
+dreamverse.m		CNAME	cp7
 onepiece		CNAME	cp7
+onepiece.m		CNAME	cp7
 rotompedia		CNAME	cp7
 test    		 CNAME	cp7
