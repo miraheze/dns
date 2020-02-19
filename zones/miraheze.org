@@ -158,6 +158,7 @@ parsoid-lb		DYNC	weighted!services
 restbase-lb		DYNC	weighted!services
 
 ; Other
+concordance		CNAME	cp7
 dreamverse		CNAME	cp7
 onepiece		CNAME	cp7
 rotompedia		CNAME	cp7
