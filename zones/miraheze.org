@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @		SOA ns1 hostmaster (
-		20200219000004	; serial
+		20200219000005	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
