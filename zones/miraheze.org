@@ -166,5 +166,10 @@ hispano 		CNAME	cp7
 hispano.m		CNAME	cp7
 onepiece		CNAME	cp7
 onepiece.m		CNAME	cp7
+privado		        CNAME	cp7
+privado.m		CNAME	cp7
 rotompedia		CNAME	cp7
-test    		 CNAME	cp7
+rotompedia.m		CNAME	cp7
+test    		CNAME	cp7
+ucronias		CNAME	cp7
+ucronias.m		CNAME	cp7
