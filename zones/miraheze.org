@@ -160,3 +160,4 @@ restbase-lb		DYNC	weighted!services
 ; Other
 dreamverse		CNAME	cp7
 rotompedia		CNAME	cp7
+test    		 CNAME	cp7
