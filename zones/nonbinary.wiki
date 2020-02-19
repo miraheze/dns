@@ -11,7 +11,7 @@ $ORIGIN nonbinary.wiki.
 
 ; Wildcard services
 @		DYNA	geoip!cp
-*		CNAME	cp7.miraheze.org.
+alias           CNAME   cp7.miraheze.org.
 
 ; Name servers
 @		NS	ns1.miraheze.org.
