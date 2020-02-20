@@ -140,6 +140,7 @@ test2		A	51.77.107.211
 grafana		CNAME	misc1
 grafana-new	CNAME	mon1
 icinga		CNAME	misc1
+icinga-new	CNAME	mon1
 m		DYNA	geoip!cp
 test1.m		CNAME	test1
 *.m		DYNA	geoip!cp
