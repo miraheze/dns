@@ -137,8 +137,8 @@ test2		A	51.77.107.211
 		AAAA	2001:41d0:800:105a::3
 
 ; Services
-grafana		CNAME	misc1
-grafana-new	CNAME	mon1
+grafana		CNAME	mon1
+
 icinga		CNAME	misc1
 icinga-new	CNAME	mon1
 m		DYNA	geoip!cp
