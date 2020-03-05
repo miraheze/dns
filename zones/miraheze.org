@@ -179,6 +179,8 @@ proxybot		CNAME	cp7
 proxybot.m		CNAME	cp7
 rotompedia		CNAME	cp7
 rotompedia.m		CNAME	cp7
+staff   		CNAME	cp7
+staff.m 		CNAME	cp7
 test    		CNAME	cp7
 ucronias		CNAME	cp7
 ucronias.m		CNAME	cp7
