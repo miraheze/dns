@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN bebaskanpengetahuan.id.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20190211000001	; serial
+		20200306000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
