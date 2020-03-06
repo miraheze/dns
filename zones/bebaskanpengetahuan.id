@@ -11,7 +11,7 @@ $ORIGIN bebaskanpengetahuan.id.
 
 ; Wildcard services
 bebaskanpengetahuan.id.	A	51.89.160.142
-		AAAA	2001:41d0:800:105a::10
+		        AAAA	2001:41d0:800:105a::10
 
 ; Name servers
 @		NS	ns1.miraheze.org.
