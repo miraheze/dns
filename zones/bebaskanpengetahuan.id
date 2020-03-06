@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN bebaskanpengetahuan.id.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20190211000001	; serial
+		20200306000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -10,7 +10,8 @@ $ORIGIN bebaskanpengetahuan.id.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp
+bebaskanpengetahuan.id.	A	51.89.160.142
+		        AAAA	2001:41d0:800:105a::10
 
 ; Name servers
 @		NS	ns1.miraheze.org.
