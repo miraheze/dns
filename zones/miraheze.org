@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @		SOA ns1 hostmaster (
-		20200307000001	; serial
+		20200307000002	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -186,6 +186,8 @@ staff.m 		CNAME	cp7
 test    		CNAME	cp7
 ucronias		CNAME	cp7
 ucronias.m		CNAME	cp7
+unmusicfest		CNAME	cp7
+unmusicfest.m		CNAME	cp7
 
 ; Large Wikis
 bus		        CNAME	cp7
