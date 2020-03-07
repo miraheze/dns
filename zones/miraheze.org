@@ -175,6 +175,8 @@ onepiece		CNAME	cp7
 onepiece.m		CNAME	cp7
 onepiecebountyrush	CNAME	cp7
 onepiecebountyrush.m	CNAME	cp7
+openhatch	CNAME	cp7
+openhatch.m	CNAME	cp7
 privado		        CNAME	cp7
 privado.m		CNAME	cp7
 proxybot		CNAME	cp7
