@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @		SOA ns1 hostmaster (
-		20200306000001	; serial
+		20200307000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -161,6 +161,8 @@ parsoid-lb		DYNC	weighted!services
 restbase-lb		DYNC	weighted!services
 
 ; Other
+altverse		CNAME	cp7
+altverse.m		CNAME	cp7
 anothereden		CNAME	cp7
 anothereden.m		CNAME	cp7
 concordance		CNAME	cp7
