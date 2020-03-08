@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN allthetropes.org.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20200306000001	; serial
+		20200308000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -10,8 +10,7 @@ $ORIGIN allthetropes.org.
 )
 
 ; Wildcard services
-allthetropes.org.	A	51.89.160.142
-		AAAA	2001:41d0:800:105a::10
+@		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.miraheze.org.
@@ -29,7 +28,7 @@ allthetropes.org.	A	51.89.160.142
 ; Servers
 
 ; Services
-www		CNAME	cp7.miraheze.org.
+www		DYNA	geoip!cp
 
 ; load balancers
 
