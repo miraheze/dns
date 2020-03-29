@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN nonbinary.wiki.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20200219000002	; serial
+		20200329000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -10,10 +10,7 @@ $ORIGIN nonbinary.wiki.
 )
 
 ; Wildcard services
-
-; Temp
-nonbinary.wiki.	A	51.89.160.142
-		AAAA	2001:41d0:800:105a::10
+@		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.miraheze.org.
@@ -29,7 +26,8 @@ nonbinary.wiki.	A	51.89.160.142
 
 ; Services
 pl		DYNA	geoip!cp
-data		CNAME	cp7.miraheze.org.
+data		DYNA	geoip!cp
+
 
 ; load balancers
 
