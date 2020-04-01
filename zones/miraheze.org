@@ -67,6 +67,9 @@ _acme-challenge.m.miraheze.org.   TXT     "oiIuTH9UHcfry69AN94yGsq2e7Ege1pLW_hiL
 _acme-challenge.miraheze.org.   TXT     "0QPHUi2cMrYY_SMpdBsQdlZFIxfaCE4Kl94XHUM3Js4"
 _acme-challenge.miraheze.org.   TXT     "SMkRTztUb23ULjb0hDnYIhkOMfrf584tJ9dVtdCaty8"
 
+_acme-challenge.miraheze.org.   TXT     "8mzEojy7qCuk0Rm1GifYV-taSoE1zCOa-rYpVTt9EOs"
+_acme-challenge.miraheze.org.   TXT     "Hf6j6P7bqPE69p5LGrNK73KLLFMGmuc9HC89mQ1nUwQ"
+
 ; Name
 
 ; Servers
