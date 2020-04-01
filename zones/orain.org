@@ -23,9 +23,6 @@ $ORIGIN orain.org.
 
 ; Miscellaneous
 
-_acme-challenge.orain.org.   TXT     "LTC6rMtnaa-j7zJocef_R0pP8ZqYrNwzWBfFfUb96V0"
-_acme-challenge.orain.org.   TXT     "Lq5uFaum4yaDnAZNVkUtKxGiSxYM6cQ3gx6ogRv6kNY"
-
 _acme-challenge.orain.org.   TXT     "_FD283d7dzDWq1MkvYdOJOBhBl3BwSwE46OjrfRWtK4"
 _acme-challenge.orain.org.   TXT     "Lq5uFaum4yaDnAZNVkUtKxGiSxYM6cQ3gx6ogRv6kNY"
 
