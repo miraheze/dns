@@ -50,20 +50,11 @@ miraheze.org.   TXT     "google-site-verification=7WSUzjqZswhi5NfG45XJQ46IY_nKda
 miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpfkWK0jbiKG8VnK"
 
 ; m.miraheze.org challenge (acme)
-_acme-challenge.m.miraheze.org.   TXT     "teChhgRAWWCRjDjX_B1Bjf0cnRgEhQg0wNnMjrGDe5A"
-_acme-challenge.m.miraheze.org.   TXT     "dLnBVEAJHeCJBUa5yPiHK-yqTI06z6fgAjj52oQUrJs"
-
 _acme-challenge.m.miraheze.org.   TXT     "vP5oSUdY-QIauMHagJiaPEF8mYe_zR3ynplTtIDEefY"
 _acme-challenge.m.miraheze.org.   TXT     "KCciAnQ_lvrArThB0XmknwhdsSm5fffmfOh4sFLM4bw"
 
 _acme-challenge.m.miraheze.org.   TXT     "tT4luEFJ-gHn1hiEXp72zb_zBkQTkO80cCpJRp39lcs"
 _acme-challenge.m.miraheze.org.   TXT     "oiIuTH9UHcfry69AN94yGsq2e7Ege1pLW_hiLx1Q3ic"
-
-_acme-challenge.miraheze.org.   TXT     "8mzEojy7qCuk0Rm1GifYV-taSoE1zCOa-rYpVTt9EOs"
-_acme-challenge.miraheze.org.   TXT     "Hf6j6P7bqPE69p5LGrNK73KLLFMGmuc9HC89mQ1nUwQ"
-
-_acme-challenge.miraheze.org.   TXT     "71Cltkv5B5xiLUEddSwztltP-wrCXb46aYwdt0Gg4_Q"
-_acme-challenge.miraheze.org.   TXT     "Rjz53j3ABxlBtRgYMmTJjDda3UM51esIXM9eBXQGzeQ"
 
 ; Name
 
