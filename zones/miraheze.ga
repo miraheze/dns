@@ -1,5 +1,5 @@
 $TTL 300
-$ORIGIN spcodex.wiki.
+$ORIGIN miraheze.ga.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
 		20200411000001	; serial
