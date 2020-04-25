@@ -28,4 +28,8 @@ $ORIGIN augovwiki.com.
 
 ; load balancers
 
+; Miscellaneous
+
+augovwiki.com.   TXT     "google-site-verification=07tDAfwRr6KvnZRzcIdMCm7dfyJm9pOSRVMpxPxZxqM"
+
 ; Other
