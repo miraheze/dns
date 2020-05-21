@@ -28,7 +28,7 @@ plugins => {
 		service_types = up
 		services => {
 			services1 = [ services1.miraheze.org., 1 ]
-			services2 = [ services1.miraheze.org., 1 ]
+			services2 = [ services2.miraheze.org., 1 ]
 		}
 	}
 	geoip => {
