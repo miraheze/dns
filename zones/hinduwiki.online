@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN hinduwiki.online.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20200406000001	; serial
+		20200604000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
