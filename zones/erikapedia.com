@@ -28,6 +28,7 @@ $ORIGIN erikapedia.com.
 ; Servers
 
 ; Services
+www		DYNA	geoip!cp
 
 ; load balancers
 
