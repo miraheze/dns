@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN miraheze.org.
 
 @		SOA ns1 hostmaster (
-		20200520000001	; serial
+		20200606000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -50,18 +50,6 @@ miraheze.org.   TXT     "google-site-verification=7WSUzjqZswhi5NfG45XJQ46IY_nKda
 miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpfkWK0jbiKG8VnK"
 
 ; m.miraheze.org challenge (acme)
-_acme-challenge.m.miraheze.org.   TXT     "vP5oSUdY-QIauMHagJiaPEF8mYe_zR3ynplTtIDEefY"
-_acme-challenge.m.miraheze.org.   TXT     "KCciAnQ_lvrArThB0XmknwhdsSm5fffmfOh4sFLM4bw"
-
-_acme-challenge.m.miraheze.org.   TXT     "tT4luEFJ-gHn1hiEXp72zb_zBkQTkO80cCpJRp39lcs"
-_acme-challenge.m.miraheze.org.   TXT     "oiIuTH9UHcfry69AN94yGsq2e7Ege1pLW_hiLx1Q3ic"
-
-_acme-challenge.m.miraheze.org.   TXT     "Ja1AKRGh16ZA0Qx__MMnvh3UFo2m_suPHb1xOCVN4jY"
-_acme-challenge.m.miraheze.org.   TXT     "tDEAYsH8GX0TuHleedwL8okqeS88VecipV3SYlai-h0"
-
-_acme-challenge.db6.miraheze.org. TXT	  "h_Fksm4hPrJC3PmNdY6X3cbV-frtd9bsSp4uSzZSXmU"	
-_acme-challenge.db7.miraheze.org. TXT	  "bjo0Y9nwLoEU-J28IX2_PfKCEC9M5GtdkBbL8Wo3RzA"	
-_acme-challenge.dbt1.miraheze.org. TXT    "7MgHU3P4nfA8umycx3L0CpCQfXfqZRFxobSwkMEbdVc"
 
 ; Name
 
