@@ -51,8 +51,8 @@ miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpf
 
 ; m.miraheze.org challenge (acme)
 
-_acme-challenge.miraheze.org.   TXT     "cd1U9wq07xykHYpBNZ3YasC_SaWVWg-WA9-XdJA6Ccc"
-_acme-challenge.miraheze.org.   TXT     "FQxpyliDW6_8FvVoayqJda11aYZqVGQcIgUYXbHSa1g"
+_acme-challenge.m.miraheze.org.   TXT     "-E3dC0pubpFhrYOvEfQBKoudz4-uGv6q0wT11vBZlvw"
+_acme-challenge.m.miraheze.org.   TXT     "UfE8EEA2TUp5jI0d2iCzhxfitgSmRC3U3WCzTXslpVg"
 
 ; Name
 
