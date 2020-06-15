@@ -22,17 +22,11 @@ $ORIGIN miraheze.com.
 
 ; Miscellaneous
 
-_acme-challenge.miraheze.com.   TXT     "-rNAtB2nrtDMuZwxbWzLomh86hQLEPF0BbnSrFx_8Fg"
-_acme-challenge.miraheze.com.   TXT     "-XcYjIJ8_ZQE4JoKtpk4WwJ-h2klA1DWwNH-B2cdPFo"
-
-_acme-challenge.miraheze.com.   TXT     "Gzzms6BDZSgS2qv8qKei3-T5yCaK__G3wAlUSyPM3vo"
-_acme-challenge.miraheze.com.   TXT     "X5l5c-JdR1KF6pTZc9Y3ScZPwqR0pNb0-A0TGVzgGuo"
-
-_acme-challenge.miraheze.com.   TXT     "7n_2LEd547I9iynlFxyHCmsaCLY02Gydarxf_j21YHo"
-_acme-challenge.miraheze.com.   TXT     "ZXtoz70fFYVpL85hyVXYEIdOTFRQberydM6sErRUzzk"
-
 _acme-challenge.miraheze.com.   TXT     "avjB6KX324renEcLlN3aJwa_AaJ4wlgElcu4NLvZfLw"
 _acme-challenge.miraheze.com.   TXT     "k_8I39zw3UaNzrKqRg3HFDKSZP_C1tcFcZN7ZQKiEjk"
+
+_acme-challenge.miraheze.com.   TXT     "6qbKJh36McspsmAh1KtZri54gX9F881vLN08x7F--RM"
+_acme-challenge.miraheze.com.   TXT     "0Nt6d7sP2biUxB-aX1BGLf1oyLnnG83BKDLyQq5Woas"
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
