@@ -35,15 +35,15 @@ plugins => {
 		maps => {
 			generic-map => {
 				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
-				datacenters => [cp3 cp6 cp7 cp8]
+				datacenters => [cp3 cp7 cp8]
 				map => {
-					AF => [cp7, cp6, cp3, cp8],
-					AS => [cp3, cp7, cp6, cp8],
-					EU => [cp7, cp6, cp8, cp3],
-					NA => [cp8, cp7, cp6, cp3],
-					OC => [cp3, cp8, cp7, cp6],
-					SA => [cp8, cp7, cp6, cp3],
-					default => [cp7, cp6, cp8, cp3],
+					AF => [cp7, cp3, cp8],
+					AS => [cp3, cp7, cp8],
+					EU => [cp7, cp8, cp3],
+					NA => [cp8, cp7, cp3],
+					OC => [cp3, cp8, cp7],
+					SA => [cp8, cp7, cp3],
+					default => [cp7, cp8, cp3],
 				},
 			},
 		},
@@ -55,10 +55,6 @@ plugins => {
 					cp3 => {
 						addrs_v4 => 128.199.139.216,
 						addrs_v6 => 2400:6180:0:d0::403:f001,
-					}
-					cp6 => {
-						addrs_v4 => 51.77.107.210,
-						addrs_v6 => 2001:41d0:800:1056::2,
 					}
 					cp7 => {
  						addrs_v4 => 51.89.160.142,
