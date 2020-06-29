@@ -33,6 +33,7 @@ _acme-challenge.miraheze.wiki.   TXT     "99HzwnAA_DFAO28a8BK8vZv5grtsyALotESh47
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 
 ; Servers
+bots		A	198.255.68.179
 
 ; Services
 phab		CNAME	phabricator.miraheze.org.
