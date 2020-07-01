@@ -28,7 +28,7 @@ _acme-challenge.miraheze.wiki.   TXT     "8DnHIMTho5tOLEF0CCD220FA7bPIdSbNxlfLfe
 _acme-challenge.miraheze.wiki.   TXT     "jP6E6OUSqaQh3TTEwYlZsKb7-QnMhp34Lu4YePcTozw"
 _acme-challenge.miraheze.wiki.   TXT     "99HzwnAA_DFAO28a8BK8vZv5grtsyALotESh47laM7c"
 
-bots-phab.miraheze.wiki.         TXT     "google-site-verification=KAgrXoeyrI8OSQyjTY6KQMfLBiXM-aubAxb0qno66Sw"
+phab.bots.miraheze.wiki.         TXT     "google-site-verification=YsUMwTp5ha8O7SN7nT6PUIfuNc2Vmref4X47epv6W5I"
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
@@ -36,7 +36,8 @@ bots-phab.miraheze.wiki.         TXT     "google-site-verification=KAgrXoeyrI8OS
 
 ; Servers
 bots		A	198.255.68.179
-bots-phab	A	198.255.68.179
+phab.bots	A	198.255.68.179
+icinga.bots	A	198.255.68.179
 
 ; Services
 phab		CNAME	phabricator.miraheze.org.
