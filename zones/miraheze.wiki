@@ -37,7 +37,7 @@ bots-phab.miraheze.wiki.         TXT     "google-site-verification=KAgrXoeyrI8OS
 ; Servers
 bots		A	198.255.68.179
 bots-phab	A	198.255.68.179
-bots-icinga     A       198.255.68.179
+icinga.bots     A       198.255.68.179
 
 ; Services
 phab		CNAME	phabricator.miraheze.org.
