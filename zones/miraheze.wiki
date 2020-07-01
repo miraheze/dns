@@ -28,7 +28,7 @@ _acme-challenge.miraheze.wiki.   TXT     "8DnHIMTho5tOLEF0CCD220FA7bPIdSbNxlfLfe
 _acme-challenge.miraheze.wiki.   TXT     "jP6E6OUSqaQh3TTEwYlZsKb7-QnMhp34Lu4YePcTozw"
 _acme-challenge.miraheze.wiki.   TXT     "99HzwnAA_DFAO28a8BK8vZv5grtsyALotESh47laM7c"
 
-google-site-verification         TXT     "KAgrXoeyrI8OSQyjTY6KQMfLBiXM-aubAxb0qno66Sw"
+bots-phab.miraheze.wiki          TXT     "google-site-verification=KAgrXoeyrI8OSQyjTY6KQMfLBiXM-aubAxb0qno66Sw"
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
