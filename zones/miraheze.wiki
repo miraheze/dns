@@ -31,6 +31,8 @@ _acme-challenge.miraheze.wiki.   TXT     "99HzwnAA_DFAO28a8BK8vZv5grtsyALotESh47
 phab.bots.miraheze.wiki.         TXT     "google-site-verification=YsUMwTp5ha8O7SN7nT6PUIfuNc2Vmref4X47epv6W5I"
 icinga.bots.miraheze.wiki.       TXT     "google-site-verification=7CEBpDhYaCQQmA866OFND5bUNZe0gHGvp7xA-t7IysM"
 
+_github-challenge-MirahezeBots.bots.miraheze.wiki.   TXT     0255f53c19
+
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
