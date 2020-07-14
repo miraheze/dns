@@ -42,8 +42,10 @@ _github-challenge-MirahezeBots.bots.miraheze.wiki.   TXT     0255f53c19
 bots		A	198.255.68.179
 phab.bots	A	198.255.68.179
 icinga.bots	A	198.255.68.179
+btpuppetmaster	A	xxx.xxx.xx.xxx
 ; Bots - Servers
-bots1		A	198.255.68.179	
+bots1		A	198.255.68.179
+tools1		A	xxx.xxx.xx.xxx
 
 ; Services
 phab		CNAME	phabricator.miraheze.org.
