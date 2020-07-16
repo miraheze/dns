@@ -43,6 +43,7 @@ bots		A	198.255.68.179
 bots 		A	82.145.63.172
 phab.bots	A	198.255.68.179
 icinga.bots	A	198.255.68.179
+phabdigests.bots A	82.145.63.172
 ; Bots - Servers
 bots1		A	198.255.68.179
 tools1		A	82.145.63.172
