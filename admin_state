@@ -1,5 +1,6 @@
 # Used to mark service as down
 #
-# To mark an entire server as down;
-# 	geoip/generic-map/cp9 => DOWN
+# To mark an entire data center as down;
+# 	geoip/generic-map/sg => DOWN
 #
+geoip/generic-map/ca => DOWN
