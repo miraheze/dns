@@ -23,18 +23,6 @@ $ORIGIN orain.org.
 
 ; Miscellaneous
 
-_acme-challenge.orain.org.   TXT     "_FD283d7dzDWq1MkvYdOJOBhBl3BwSwE46OjrfRWtK4"
-_acme-challenge.orain.org.   TXT     "Lq5uFaum4yaDnAZNVkUtKxGiSxYM6cQ3gx6ogRv6kNY"
-
-_acme-challenge.orain.org.   TXT     "aQbY4cN_Pj11H_fTbwYJRW5jQkwqK8M-vABFSDAr56Q"
-_acme-challenge.orain.org.   TXT     "vc-1gCqOBJE_Zb84Ab5Oal66v-Dj8bRpG43J0ypTyzw"
-
-_acme-challenge.orain.org.   TXT     "2vjkspyZ9XGYC6eWlHwopXZWuheX_8RShMwFnv_9NK8"
-_acme-challenge.orain.org.   TXT     "5WJ84IE-ebGJvfbEMvnBBrqkTxuGXbjVkPPYv2EewAg"
-
-_acme-challenge.orain.org.   TXT     "NmUOu639e3Dp2pquv_C8G37NqTibPZBV0vxeAKPi2lY"
-_acme-challenge.orain.org.   TXT     "ZjxXlPb69q2W9sJ3prqhGp4GbazPZiWxGyed1-n4rqQ"
-
 _acme-challenge.orain.org.   TXT     "avX3fPvaB8AQRiak_MCATXTOmwrLRbNbqUblKpqW7rU"
 _acme-challenge.orain.org.   TXT     "-NCA9iI-qcIe899PfxT9qbRt5XlHLaXZ5pSvw6ZnNk4"
 
