@@ -142,6 +142,7 @@ phabricator	A	51.89.160.139
 		AAAA	2001:41d0:800:105a::7
 blog		CNAME	phabricator
 webmail		CNAME	mail1
+graylog		CNAME	graylog1
 
 ; Load Balancers
 mw-lb			DYNA	geoip!cp
