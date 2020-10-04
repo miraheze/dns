@@ -25,7 +25,6 @@ $ORIGIN wikipariksha.com.
 ; Servers
 
 ; Services
-wiki		DYNA	geoip!cp
 
 ; load balancers
 
