@@ -17,6 +17,7 @@ $ORIGIN spcodex.wiki.
 @		NS	ns2.miraheze.org.
 
 ; Mail exchangers
+@		MX	10	mx.hover.com.cust.hostedemail.com.
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
