@@ -32,8 +32,13 @@ list		MX	10	mail.miraheze.org.
 
 ; Mail policies
 ;; SPF - Policy: Mail not from misc1 is rejected.
-miraheze.org.	TXT	"v=spf1 include:_spf.google.com ip4:185.52.1.76 ip6:2a00:d880:6:787::3 -all"
-lists.miraheze.org. 	 TXT 	 "spf1 a mx include:_spf.mlsend.com ?all"
+miraheze.org.		TXT	"v=spf1 include:_spf.google.com ip4:185.52.1.76 ip6:2a00:d880:6:787::3 -all"
+lists.miraheze.org.	TXT 	"spf1 a mx include:_spf.mlsend.com ?all"
+
+; Mail autodiscovery
+_imaps._tcp             IN SRV   10 0 993 mail.miraheze.org.
+_imap._tcp     		IN SRV 	 0 1 143 mail.miraheze.org.
+_submission._tcp        IN SRV   0 0 587 mail.miraheze.org.
 
 ;; DKIM - Policy: Mail may be signed. Not required.
 mail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLIGrjEMDm0fgER69Wv3OQEPmVPpzfbvspXe+FjFyHnZ2kbuQhMHjDgwX6E/tA5NzDG+dhgaUV0D90H12dhu3wXWaocyLjxrAs9dNkqK69hG8oLdDj8KFpPI6JAm6LskBXHmlOpdzRc+yNBRm5wT9fIsw8in7fnAW170Jb3fdEbwIDAQAB"
