@@ -25,15 +25,13 @@ ns2		A	51.89.247.234
 ns3		A	192.184.82.120
 		AAAA	2604:180:0:ec::2
 
-; Mail exchangers
+; Mail exchanges
 @		MX	10	mail.miraheze.org.
 phabricator	MX	10	mail.miraheze.org.
-list		MX	10	mail.miraheze.org.
 
 ; Mail policies
 ;; SPF - Policy: Mail not from misc1 is rejected.
-miraheze.org.		TXT	"v=spf1 include:_spf.google.com ip4:185.52.1.76 ip6:2a00:d880:6:787::3 -all"
-lists.miraheze.org.	TXT 	"spf1 a mx include:_spf.mlsend.com ?all"
+miraheze.org.		TXT	"v=spf1 ip4:51.89.160.134 ip6:2001:41d0:800:1056::9 -all"
 
 ; Mail autodiscovery
 _imaps._tcp		IN SRV	10 0 993 mail.miraheze.org.
@@ -99,13 +97,13 @@ gluster1	A	51.77.107.209
 		AAAA	2001:41d0:800:105a::2
 gluster2	A	51.68.201.37 
 		AAAA	2001:41d0:800:1056::12
-graylog1   	A	51.89.160.130
+graylog1	A	51.89.160.130
 		AAAA	2001:41d0:800:1056::5
 jobrunner1	A	51.89.160.135
 		AAAA	2001:41d0:800:1056::10
 jobrunner2	A	51.195.135.132
 		AAAA	2001:41d0:800:105a::13
-ldap1   	A	51.68.222.55
+ldap1		A	51.68.222.55
 		AAAA	2001:41d0:800:105a::12
 mail1		A	51.89.160.134
 		AAAA	2001:41d0:800:1056::9
@@ -141,15 +139,15 @@ grafana		CNAME	mon1
 icinga		CNAME	mon1
 m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
-mail		A	185.52.1.76
-		AAAA	2a00:d880:6:787::3
+mail		A	51.89.160.134
+		AAAA	2001:41d0:800:1056::9
 matomo		DYNA	geoip!cp
 static		DYNA	geoip!cp
 donate		DYNA	geoip!cp
 phabricator	A	51.89.160.139
 		AAAA	2001:41d0:800:105a::7
 blog		CNAME	phabricator
-webmail		CNAME	mail1
+webmail		CNAME	mail
 graylog		CNAME	graylog1
 
 ; Load Balancers
