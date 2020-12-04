@@ -1,8 +1,8 @@
 $TTL 300
-$ORIGIN adadevelopersacademy.wiki.
+$ORIGIN johanloopmans.nl.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20180829000001	; serial
+		20201204000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
