@@ -30,7 +30,7 @@ ns3		A	192.184.82.120
 phabricator	MX	10	mail.miraheze.org.
 
 ; Mail policies
-;; SPF - Policy: Mail not from misc1 is rejected.
+;; SPF - Policy: Mail not from mail1 is rejected.
 miraheze.org.		TXT	"v=spf1 ip4:51.89.160.134 ip6:2001:41d0:800:1056::9 -all"
 
 ; Mail autodiscovery
@@ -117,8 +117,6 @@ mw6		A	51.89.160.136
 		AAAA	2001:41d0:800:105a::4
 mw7		A	51.89.160.137
 		AAAA	2001:41d0:800:105a::5
-misc1		A	185.52.1.76
-		AAAA	2a00:d880:6:787::2
 phab1		A	51.89.160.139
 		AAAA	2001:41d0:800:105a::7
 puppet2		A	51.89.160.129
