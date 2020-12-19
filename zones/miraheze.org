@@ -34,8 +34,7 @@ phabricator	MX	10	mail.miraheze.org.
 miraheze.org.		TXT	"v=spf1 ip4:51.89.160.134 ip6:2001:41d0:800:1056::9 -all"
 
 ; Mail autodiscovery
-_imaps._tcp		IN SRV	10 0 993 mail.miraheze.org.
-_imap._tcp		IN SRV	0 1 143 mail.miraheze.org.
+_imaps._tcp		IN SRV	0 0 143 mail.miraheze.org.
 _submission._tcp	IN SRV	0 0 587 mail.miraheze.org.
 
 ;; DKIM - Policy: Mail may be signed. Not required.
