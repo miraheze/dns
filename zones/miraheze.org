@@ -55,9 +55,6 @@ miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpf
 
 ; m.miraheze.org challenge (acme)
 
-_acme-challenge.m.miraheze.org.   TXT     "8lBT2XPV3fbqVe8gBoXtj-RGUNJfjawaasM1ocM1-s4"
-_acme-challenge.m.miraheze.org.   TXT     "uMM9fhId0YagrrrQFF4EjAqdcLDaCpj-cl5utnBYWd0"
-
 ; Name
 
 ; Servers
