@@ -26,6 +26,10 @@ $ORIGIN petrawiki.org.
 
 ; Services
 www		DYNA	geoip!cp
+hr		DYNA	geoip!cp
+files		DYNA	geoip!cp
+translate		DYNA	geoip!cp
+en		DYNA	geoip!cp
 
 ; load balancers
 
