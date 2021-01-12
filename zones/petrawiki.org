@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN petrawiki.org.
 
 @   SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20201103000001	; serial
+		20210112000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -28,7 +28,7 @@ $ORIGIN petrawiki.org.
 www		DYNA	geoip!cp
 hr		DYNA	geoip!cp
 files		DYNA	geoip!cp
-translate		DYNA	geoip!cp
+translate	DYNA	geoip!cp
 en		DYNA	geoip!cp
 
 ; load balancers
