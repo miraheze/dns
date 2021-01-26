@@ -45,9 +45,7 @@ _github-challenge-MirahezeBots.bots.miraheze.wiki.   TXT     0255f53c19
 
 ; Bots
 ; Bots - Services
-bots		 	A	198.255.68.179
-bots			AAAA	2001:49f0:d04c:4:2:1:0:0
-bots 		 	A	82.145.63.172
+bots		        CNAME   mirahezebots.org
 phab.bots	 	A	82.145.63.172
 icinga.bots		A	82.145.63.172
 phabdigests.bots	A	82.145.63.172
