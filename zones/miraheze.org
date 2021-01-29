@@ -133,6 +133,7 @@ mail		A	51.89.160.134
 		AAAA	2001:41d0:800:1056::9
 matomo		DYNA	geoip!cp
 static		DYNA	geoip!cp
+static-new	DYNA	geoip!cp
 donate		DYNA	geoip!cp
 phabricator	A	51.89.160.139
 		AAAA	2001:41d0:800:105a::7
