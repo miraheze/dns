@@ -143,7 +143,9 @@ test2		A	51.77.107.211
 
 ; Services
 grafana		CNAME	mon1
+grafana-new	CNAME	mon2
 icinga		CNAME	mon1
+icinga-new	CNAME	mon2
 m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
 mail		A	51.89.160.134
