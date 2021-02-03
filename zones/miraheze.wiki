@@ -58,10 +58,9 @@ phab-storage.bots	A	82.145.63.172
 
 
 ; Bots - Servers
-bots1		A	198.255.68.179
-bots1		AAAA	2001:49f0:d04c:4:2:1:0:0
-tools1		A	82.145.63.172
-db1		A	82.145.63.173
+bots1		CNAME	bots1.mirahezebots.org
+tools1		CNAME	tools1.mirahezebots.org
+db1		CNAME	db1.mirahezebots.org
 
 ; Services
 phab		CNAME	phabricator.miraheze.org.
