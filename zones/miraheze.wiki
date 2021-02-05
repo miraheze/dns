@@ -45,15 +45,12 @@ _github-challenge-MirahezeBots.bots.miraheze.wiki.   TXT     0255f53c19
 
 ; Bots
 ; Bots - Services
-bots		 	A	198.255.68.179
-bots			AAAA	2001:49f0:d04c:4:2:1:0:0
-bots 		 	A	82.145.63.172
-phab.bots	 	A	82.145.63.172
-icinga.bots		A	82.145.63.172
-phabdigests.bots	A	82.145.63.172
-sopel.bots		A	198.255.68.179
-sopel.bots		AAAA	2001:49f0:d04c:4:2:1:0:0
-phab-storage.bots	A	82.145.63.172
+bots		        CNAME   mirahezebots.org.
+phab.bots	 	CNAME   phab.mirahezebots.org.
+icinga.bots		CNAME   icinga.mirahezebots.org.
+phabdigests.bots	CNAME   phabdigests.mirahezebots.org.
+sopel.bots		CNAME   sopel.mirahezebots.org.
+phab-storage.bots	CNAME   phab-storage.mirahezebots.org.
 
 
 ; Bots - Servers
