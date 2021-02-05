@@ -51,7 +51,6 @@ bots 		 	A	82.145.63.172
 phab.bots	 	A	82.145.63.172
 icinga.bots		A	82.145.63.172
 phabdigests.bots	A	82.145.63.172
-support.bots		A	82.145.63.172
 sopel.bots		A	198.255.68.179
 sopel.bots		AAAA	2001:49f0:d04c:4:2:1:0:0
 phab-storage.bots	A	82.145.63.172
