@@ -63,10 +63,6 @@ _acme-challenge.m.miraheze.org.   TXT     "XNhAHgyn65B5faEgSKuwS9Zyzs3yK9jNMRder
 ; Servers
 bacula2		A	168.235.111.29
 		AAAA	2604:180:f3::382
-cloud1		A	54.36.165.86
-		AAAA	2001:41d0:800:1056::1
-cloud2		A	54.36.165.90
-		AAAA	2001:41d0:800:105a::1
 cloud3		A	51.68.206.11
 		AAAA	2001:41d0:800:170b::1
 cloud4		A	51.68.206.138
