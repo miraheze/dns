@@ -50,16 +50,16 @@ _github-challenge-MirahezeBots.bots.miraheze.wiki.   TXT     0255f53c19
 
 
 ; old bots stuff
-wildcard.bots     DYNA  geoip!cp
-bots			        DYNA	geoip!cp
-phab.bots		      DYNA	geoip!cp
-icinga.bots		    DYNA	geoip!cp
+wildcard.bots     	DYNA    geoip!cp
+bots			DYNA	geoip!cp
+phab.bots		DYNA	geoip!cp
+icinga.bots		DYNA	geoip!cp
 phabdigests.bots	DYNA	geoip!cp
-sopel.bots		    DYNA	geoip!cp
+sopel.bots		DYNA	geoip!cp
 phab-storage.bots	DYNA	geoip!cp
-bots1			        DYNA	geoip!cp
-tools1			      DYNA	geoip!cp
-db1			          DYNA	geoip!cp
+bots1			DYNA	geoip!cp
+tools1			DYNA	geoip!cp
+db1			DYNA	geoip!cp
 
 ; Services
 phab		CNAME	phabricator.miraheze.org.
