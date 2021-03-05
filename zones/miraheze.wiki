@@ -35,6 +35,7 @@ _acme-challenge.miraheze.wiki.   TXT     "QbRfnUoUXYbFO8qXvD8e1PvXqz3IINxM4qQ2rH
 _acme-challenge.miraheze.wiki.   TXT     "6GqDkFsmSpsHDE_BwOarfesROeNhSxNrYO0L9UNqQpw"
 
 phab.bots.miraheze.wiki.         TXT     "google-site-verification=YsUMwTp5ha8O7SN7nT6PUIfuNc2Vmref4X47epv6W5I"
+phab.bots.miraheze.wiki.         TXT     "google-site-verification=VIzHV5lX9zihlmxHHlbV6qVbZTPUE85kjGoLDO3kScI"
 icinga.bots.miraheze.wiki.       TXT     "google-site-verification=7CEBpDhYaCQQmA866OFND5bUNZe0gHGvp7xA-t7IysM"
 sopel.bots.miraheze.wiki.        TXT     "google-site-verification=2oNWyRMk9YqdKE9_cT7oZJ9qWhA2_hP15hxxH1-HP3Q"
 phab-storage.bots.miraheze.wiki. TXT     "google-site-verification=PxY1u2LSWbzIBN7XHgyzGy_idBAtRTvYr46WnZI1_VY"
