@@ -48,24 +48,18 @@ _github-challenge-MirahezeBots.bots.miraheze.wiki.   TXT     0255f53c19
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 
-; Bots
-; Bots - Services
-bots		 	A	198.255.68.179
-bots			AAAA	2001:49f0:d04c:4:2:1:0:0
-bots 		 	A	82.145.63.172
-phab.bots	 	A	82.145.63.172
-icinga.bots		A	82.145.63.172
-phabdigests.bots	A	82.145.63.172
-sopel.bots		A	198.255.68.179
-sopel.bots		AAAA	2001:49f0:d04c:4:2:1:0:0
-phab-storage.bots	A	82.145.63.172
-wildcard.bots		DYNA	geoip!cp
 
-
-; Bots - Servers
-bots1		CNAME	bots1.mirahezebots.org.
-tools1		CNAME	tools1.mirahezebots.org.
-db1		CNAME	db1.mirahezebots.org.
+; old bots stuff
+wildcard.bots     	DYNA    geoip!cp
+bots			DYNA	geoip!cp
+phab.bots		DYNA	geoip!cp
+icinga.bots		DYNA	geoip!cp
+phabdigests.bots	DYNA	geoip!cp
+sopel.bots		DYNA	geoip!cp
+phab-storage.bots	DYNA	geoip!cp
+bots1			DYNA	geoip!cp
+tools1			DYNA	geoip!cp
+db1			DYNA	geoip!cp
 
 ; Services
 phab		CNAME	phabricator.miraheze.org.
