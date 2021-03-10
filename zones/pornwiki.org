@@ -26,6 +26,8 @@ $ORIGIN pornwiki.org.
 
 ; Services
 www		DYNA	geoip!cp
+en		DYNA	geoip!cp
+files		DYNA	geoip!cp
 
 ; load balancers
 
