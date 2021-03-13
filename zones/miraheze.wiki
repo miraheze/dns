@@ -24,15 +24,15 @@ $ORIGIN miraheze.wiki.
 
 _acme-challenge.miraheze.wiki.   	TXT     "an_U0bVQmWC4RxPWgddIAbhu4vW7GexBnaV4IT59llE"
 _acme-challenge.miraheze.wiki.   	TXT     "8DnHIMTho5tOLEF0CCD220FA7bPIdSbNxlfLfePghFo"
-
 _acme-challenge.miraheze.wiki.   	TXT     "wLh4cUwrupC1y75mRCST6V2sdQnSkhvGhg7pVsDx5hQ"
 _acme-challenge.miraheze.wiki.   	TXT     "UxgYSS2AdkpRr78KqHUu6ghzXR9PEDX8UUTMJUqjAhQ"
-
 _acme-challenge.miraheze.wiki.   	TXT     "Bi9DCaXnCwAAre_VpskXJPJGo2RBtaHcWbqfq1axnV8"
 _acme-challenge.miraheze.wiki.   	TXT     "XDdNoZgNi4qS8SaYzr1sz045qQ9zmfzPLNR8SxLbebM"
-
 _acme-challenge.miraheze.wiki.   	TXT     "QbRfnUoUXYbFO8qXvD8e1PvXqz3IINxM4qQ2rHoPlp0"
 _acme-challenge.miraheze.wiki.   	TXT     "6GqDkFsmSpsHDE_BwOarfesROeNhSxNrYO0L9UNqQpw"
+_acme-challenge.miraheze.wiki.   	TXT     "_npMJ2nAbIquYQ2QZgS9BMDvexteUl0qx0PviItL-t4"
+_acme-challenge.miraheze.wiki.   	TXT     "RTqLGKEZqhH919fTJoE8rdaeRJybqhQWnOyBO3pfLC4"
+
 _acme-challenge.bots.miraheze.wiki.	TXT	"xRPLLMfR1RnLv5I0ZieGwKwPLgtEj8NpTea-LEEYjFE"
 
 phab.bots.miraheze.wiki.         	TXT     "google-site-verification=YsUMwTp5ha8O7SN7nT6PUIfuNc2Vmref4X47epv6W5I"
