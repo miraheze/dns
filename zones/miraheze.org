@@ -39,7 +39,6 @@ _submission._tcp	IN SRV	0 0 587 mail.miraheze.org.
 
 ;; DKIM - Policy: Mail may be signed. Not required.
 mail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLIGrjEMDm0fgER69Wv3OQEPmVPpzfbvspXe+FjFyHnZ2kbuQhMHjDgwX6E/tA5NzDG+dhgaUV0D90H12dhu3wXWaocyLjxrAs9dNkqK69hG8oLdDj8KFpPI6JAm6LskBXHmlOpdzRc+yNBRm5wT9fIsw8in7fnAW170Jb3fdEbwIDAQAB"
-ml._domainkey.lists	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXCQ4K8lznO26TwXdS5gZw39fgt6JCGRrQDDcIJu5Xx8A8BuW7REJIGN02qN/YogbAH8baqDyOagNDpe0dRkldVsRWyTbY4ZbJimhWxN4BrYYAYjNq6XsAPGnGH1Y3PmxgytKA1zKUXHoVd0jg0KxdbFxnNF1px1H0vX7buqOM/wIDAQAB"
 
 ;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
 _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc@miraheze.org; fo=1; adkim=r; aspf=r; pct=100; rf=afrf; ri=86400; sp=none"
