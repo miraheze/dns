@@ -28,6 +28,8 @@ $ORIGIN nocyclo.tk.
 meta		DYNA	geoip!cp
 es		DYNA	geoip!cp
 en		DYNA	geoip!cp
+incubator	DYNA	geoip!cp
+
 
 
 ; load balancers
