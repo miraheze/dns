@@ -146,5 +146,6 @@ graylog		CNAME	graylog2
 ; Load Balancers
 mw-lb			DYNA	geoip!cp
 restbase-lb		DYNC	weighted!services
+mediawiki-backends	DYNC	weighted!mediawiki
 
 ; Other
