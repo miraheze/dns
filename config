@@ -30,10 +30,6 @@ plugins => {
 			services3 = [ services3.miraheze.org., 1 ]
 			services4 = [ services4.miraheze.org., 1 ]
 		}
-		mediawiki => {
-			mw8 = [ mw8.miraheze.org., 1 ]
-			mw10 = [ mw10.miraheze.org., 1 ]
-		}
 	}
 	geoip => {
 		maps => {
