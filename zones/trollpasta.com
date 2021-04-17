@@ -25,6 +25,7 @@ $ORIGIN trollpasta.com.
 ; Servers
 
 ; Services
+www		DYNA	geoip!cp
 
 ; load balancers
 
