@@ -30,4 +30,4 @@ www		DYNA	geoip!cp
 ; load balancers
 
 ; Other
-trollpasta.com.	TXT	google-site-verification=t0_E9O7AEVjARLYxq1d6hfjd6OQzzo5bVyLELdRmOKI.
+trollpasta.com.	TXT	"google-site-verification=t0_E9O7AEVjARLYxq1d6hfjd6OQzzo5bVyLELdRmOKI"
