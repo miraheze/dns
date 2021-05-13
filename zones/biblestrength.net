@@ -1,8 +1,8 @@
 $TTL 300
-$ORIGIN biblestrength.org.
+$ORIGIN biblestrength.net.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20210303000001	; serial
+		20210513000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
