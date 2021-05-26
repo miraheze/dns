@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN stardewmodding.wiki.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20210416000001	; serial
+		20210526000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -25,7 +25,6 @@ $ORIGIN stardewmodding.wiki.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp
 
 ; load balancers
 
