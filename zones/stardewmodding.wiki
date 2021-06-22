@@ -25,6 +25,7 @@ $ORIGIN stardewmodding.wiki.
 ; Servers
 
 ; Services
+www		DYNA	geoip!cp
 
 ; load balancers
 
