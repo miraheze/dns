@@ -58,6 +58,7 @@ _acme-challenge.m.miraheze.org.   TXT     "K9EgMhS_pGeZ8fpeH8S8npGrvxMXlTy7VhEt7
 _acme-challenge.m.miraheze.org.   TXT     "XNhAHgyn65B5faEgSKuwS9Zyzs3yK9jNMRderolsyI0"
 _acme-challenge.m.miraheze.org.   TXT     "dMPdaVhkDlRxFiqFsbDzR7Bg-LK8acsCYnMmoxivzvM"
 _acme-challenge.m.miraheze.org.   TXT     "siAHNdCCDt3lvvltm0esFD2rKm0d-4quvlmbGzbyfgQ"
+_acme-challenge.m.miraheze.org.   TXT     "aUqrKw0BFNdrQ-JX7zDNDciUdqyUUxv8KWLACFNHHDA"
  
 ; Name
 
