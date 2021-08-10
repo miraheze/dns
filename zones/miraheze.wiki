@@ -33,7 +33,7 @@ _acme-challenge.miraheze.wiki.   	TXT     "7NZjpSeWFdnr_gXDwX-EhfxLxO6rj6aifeN45
 
 _acme-challenge.bots.miraheze.wiki.	TXT	"xRPLLMfR1RnLv5I0ZieGwKwPLgtEj8NpTea-LEEYjFE"
 _acme-challenge.bots.miraheze.wiki.	TXT	"R5GnSUtXtHVuDyeZeMDln9ObRlL-xjl_YG3QB3psMHA"
-_acme-challenge.bots.miraheze.wiki.	TXT	"UgVY058r3riuTAUd1YAbWD8R92Gd0Y8KiPt0LAj9_cQ"
+_acme-challenge.bots.miraheze.wiki.	TXT	"uUIOdiJXrTqx9_3LSQCIwD_JKpu20HjugJNtYTViSRQ"
 
 phab.bots.miraheze.wiki.         	TXT     "google-site-verification=YsUMwTp5ha8O7SN7nT6PUIfuNc2Vmref4X47epv6W5I"
 phab.bots.miraheze.wiki.         	TXT     "google-site-verification=VIzHV5lX9zihlmxHHlbV6qVbZTPUE85kjGoLDO3kScI"
