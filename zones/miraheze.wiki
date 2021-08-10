@@ -69,4 +69,3 @@ status		CNAME	miraheze.hund.io.
 ; load balancers
 
 ; Other
-
