@@ -90,41 +90,45 @@ gluster3	A	51.195.236.217
 		AAAA	2001:41d0:800:178a::3
 gluster4	A	51.195.236.248
 		AAAA	2001:41d0:800:1bbd::2
-graylog2    	A	51.195.236.213
+graylog2	A	51.195.236.213
 		AAAA	2001:41d0:800:178a::11
+jobchron1	A	51.1955.236.215
+		AAAA	2001:41d0:800:178a::13
 jobrunner3	A	51.195.236.220
 		AAAA	2001:41d0:800:178a::6
 jobrunner4	A	51.195.236.251
 		AAAA	2001:41d0:800:1bbd::5
-ldap2   	A	51.195.236.252
+ldap2		A	51.195.236.252
 		AAAA	2001:41d0:800:1bbd::6
-mail2   	A	51.195.236.253
+mail2		A	51.195.236.253
 		AAAA	2001:41d0:800:1bbd::7
-mem1    	A	51.195.236.223
+mem1		A	51.195.236.223
 		AAAA	2001:41d0:800:178a::9
-mem2     	A	51.195.236.245
+mem2		A	51.195.236.245
 		AAAA	2001:41d0:800:1bbd::12
 mon2		A	51.195.236.249
 		AAAA	2001:41d0:800:1bbd::3
-mw8     	A	51.195.236.221
+mw8		A	51.195.236.221
 		AAAA	2001:41d0:800:178a::7
-mw9     	A	51.195.236.222
+mw9		A	51.195.236.222
 		AAAA	2001:41d0:800:178a::8
-mw10    	A	51.195.236.254
+mw10		A	51.195.236.254
 		AAAA	2001:41d0:800:1bbd::8
-mw11    	A	51.195.236.255
+mw11		A	51.195.236.255
 		AAAA	2001:41d0:800:1bbd::10
-phab2    	A	51.195.236.244
+mwtask1		A	198.244.181.23
+		AAAA	2001:41d0:800:1bbd::15
+phab2		A	51.195.236.244
 		AAAA	2001:41d0:800:1bbd::11
 puppet3		A	51.195.236.216
 		AAAA	2001:41d0:800:178a::2
-services3    	A	51.195.236.212
+services3	A	51.195.236.212
 		AAAA	2001:41d0:800:178a::10
-services4    	A	51.195.236.246
+services4	A	51.195.236.246
 		AAAA	2001:41d0:800:1bbd::13
-test3    	A	51.195.236.247
+test3		A	51.195.236.247
 		AAAA	2001:41d0:800:1bbd::14
-test4    	A	51.195.236.214
+test4		A	51.195.236.214
 		AAAA	2001:41d0:800:178a::12
 
 ; Services
@@ -137,7 +141,7 @@ mail		A	51.195.236.253
 matomo		DYNA	geoip!cp
 static		DYNA	geoip!cp
 donate		DYNA	geoip!cp
-phabricator    	A	51.195.236.244
+phabricator	A	51.195.236.244
 		AAAA	2001:41d0:800:1bbd::11
 blog		CNAME	phabricator
 webmail		CNAME	mail
