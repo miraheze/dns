@@ -40,4 +40,3 @@ webmail		CNAME	us3.webmail.mailhostbox.com.
 ; Miscellaneous
 famepedia.org	TXT	"v=spf1 redirect=_spf.mailhostbox.com"
 20210826._domainkey.famepedia.org	TXT	"v=DKIM1; g=*; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNRWZ5SDbc40rWg3R4pP4SACj7W31K8DFy/d1rX7mc5gx9gY29EMUAeU9cefqEFqJuaWv2Ykf7+6C8s2+Y3bDjxprznC5uDis4V5x68Bv1zj+GoSq/GQoiY/nlkfT8uzlycsx6qZtgZ2BV95KQmlAwmSXz5ACZEUGFRDHvVmFTVQIDAQAB"
-
