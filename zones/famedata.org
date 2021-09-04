@@ -31,7 +31,7 @@ $ORIGIN famedata.org.
 pop		CNAME	us2.pop.mailhostbox.com.
 imap		CNAME	us2.imap.mailhostbox.com.
 smtp		CNAME	us2.smtp.mailhostbox.com.
-webmail		CNAME	us3.webmail.mailhostbox.com.
+webmail	CNAME	us3.webmail.mailhostbox.com.
 
 ; load balancers
 
@@ -39,4 +39,4 @@ webmail		CNAME	us3.webmail.mailhostbox.com.
 
 ; Miscellaneous
 @	TXT	"v=spf1 redirect=_spf.mailhostbox.com"
-20210901._domainkey.famedata.org	TXT	"v=DKIM1; g=*; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKK07KIrgY7UTXFfvDZE7RVPa3vsx5O3FiSq92LLbTdSxLaibex3BbqTWkaLxX/HHt5j1NXNksDMxx/t7gW0Df4Ln9pxMpr0PizoboOkX+cwG4tU0d2Xodt2vDdw8a/4HtPiRw/u3VWl0gLKHme+GxJd0FhYGOfhJCRvv49uyf/QIDAQAB"
+20210901._domainkey	TXT	"v=DKIM1; g=*; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKK07KIrgY7UTXFfvDZE7RVPa3vsx5O3FiSq92LLbTdSxLaibex3BbqTWkaLxX/HHt5j1NXNksDMxx/t7gW0Df4Ln9pxMpr0PizoboOkX+cwG4tU0d2Xodt2vDdw8a/4HtPiRw/u3VWl0gLKHme+GxJd0FhYGOfhJCRvv49uyf/QIDAQAB"
