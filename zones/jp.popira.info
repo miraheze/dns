@@ -17,8 +17,6 @@ $ORIGIN jp.popira.info.
 @		NS	ns2.miraheze.org.
 
 ; Mail exchangers
-@		MX	1	MX4.MAIL.OVH.NET.
-@		MX	10	MX3.MAIL.OVH.NET.
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
