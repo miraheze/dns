@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN jp.popira.info.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20210913000001	; serial
+		20210916000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
