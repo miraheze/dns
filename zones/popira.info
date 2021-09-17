@@ -25,6 +25,7 @@ $ORIGIN popira.info.
 ; Servers
 
 ; Services
+jp	DYNA	geoip!cp
 
 ; load balancers
 
