@@ -37,13 +37,13 @@ plugins => {
 				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
 				datacenters => [ca gb sg]
 				map => {
-					AF => [gb, sg, ca],
-					AS => [sg, gb, ca],
-					EU => [gb, ca, sg],
-					NA => [ca, gb, sg],
-					OC => [sg, ca, gb],
-					SA => [ca, gb, sg],
-					default => [gb, ca, sg],
+					AF => [gb, ca],
+					AS => [gb, ca],
+					EU => [gb, ca],
+					NA => [ca, gb],
+					OC => [ca, gb],
+					SA => [ca, gb],
+					default => [gb, ca],
 				},
 			},
 		},
@@ -52,14 +52,6 @@ plugins => {
 				map => generic-map
 				service_types => cpweb
 				dcmap => {
-					sg => {
-						addrs_v4 => {
-							cp3 => 128.199.139.216
-						},
-						addrs_v6 => {
-							cp3 => 2400:6180:0:d0::403:f001
-						}
-					}
 					gb => {
 						addrs_v4 => {
 							cp13 => 51.38.69.175,
