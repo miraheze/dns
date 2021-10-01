@@ -18,8 +18,8 @@ $ORIGIN miraheze.org.
 @		NS	ns2.miraheze.org.
 
 ;; A records
-ns1		A	74.208.210.151
-		AAAA	2607:f1c0:1800:1f2::1
+ns1		A	107.161.22.195
+		AAAA	2604:180:f1::279
 ns2		A	51.195.236.218
 		AAAA	2001:41d0:800:178a::4
 ns3		A	107.161.22.195
