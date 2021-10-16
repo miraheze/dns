@@ -23,14 +23,6 @@ service_types => {
 }
 
 plugins => {
-	weighted => {
-		multi = false
-		service_types = up
-		services => {
-			services3 = [ services3.miraheze.org., 1 ]
-			services4 = [ services4.miraheze.org., 1 ]
-		}
-	}
 	geoip => {
 		maps => {
 			generic-map => {
