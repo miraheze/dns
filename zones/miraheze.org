@@ -124,10 +124,6 @@ phab2		A	51.195.236.244
 		AAAA	2001:41d0:800:1bbd::11
 puppet3		A	51.195.236.216
 		AAAA	2001:41d0:800:178a::2
-services3	A	51.195.236.212
-		AAAA	2001:41d0:800:178a::10
-services4	A	51.195.236.246
-		AAAA	2001:41d0:800:1bbd::13
 test3		A	51.195.236.247
 		AAAA	2001:41d0:800:1bbd::14
 test4		A	51.195.236.214
@@ -152,6 +148,5 @@ deployment      CNAME   mw11
 
 ; Load Balancers
 mw-lb			DYNA	geoip!cp
-restbase-lb		DYNC	weighted!services
 
 ; Other
