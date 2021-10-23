@@ -32,36 +32,10 @@ _acme-challenge.miraheze.wiki.   	TXT     "ixyVh2mr_VyMr86IgIgVMJDfQvEX_2Lbyfx5C
 _acme-challenge.miraheze.wiki.   	TXT     "7NZjpSeWFdnr_gXDwX-EhfxLxO6rj6aifeN45fG9KsE"
 _acme-challenge.miraheze.wiki.		TXT	"ii3mdTM07lDraNsuL5Njh26m8qLZHZUXYtfQYKryVdY"
 
-_acme-challenge.bots.miraheze.wiki.	TXT	"xRPLLMfR1RnLv5I0ZieGwKwPLgtEj8NpTea-LEEYjFE"
-_acme-challenge.bots.miraheze.wiki.	TXT	"R5GnSUtXtHVuDyeZeMDln9ObRlL-xjl_YG3QB3psMHA"
-_acme-challenge.bots.miraheze.wiki.	TXT	"uUIOdiJXrTqx9_3LSQCIwD_JKpu20HjugJNtYTViSRQ"
-_acme-challenge.bots.miraheze.wiki.	TXT	"kbqH9BRntgJ-MecaUcN6Z3B4merIuNLMjq9gEbz0GbA"
-
-phab.bots.miraheze.wiki.         	TXT     "google-site-verification=YsUMwTp5ha8O7SN7nT6PUIfuNc2Vmref4X47epv6W5I"
-phab.bots.miraheze.wiki.         	TXT     "google-site-verification=VIzHV5lX9zihlmxHHlbV6qVbZTPUE85kjGoLDO3kScI"
-icinga.bots.miraheze.wiki.       	TXT     "google-site-verification=7CEBpDhYaCQQmA866OFND5bUNZe0gHGvp7xA-t7IysM"
-sopel.bots.miraheze.wiki.        	TXT     "google-site-verification=2oNWyRMk9YqdKE9_cT7oZJ9qWhA2_hP15hxxH1-HP3Q"
-phab-storage.bots.miraheze.wiki. 	TXT     "google-site-verification=PxY1u2LSWbzIBN7XHgyzGy_idBAtRTvYr46WnZI1_VY"
-phabdigests.bots.miraheze.wiki.  	TXT     "google-site-verification=LprC2fCDNrP9QrH9NKoQi2tMum17PELPyOCn9AxIxJ8"
-
-_github-challenge-MirahezeBots.bots.miraheze.wiki.   TXT     0255f53c19
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
-
-
-; old bots stuff
-wildcard.bots     	DYNA    geoip!cp
-bots			DYNA	geoip!cp
-phab.bots		DYNA	geoip!cp
-icinga.bots		DYNA	geoip!cp
-phabdigests.bots	DYNA	geoip!cp
-sopel.bots		DYNA	geoip!cp
-phab-storage.bots	DYNA	geoip!cp
-bots1			DYNA	geoip!cp
-tools1			DYNA	geoip!cp
-db1			DYNA	geoip!cp
 
 ; Services
 phab		CNAME	phabricator.miraheze.org.
