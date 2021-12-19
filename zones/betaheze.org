@@ -19,6 +19,7 @@ $ORIGIN betaheze.org.
 
 ; Miscellaneous
 _acme-challenge.betaheze.org.		TXT     "dwHXvA54en6tQCWdpSm7cLBlz0iqI9gEv0EmgiFrvgY"
+_acme-challenge.betaheze.org.		TXT	"4qqtdItwJv2aUTYRCEYMNSBloMug4YlR28dlcNQhPtA"
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
