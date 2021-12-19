@@ -11,7 +11,9 @@ $ORIGIN betaheze.org.
 
 ; Wildcard services
 @		A	51.195.236.247
-@		AAAA	2001:41d0:800:1bbd::14	
+@		AAAA	2001:41d0:800:1bbd::14
+*		A	51.195.236.247
+*		AAAA	2001:41d0:800:1bbd::14
 
 ; Name servers
 @		NS	ns1.miraheze.org.
