@@ -142,8 +142,8 @@ phabricator	A	51.195.236.244
 blog		CNAME	phabricator
 webmail		CNAME	mail
 graylog		CNAME	graylog2
-deployment      CNAME   mw11
-mwtask          CNAME   mwtask1
+deployment      CNAME   mwtask101
+mwtask          CNAME   mwtask101
 
 ; Load Balancers
 mw-lb			DYNA	geoip!cp
