@@ -187,6 +187,7 @@ deployment      CNAME   mw11
 mwtask          CNAME   mwtask1
 
 ; Load Balancers
-mw-lb			DYNA	geoip!cp
+bastion		DYNC	weighted!bastion
+mw-lb		DYNA	geoip!cp
 
 ; Other

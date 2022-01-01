@@ -23,6 +23,15 @@ service_types => {
 }
 
 plugins => {
+	weighted => {
+		multi = fale
+		server_types = up # need to monitor
+		up_thresh = 0.5
+		bastion => {
+			bast101 = [ bast101.miraheze.org., 1 ]
+			bast121 = [ bast121.miraheze.org., 1 ]
+		}
+	}
 	geoip => {
 		maps => {
 			generic-map => {
