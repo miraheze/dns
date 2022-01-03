@@ -1,0 +1,18 @@
+$TTL 300
+
+@		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
+		20210204000001	; serial
+		7200		; refresh
+		30M		; retry
+		3D		; expire
+		900		; ncache
+)
+
+; Name servers
+@		NS	ns1.miraheze.org.
+@		NS	ns2.miraheze.org.
+
+
+; 2a10:6740::6:/64
+$ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
+5.0.2.0		PTR	mon111.miraheze.org.
