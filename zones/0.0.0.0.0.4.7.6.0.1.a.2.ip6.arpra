@@ -15,4 +15,4 @@ $TTL 300
 
 ; 2a10:6740::6:/64
 $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
-5.0.2.0 PTR   mon111.miraheze.org
+5.0.2.0		PTR	mon111.miraheze.org.
