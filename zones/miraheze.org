@@ -183,6 +183,7 @@ phabricator	A	51.195.236.244
 blog		CNAME	phabricator
 webmail		CNAME	mail
 graylog		CNAME	graylog2
+graylog-new	CNAME	graylog121
 deployment      CNAME   mw11
 mwtask          CNAME   mwtask1
 
