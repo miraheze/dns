@@ -188,6 +188,7 @@ mwtask          CNAME   mwtask1
 
 ; Load Balancers
 bast		DYNC	weighted!bastion
+elasticsearch	CNAME	es101
 mw-lb		DYNA	geoip!cp
 
 ; Other
