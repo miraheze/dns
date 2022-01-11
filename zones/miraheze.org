@@ -48,8 +48,7 @@ _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 
-; Miscellaneous
-miraheze.org.   TXT     "google-site-verification=AnS3Zr6OAWZIn883-jBaqDU2T0aTwnhc6jMjVbzZ8fM"
+; Miscellaneous - GSV should be given to @miraheze.org GCI accounts where possible, currently: rhinosf1
 miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpfkWK0jbiKG8VnK"
 miraheze.org.   TXT     "google-site-verification=4xxnLRxC_zEvhkDSbiWvBtxWVD0SDxonk7WJLaZkuIU"
 
