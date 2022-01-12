@@ -187,7 +187,7 @@ deployment      CNAME   mw11
 mwtask          CNAME   mwtask1
 
 ; Load Balancers
-bast		DYNC	weighted!bastion
+bast		DYNA	weighted!bastion
 elasticsearch	CNAME	es101
 mw-lb		DYNA	geoip!cp
 
