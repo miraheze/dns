@@ -64,7 +64,13 @@ _acme-challenge.m.miraheze.org.   TXT     "8PRXTYr2Zg6I744pa2V0Mlg_wBDwyoORtnS6x
 _acme-challenge.m.miraheze.org.   TXT     "sefai60TII5Gx5RjI_f9O0FtN_VCKiZKMP3JnMfPkGs"
 _acme-challenge.m.miraheze.org.   TXT     "Tr2cfWZULnsRU36RJj-O3UpghjmQFKd_CCQGp1Qe2XU"
 
-; Name
+; Management Interfaces
+mhl002.mgmt	A	31.24.105.142
+		AAAA	2a10:6740::6:50
+mhl003.mgmt	A	31.24.105.136
+		AAAA	2a10:6740::6:51
+mhl004.mgmt	A	31.24.105.141
+		AAAA	2a10:6740::6:52
 
 ; Network
 csw1		A	31.24.105.132
