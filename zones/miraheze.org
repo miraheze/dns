@@ -66,6 +66,9 @@ _acme-challenge.m.miraheze.org.   TXT     "Tr2cfWZULnsRU36RJj-O3UpghjmQFKd_CCQGp
 
 ; Name
 
+; Network
+csw1		A	31.24.105.132
+
 ; Servers
 bacula2		A	168.235.111.29
 		AAAA	2604:180:f3::382
