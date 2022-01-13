@@ -30,8 +30,8 @@ ns3		A	107.161.22.195
 phabricator	MX	10	mail.miraheze.org.
 
 ; Mail policies
-;; SPF - Policy: Mail not from mail2 is rejected.
-miraheze.org.		TXT	"v=spf1 ip4:51.195.236.253 ip6:2001:41d0:800:1bbd::7 -all"
+;; SPF - Policy: Mail not from mail121 is rejected.
+miraheze.org.		TXT	"v=spf1 ip4:31.24.105.139 ip6:2a10:6740::6:307 -all"
 
 ; Mail autodiscovery
 _imaps._tcp		IN SRV	0 0 143 mail.miraheze.org.
@@ -181,8 +181,8 @@ icinga		CNAME	mon2
 icinga-new	DYNA	geoip!cp
 m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
-mail		A	51.195.236.253
-		AAAA	2001:41d0:800:1bbd::7
+mail		A	31.24.105.139
+		AAAA	2a10:6740::6:307
 matomo		DYNA	geoip!cp
 static		DYNA	geoip!cp
 donate		DYNA	geoip!cp
