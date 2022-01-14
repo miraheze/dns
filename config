@@ -3,7 +3,7 @@ options => {
 	zones_strict_data = true,
         tcp_threads = 2,
 	state_dir = /etc/gdnsd/,
-	acme_challenge_dns_ttl = 10,
+	acme_challenge_dns_ttl = 300,
 }
 
 service_types => {
