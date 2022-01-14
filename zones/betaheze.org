@@ -1,4 +1,4 @@
-$TTL 300
+$TTL 10
 $ORIGIN betaheze.org.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
