@@ -187,8 +187,7 @@ donate		DYNA	geoip!cp
 phabricator	DYNA	geoip!cp
 blog		CNAME	phabricator
 webmail		DYNA	geoip!cp
-graylog		CNAME	graylog2
-graylog-new	CNAME	graylog121
+graylog		CNAME	graylog121
 deployment      CNAME   mwtask111
 mwtask          CNAME   mwtask111
 
