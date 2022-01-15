@@ -176,6 +176,7 @@ test3		A	51.195.236.247
 
 ; Services
 grafana		DYNA	geoip!cp
+grafana-new	CNAME	mon2
 icinga		DYNA	geoip!cp
 m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
