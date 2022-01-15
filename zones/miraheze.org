@@ -189,8 +189,8 @@ blog		CNAME	phabricator
 webmail		DYNA	geoip!cp
 graylog		CNAME	graylog2
 graylog-new	CNAME	graylog121
-deployment      CNAME   mw11
-mwtask          CNAME   mwtask1
+deployment      CNAME   mwtask111
+mwtask          CNAME   mwtask111
 
 ; Load Balancers
 bast		DYNA	weighted!bastion
