@@ -10,8 +10,8 @@ $ORIGIN betaheze.org.
 )
 
 ; Wildcard services
-@		AAAA	2a10:6740::6:109
-*		AAAA	2a10:6740::6:109
+@		DYNA	geoip!cp
+*		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.miraheze.org.
