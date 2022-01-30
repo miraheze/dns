@@ -17,3 +17,4 @@ $TTL 300
 $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 0.1.2.0		PTR	puppet111.miraheze.org.
 5.0.2.0		PTR	mon111.miraheze.org.
+7.0.3.0		PTR	mail121.miraheze.org.
