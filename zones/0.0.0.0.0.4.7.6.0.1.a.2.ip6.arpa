@@ -22,7 +22,7 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 3.0.1.0		PTR	es101.miraheze.org.
 4.0.1.0		PTR	gluster101.miraheze.org.
 5.0.1.0		PTR	mem101.miraheze.org.
-;6.0.1.0 - 106 unallocated accidentally
+6.0.1.0		PTR	matomo101.miraheze.org.
 7.0.1.0		PTR	mw101.miraheze.org.
 8.0.1.0		PTR	mw102.miraheze.org.
 9.0.1.0		PTR	test101.miraheze.org.
