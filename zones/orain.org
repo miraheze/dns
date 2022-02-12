@@ -36,6 +36,7 @@ _acme-challenge.orain.org.   TXT     "Y6eDEnOQI29VbrkAD1d1zNWoNb96Xpcr0UP0kVl7JJ
 _acme-challenge.orain.org.   TXT     "rdQ2n77yurOZxPpzHrgA_LqXnMLSEXlJbhbKV1dYf3I"
 _acme-challenge.orain.org.   TXT     "yJkv_4FaANRAiKBYGyiWTvJwgulKIoPJ-NdTZhRbidE"
 _acme-challenge.orain.org.   TXT     "8OuHenLIU2mqjksyhndQoENAXgtaGo3dv5a4UvEtz4U"
+_acme-challenge.orain.org.   TXT     "l3DDDYABoE7mP6Vv7becPDAIPXroe7vnW_sEMhc_t-M"	
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
