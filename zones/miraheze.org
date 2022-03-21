@@ -55,6 +55,7 @@ miraheze.org.   TXT     "google-site-verification=4xxnLRxC_zEvhkDSbiWvBtxWVD0SDx
 _acme-challenge.m.miraheze.org.   TXT     "sefai60TII5Gx5RjI_f9O0FtN_VCKiZKMP3JnMfPkGs"
 _acme-challenge.m.miraheze.org.   TXT     "Tr2cfWZULnsRU36RJj-O3UpghjmQFKd_CCQGp1Qe2XU"
 _acme-challenge.m.miraheze.org.   TXT     "2pRdHl4KGX-AVcYzy7IF-ZtQw-bpGqD6-THkoZbRml0"
+_acme-challenge.m.miraheze.org.   TXT     "OLZyMcEEL1VG00spqefnrimW3jHL7mbTd6qRJptdGLo"
 
 ; Management Interfaces
 mhl002.mgmt	A	31.24.105.142
