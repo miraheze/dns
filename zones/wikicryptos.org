@@ -17,7 +17,9 @@ $ORIGIN wikicryptos.org.
 @		NS	ns2.miraheze.org.
 
 ; Miscellaneous
-wikicryptos.org.	TXT	"zoho-verify=zb61496134.zmverify.zoho.com"	
+wikicryptos.org.	TXT	"zoho-verify=zb61496134.zmverify.zoho.com"
+@	                TXT	"v=spf1 include:zoho.com ~all"
+wikicryptos._domainkey  TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChXH1pBKznHu8xugNRc/CZpQfoETXbeNuZHU4CIuUTJf3nw6M2Jj8Y7L63vqm0ffKJ5Kdq1yzii9G2GgQ5dsZdy+YJCl7OLelSQvxIMKlK4CPcsai0yeSjOSzj+arIMUcBoI2JLz3dUdTIPjamDDeFWFL93dMTjuK26usqpjZwmQIDAQAB"
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
@@ -33,10 +35,6 @@ wikicryptos.org.	TXT	"zoho-verify=zb61496134.zmverify.zoho.com"
 ; Services
 
 ; load balancers
-
-; Miscellaneous
-@	TXT	"v=spf1 include:zoho.com ~all"
-
 
 ; Other
 
