@@ -22,11 +22,11 @@ $ORIGIN miraheze.wiki.
 
 ; Miscellaneous
 
-_acme-challenge.miraheze.wiki.   	TXT     "rAHFsAbZPxERPRbo7aV2MQpHhqvs5_y5BCLUZQElIII"
-_acme-challenge.miraheze.wiki.		TXT	"SvqpDWeVbp4CyYsfCn8u4foUSg3sovyejZCZ8xUnS5k"
+
 _acme-challenge.miraheze.wiki.		TXT	"oqY1G_tABzV596BunlyHVI88XrV5dXQpI3CqU3HaHPI"
 _acme-challenge.miraheze.wiki.		TXT	"Kky7ZBljEajEifu6iPMkO3ldIaWSTXnH1WRsUHPewNg"
 miraheze.wiki.                          TXT     "google-site-verification=JMCfdjbNCadPDxW4_Y4RBeRCQc3TgkqokatmJr_DHmE"
+_acme-challenge.miraheze.wiki.		TXT	"ISMR6INIBkFOZVDif8inkggsWP_XVMuaoc_yKkgHtuM"
 
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
