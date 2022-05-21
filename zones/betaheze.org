@@ -22,6 +22,7 @@ _acme-challenge.betaheze.org.		TXT     "dwHXvA54en6tQCWdpSm7cLBlz0iqI9gEv0EmgiFr
 _acme-challenge.betaheze.org.		TXT	"4qqtdItwJv2aUTYRCEYMNSBloMug4YlR28dlcNQhPtA"
 _acme-challenge.betaheze.org.		TXT	"5NtEZVZNdExTkcDvT-l74SkWj1EnL5t1wtP-TO9tqtk"
 _acme-challenge.betaheze.org.		TXT	"MKhUKnthL9OUvW1Nap59sPT9bIB-CCe0cnfF4MmzqoA"
+_acme-challenge.betaheze.org.		TXT	"uSYTrNSI6CAEjfI7WsdNJYxUovGxi3y__XlIaT1HyuI"
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
