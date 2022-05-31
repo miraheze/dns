@@ -28,4 +28,7 @@ $ORIGIN rct.wiki.
 
 ; load balancers
 
+; Miscellaneous
+rct.wiki.   TXT     "google-site-verification=hnjot06JulNUKXSpYHxS9epV7iwRTJVTvKJmoGI5yUE"
+
 ; Other
