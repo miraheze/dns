@@ -137,6 +137,7 @@ webmail		DYNA	geoip!cp
 graylog		CNAME	graylog121
 deployment      CNAME   mwtask111
 mwtask          CNAME   mwtask111
+reports         DYNA	geoip!cp
 
 ; Load Balancers
 bast		DYNA	weighted!bastion
