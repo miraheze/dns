@@ -26,6 +26,7 @@ $ORIGIN wikiyri.org.
 
 ; Services
 bn		DYNA	geoip!cp
+en		DYNA	geoip!cp
 
 
 ; load balancers
