@@ -26,6 +26,7 @@ _acme-challenge.miraheze.com.	TXT	"OvFteDERJQofKT3AzqZUihlEE_d9O9f4KSavZzxUbVc"
 _acme-challenge.miraheze.com.   TXT     "ZlqFACVW9MBZiHGox0WSZmU9P5ItQBmqQyfV8dusn0M"
 miraheze.com.                   TXT     "google-site-verification=6VTOzpQjKwJaim0vE1GjI2vAgZb5T8v40lvJ3LkdhEE"
 _acme-challenge.miraheze.com.   TXT     "RT3MSH4mpp-W8kScpao5Qqmw9l5Pw_LHWHC7klo9kS0"
+_acme-challenge.miraheze.com.   TXT     "qQ_l0Sg48bP0pzCfuDQzGxMszxFJ6BFmYWjqgnR7ugs"
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
