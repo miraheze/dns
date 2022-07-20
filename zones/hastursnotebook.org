@@ -1,8 +1,8 @@
 $TTL 300
-$ORIGIN replication-ops.com.
+$ORIGIN hastursnotebook.org.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20220712000001	; serial
+		20220720000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -25,7 +25,6 @@ $ORIGIN replication-ops.com.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp
 
 ; load balancers
 
