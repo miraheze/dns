@@ -141,7 +141,7 @@ reports         DYNA	geoip!cp
 
 ; Load Balancers
 bast		DYNA	weighted!bastion
-elasticsearch	CNAME	es101
+elasticsearch	CNAME	es131
 mw-lb		DYNA	geoip!cp
 
 ; Other
