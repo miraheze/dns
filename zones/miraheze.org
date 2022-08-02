@@ -119,6 +119,7 @@ prometheus131	AAAA	2a10:6740::6:402
 puppet111	AAAA	2a10:6740::6:210
 reports121	AAAA	2a10:6740::6:312
 test101		AAAA	2a10:6740::6:109
+test131		AAAA	2a10:6740::6:406
 
 ; Services
 grafana		DYNA	geoip!cp
