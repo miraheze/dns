@@ -136,8 +136,8 @@ phabricator	DYNA	geoip!cp
 blog		CNAME	phabricator
 webmail		DYNA	geoip!cp
 graylog		CNAME	graylog121
-deployment      CNAME   mwtask111
-mwtask          CNAME   mwtask111
+deployment      CNAME   mwtask141
+mwtask          CNAME   mwtask141
 reports         DYNA	geoip!cp
 
 ; Load Balancers
