@@ -21,7 +21,7 @@ $ORIGIN miraheze.org.
 ns1		A	74.208.210.151
 		AAAA	2607:f1c0:1800:1f2::1
 ns2		A	31.24.105.140
-		AAAA	2a10:6740::6:209
+		AAAA	2a10:6740::6:314
 
 ; Mail exchanges
 @		MX	10	mail.miraheze.org.
