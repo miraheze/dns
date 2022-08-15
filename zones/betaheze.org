@@ -31,7 +31,4 @@ $ORIGIN betaheze.org.
 
 ; Miscellaneous
 
-_acme-challenge.betaheze.org.		TXT     "-NqTh6h4jiyqiFKykL9SENWhNV1XNHeVOy_HAne7JIw"
-_acme-challenge.betaheze.org.		TXT	"WOlQ9GcwpkaixgkV2xRNVSX43yAxV5YSCx1oXRRCSR0"
-
 ; Other
