@@ -1,7 +1,6 @@
 # Miraheze DNS Production Configuration
 
-All changes pushed to this repository are automatically deployed to nameservers every 10th minute.
-However, syntax is checked for changes to go live, so please be aware when pushing changes.
+All changes pushed to this repository are automatically deployed to nameservers by puppet. However, syntax is checked for changes to go live, so please be aware when pushing changes.
 
 # CAA Records
 
