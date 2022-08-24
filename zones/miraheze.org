@@ -51,7 +51,7 @@ miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpf
 miraheze.org.   TXT     "google-site-verification=w8920JXECzahlZse-9AbfFOlrNw8dM0oXF0RlI85ENY"
 
 ; m.miraheze.org challenge (acme)
-_acme-challenge.m.miraheze.org.   TXT     "XBlgVdY4AjFh8GUiDXYOo4G_pwmoWUN4CaDBwUlsvB0"
+_acme-challenge.m.miraheze.org.   TXT     "eMR1nb8w6Uiri0xNaLJLml5Kt9smudvXf5K_5e01sks"
 
 ; Management Interfaces
 mhl002.mgmt	A	31.24.105.142
