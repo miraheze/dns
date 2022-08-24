@@ -17,7 +17,7 @@ $ORIGIN rosettacode.org.
 @		NS	ns2.miraheze.org.
 
 ; Mail exchangers
-@		MX	1	mx.rosettacode.org.cust.b.hostedemail.com
+@		MX	1	mx.rosettacode.org.cust.b.hostedemail.com.
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
