@@ -25,8 +25,8 @@ $ORIGIN rosettacode.org.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp
-mail  DYNA  mail.rosettacode.org.cust.b.hostedemail.com
+www	DYNA	geoip!cp
+mail	DYNA	mail.rosettacode.org.cust.b.hostedemail.com
 
 ; load balancers
 
