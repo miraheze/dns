@@ -32,7 +32,7 @@ www		DYNA	geoip!cp
 pop		CNAME	us2.pop.mailhostbox.com.
 imap		CNAME	us2.imap.mailhostbox.com.
 smtp		CNAME	us2.smtp.mailhostbox.com.
-webmail	CNAME	us3.webmail.mailhostbox.com.
+webmail		CNAME	us3.webmail.mailhostbox.com.
 
 ; load balancers
 
