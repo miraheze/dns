@@ -1,0 +1,43 @@
+$TTL 300
+ $ORIGIN famedata.org.
+
+ @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
+ 		20200112000001	; serial
+ 		7200		; refresh
+ 		30M		; retry
+ 		3D		; expire
+ 		900		; ncache
+ )
+
+ ; Wildcard services
+ @		DYNA	geoip!cp
+
+ ; Name servers
+ @		NS	ns1.miraheze.org.
+ @		NS	ns2.miraheze.org.
+
+ ; CAA (issue: letsencrypt.com, iodef: operations)
+ @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
+ @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
+
+ ; Mail exchangers
+ @	MX	100	us2.mx3.mailhostbox.com.
+ @	MX	100	us2.mx1.mailhostbox.com.
+ @	MX	100	us2.mx1.mailhostbox.com.
+
+ ; Servers
+
+ ; Services
+ www		DYNA	geoip!cp
+ pop		CNAME	us2.pop.mailhostbox.com.
+ imap		CNAME	us2.imap.mailhostbox.com.
+ smtp		CNAME	us2.smtp.mailhostbox.com.
+ webmail		CNAME	us3.webmail.mailhostbox.com.
+
+ ; load balancers
+
+ ; Other
+
+ ; Miscellaneous
+ @	TXT	"v=spf1 redirect=_spf.mailhostbox.com"
+ 20210901._domainkey	TXT	"v=DKIM1; g=*; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKK07KIrgY7UTXFfvDZE7RVPa3vsx5O3FiSq92LLbTdSxLaibex3BbqTWkaLxX/HHt5j1NXNksDMxx/t7gW0Df4Ln9pxMpr0PizoboOkX+cwG4tU0d2Xodt2vDdw8a/4HtPiRw/u3VWl0gLKHme+GxJd0FhYGOfhJCRvv49uyf/QIDAQAB"
