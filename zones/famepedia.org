@@ -31,6 +31,7 @@ $ORIGIN famepedia.org.
 en		DYNA	geoip!cp
 it		DYNA	geoip!cp
 hi		DYNA	geoip!cp
+data		DYNA	geoip!cp
 pop		CNAME	us2.pop.mailhostbox.com.
 imap		CNAME	us2.imap.mailhostbox.com.
 smtp		CNAME	us2.smtp.mailhostbox.com.
