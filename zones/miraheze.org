@@ -120,6 +120,7 @@ prometheus131	AAAA	2a10:6740::6:402
 puppet141	AAAA	2a10:6740::6:507
 reports121	AAAA	2a10:6740::6:312
 swiftproxy111	AAAA	2a10:6740::6:201
+swiftac111	AAAA	2a10:6740::6:202
 test131		AAAA	2a10:6740::6:406
 
 ; Services
