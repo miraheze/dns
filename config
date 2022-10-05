@@ -44,6 +44,12 @@ plugins => {
 				gluster122 = [ 2a10:6740::6:313, 1 ]
 			}
 		}
+		swift => {
+			addrs_v6 => {
+				swiftproxy111 = [ 2a10:6740::6:201, 1 ]
+				swiftproxy131 = [ 2a10:6740::6:315, 1 ]
+			}
+		}
 	}
 	geoip => {
 		maps => {
