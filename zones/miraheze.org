@@ -122,6 +122,7 @@ swiftobject113	AAAA	2a10:6740::6:205
 swiftobject114	AAAA	2a10:6740::6:206
 swiftobject115	AAAA	2a10:6740::6:207
 swiftproxy111	AAAA	2a10:6740::6:201
+swiftproxy131	AAAA	2a10:6740::6:315
 test131		AAAA	2a10:6740::6:406
 
 ; Services
