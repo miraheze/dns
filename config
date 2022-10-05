@@ -55,21 +55,21 @@ plugins => {
 		maps => {
 			generic-map => {
 				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
-				datacenters => [ca, gb]
+				datacenters => [us, gb]
 				map => {
-					AF => [gb, ca],
+					AF => [gb, us],
 					AS => {
-						default => [gb, ca],
-						CN => [ca, gb],
-						JP => [ca, gb],
-						KP => [ca, gb],
-						KR => [ca, gb],
+						default => [gb, us],
+						CN => [us, gb],
+						JP => [us, gb],
+						KP => [us, gb],
+						KR => [us, gb],
 					},
-					EU => [gb, ca],
-					NA => [ca, gb],
-					OC => [gb, ca],
-					SA => [ca, gb],
-					default => [gb, ca],
+					EU => [gb, us],
+					NA => [us, gb],
+					OC => [gb, us],
+					SA => [us, gb],
+					default => [gb, us],
 				},
 			},
 		},
@@ -88,7 +88,7 @@ plugins => {
 							cp23 => 2a00:da00:1800:328::1
 						}
 					}
-					ca => {
+					us => {
 						addrs_v4 => {
 							cp32 => 108.175.15.182,
 							cp33 => 74.208.203.152
