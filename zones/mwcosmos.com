@@ -25,7 +25,8 @@ $ORIGIN mwcosmos.com.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp
+www		    DYNA	geoip!cp
+discord-chatlogs    CNAME       universal-omega.github.io
 
 ; load balancers
 
