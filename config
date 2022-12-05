@@ -36,13 +36,6 @@ plugins => {
 				bast121 = [ 2a10:6740::6:301, 1 ]
 			}
 		}
-		gluster => {
-			addrs_v6 => {
-				gluster101 = [ 2a10:6740::6:104, 1 ]
-				gluster102 = [ 2a10:6740::6:111, 1 ]
-				gluster122 = [ 2a10:6740::6:313, 1 ]
-			}
-		}
 		swift => {
 			addrs_v6 => {
 				swiftproxy111 = [ 2a10:6740::6:201, 1 ]
