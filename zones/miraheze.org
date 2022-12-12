@@ -151,7 +151,6 @@ reports         DYNA	geoip!cp
 bast		DYNA	weighted!bastion
 elasticsearch	CNAME	es131
 mw-lb		DYNA	geoip!cp
-gluster		DYNA	weighted!gluster
 swift-lb	DYNA	weighted!swift
 
 ; Other
