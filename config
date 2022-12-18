@@ -40,7 +40,6 @@ plugins => {
 			multi => true
 			addrs_v6 => {
 				swiftproxy111 = [ 2a10:6740::6:201, 1 ]
-				swiftproxy131 = [ 2a10:6740::6:315, 1 ]
 			}
 		}
 	}
