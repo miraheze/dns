@@ -17,10 +17,7 @@ $TTL 300
 $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 ; cloud10 - 100-199
 0.0.1.0		PTR	cloud10.miraheze.org.
-1.0.1.0		PTR	bast101.miraheze.org.
 2.0.1.0		PTR	db101.miraheze.org.
-4.0.1.0		PTR	gluster101.miraheze.org.
-5.0.1.0		PTR	mem101.miraheze.org.
 
 ; cloud11 - 200-299
 0.0.2.0		PTR	cloud11.miraheze.org.
@@ -29,11 +26,9 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 0.0.3.0		PTR	cloud12.miraheze.org.
 1.0.3.0		PTR	bast121.miraheze.org.
 2.0.3.0		PTR	db121.miraheze.org.
-4.0.3.0		PTR	gluster121.miraheze.org.
 5.0.3.0		PTR	graylog121.miraheze.org.
 6.0.3.0		PTR	jobchron121.miraheze.org.
 7.0.3.0		PTR	mail121.miraheze.org.
-8.0.3.0		PTR	mem121.miraheze.org.
 9.0.3.0		PTR	mw121.miraheze.org.
 0.1.3.0		PTR	mw122.miraheze.org.
 1.1.3.0		PTR	phab121.miraheze.org.
