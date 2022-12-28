@@ -35,3 +35,5 @@ $ORIGIN lophocmatngu.wiki.
 
 ; Miscellaneous
 @	TXT	"zoho-verification=zb13049501.zmverify.zoho.com"
+@	TXT	"v=spf1 include:zoho.com ~all"
+zmail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCg8k/YlSOq06t3YCRhEldAx3HX8o8iA9QkoR3x6KK+ga4lRhtBfqduAo3ux7fwNVejMgwpiwZSyPH9TuRIcHzbwmtbykbulHHHahCpDH6r/dboIiBUmcXPIbB+t0b4vAoTLkMzPLMhQc9M/hxUAxY6k1A/qPjS/fTrh76eG4HiTQIDAQAB"
