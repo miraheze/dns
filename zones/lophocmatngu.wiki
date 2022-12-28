@@ -21,6 +21,9 @@ $ORIGIN lophocmatngu.wiki.
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 
 ; Mail exchangers
+@	MX	10	mx.zoho.com.
+@	MX	20	mx2.zoho.com.
+@	MX	50	mx3.zoho.com.
 
 ; Servers
 
@@ -29,3 +32,7 @@ $ORIGIN lophocmatngu.wiki.
 ; load balancers
 
 ; Other
+
+; Miscellaneous
+@	TXT	"zoho-verification=zb13049501.zmverify.zoho.com"
+20210826._domainkey	TXT	"v=DKIM1; g=*; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNRWZ5SDbc40rWg3R4pP4SACj7W31K8DFy/d1rX7mc5gx9gY29EMUAeU9cefqEFqJuaWv2Ykf7+6C8s2+Y3bDjxprznC5uDis4V5x68Bv1zj+GoSq/GQoiY/nlkfT8uzlycsx6qZtgZ2BV95KQmlAwmSXz5ACZEUGFRDHvVmFTVQIDAQAB"
