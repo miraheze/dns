@@ -34,4 +34,7 @@ $ORIGIN betaheze.org.
 _acme-challenge.betaheze.org.		TXT     "tE_roxL-qGTqyIMeTc-Ai4Be6nWyYbEBhdBTeOrNEfU"
 _acme-challenge.betaheze.org.		TXT	"JvaWJL-9fxpX4hYiN4CASKXN1n-T1TKluilYteSa8Ak"
 
+_acme-challenge.betaheze.org.		TXT     "AxImEwOwuR-jsTjRPXFJLB1ZrUkuoatPjSZ7k1IkE_M"
+_acme-challenge.betaheze.org.		TXT	"JHffu_ERawyESJ_uOM9AP-kXCqFpSBs0bTrXZEPtBSM"
+
 ; Other
