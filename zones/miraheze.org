@@ -50,9 +50,6 @@ _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc
 miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpfkWK0jbiKG8VnK"
 miraheze.org.   TXT     "google-site-verification=w8920JXECzahlZse-9AbfFOlrNw8dM0oXF0RlI85ENY"
 
-; Temporary TXT verification for wiki console
-ate42.miraheze.org. TXT "yandex-verification: 34a0f551b499f906"
-
 ; m.miraheze.org challenge (acme)
 _acme-challenge.m.miraheze.org.   TXT     "eMR1nb8w6Uiri0xNaLJLml5Kt9smudvXf5K_5e01sks"
 _acme-challenge.m.miraheze.org.   TXT     "ms0B9RkNzWl-Ix988_5VwH0ck3lwNO0rSlT4PbYFTzE"
