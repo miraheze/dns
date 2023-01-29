@@ -11,6 +11,7 @@ $ORIGIN comprehensibleinputwiki.org.
 
 ; Wildcard services
 @		DYNA	geoip!cp
+@		A	95.271.135.175
 
 ; Name servers
 @		NS	ns1.miraheze.org.
