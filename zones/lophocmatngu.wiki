@@ -28,6 +28,8 @@ $ORIGIN lophocmatngu.wiki.
 ; Servers
 
 ; Services
+fanon		DYNA	geoip!cp
+
 
 ; load balancers
 
