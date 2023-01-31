@@ -29,3 +29,4 @@ $ORIGIN worldtriggerwiki.com.
 ; load balancers
 
 ; Other
+worldtriggerwiki.com. TXT "google-site-verification=_a5zyV1oMO7WoP5GD-6INXgwIY_yTxfouOF4fG6ERDU"
