@@ -27,6 +27,8 @@ _acme-challenge.miraheze.wiki.		TXT	"ISMR6INIBkFOZVDif8inkggsWP_XVMuaoc_yKkgHtuM
 _acme-challenge.miraheze.wiki.		TXT	"TqlpzCu3MAVcq6vfBAx206WjALmChNfUpry_Qn_c3Eo"
 _acme-challenge.miraheze.wiki.		TXT	"UmwYTux4WI3JxgYaT5DYtjlHcuZMFmnzMtVjps7rRrw"
 _acme-challenge.miraheze.wiki.		TXT	"i4aUHilqvxMClfgR3SIvYz7_eQpw0Hl5-aCz9S0iyNc"
+_acme-challenge.miraheze.wiki.		TXT	"sw31ypPBjrpuwYMh4jdh27C4A9bgmcKbwQD3tcZihIA"
+
 
 
 _acme-challenge.phab.miraheze.wiki.	TXT	"7m0Tha1u58uJMzlbyFCNeUHK8Ji9GxfqEKXc5VfovKg"
