@@ -1,8 +1,8 @@
 $TTL 300
-$ORIGIN wikiyri.org.
+$ORIGIN thenintendowiki.com.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20220411000001	; serial
+		20230321000001 	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -25,12 +25,7 @@ $ORIGIN wikiyri.org.
 ; Servers
 
 ; Services
-bn		DYNA	geoip!cp
-en		DYNA	geoip!cp
-data		DYNA	geoip!cp
-dft		DYNA	geoip!cp
 
 ; load balancers
 
 ; Other
-wikiyri.org	TXT	"google-site-verification=sKfgswpYgiMgUZ1zCpgW7VPHdfvY4X1Hqr58r5ycNME"
