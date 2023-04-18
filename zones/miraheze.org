@@ -93,8 +93,6 @@ db112		AAAA	2a10:6740::6:211
 db121		AAAA	2a10:6740::6:302
 db131		AAAA	2a10:6740::6:408
 db142		AAAA	2a10:6740::6:511
-es131		AAAA	2a10:6740::6:401
-es141		AAAA	2a10:6740::6:501
 graylog131	AAAA	2a10:6740::6:512
 jobchron121	AAAA	2a10:6740::6:306
 ldap141		AAAA	2a10:6740::6:506
@@ -111,6 +109,8 @@ mw132		AAAA	2a10:6740::6:404
 mw141		AAAA	2a10:6740::6:502
 mw142		AAAA	2a10:6740::6:503
 mwtask141	AAAA	2a10:6740::6:504
+os131		AAAA	2a10:6740::6:401
+os141		AAAA	2a10:6740::6:501
 phab121		AAAA	2a10:6740::6:311
 prometheus131	AAAA	2a10:6740::6:402
 puppet141	AAAA	2a10:6740::6:507
@@ -147,7 +147,7 @@ reports         DYNA	geoip!cp
 
 ; Load Balancers
 bast		DYNA	weighted!bastion
-elasticsearch	CNAME	es131
+opensearch	CNAME	os131
 mw-lb		DYNA	geoip!cp
 swift-lb	DYNA	weighted!swift
 
