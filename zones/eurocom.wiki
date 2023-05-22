@@ -1,5 +1,5 @@
 $TTL 300
-$ORIGIN eurocom.wiki
+$ORIGIN eurocom.wiki.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
 		20230520000001   ; serial
