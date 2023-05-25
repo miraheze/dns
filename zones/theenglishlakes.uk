@@ -1,6 +1,5 @@
 $TTL 300
-$ORIGIN theenglishlakes.uk
-.
+$ORIGIN theenglishlakes.uk.
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
 		20230524000001   ; serial
 		7200           ; refresh
