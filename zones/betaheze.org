@@ -38,5 +38,7 @@ _acme-challenge.betaheze.org.		TXT     "AxImEwOwuR-jsTjRPXFJLB1ZrUkuoatPjSZ7k1Ik
 _acme-challenge.betaheze.org.		TXT	"JHffu_ERawyESJ_uOM9AP-kXCqFpSBs0bTrXZEPtBSM"
 _acme-challenge.betaheze.org.		TXT	"rc5ypcsPRGbzZfjEkrwqKEgom7gUffNE8jOkI_rch70"
 _acme-challenge.betaheze.org.		TXT	"nUEUh2Ec94myzhY1edA3Rit47RbUpcVh5NNshMIBYEk"
+_acme-challenge.betaheze.org.		TXT	"t9c83Sqt5gA_go1J3nx1tOKFexoNu7YQnGAFvEicxQU"
+_acme-challenge.betaheze.org.		TXT	"iYapy3OyxlnmL6qEGOr8mhjwkO8w1pNZRWAApi9eYIY"
 
 ; Other
