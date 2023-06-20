@@ -33,3 +33,4 @@ www		DYNA	geoip!cp
 
 ; Other
 @		TXT	"v=spf1 include:_mailcust.gandi.net ?all"
+@		TXT	"cloud=58ab9b1de9e3634159b7d838a456ab6f"
