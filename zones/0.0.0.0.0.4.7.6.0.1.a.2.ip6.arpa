@@ -29,8 +29,6 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 5.0.3.0		PTR	graylog121.miraheze.org.
 6.0.3.0		PTR	jobchron121.miraheze.org.
 7.0.3.0		PTR	mail121.miraheze.org.
-9.0.3.0		PTR	mw121.miraheze.org.
-0.1.3.0		PTR	mw122.miraheze.org.
 1.1.3.0		PTR	phab121.miraheze.org.
 
 ; cloud13 - 400-499
