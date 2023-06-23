@@ -1,7 +1,7 @@
 $TTL 300
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20220907000001	; serial
+		20230623000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
