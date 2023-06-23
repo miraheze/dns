@@ -44,3 +44,15 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 
 ; cloud14 - 500-599
 0.0.5.0		PTR	cloud14.miraheze.org.
+1.0.5.0		PTR	os141.miraheze.org.
+2.0.5.0		PTR	mw141.miraheze.org.
+3.0.5.0		PTR	mw142.miraheze.org.
+4.0.5.0		PTR	mwtask141.miraheze.org.
+5.0.5.0		PTR	mon141.miraheze.org.
+6.0.5.0		PTR	ldap141.miraheze.org.
+7.0.5.0		PTR	puppet141.miraheze.org.
+9.0.5.0		PTR	bast141.miraheze.org.
+10.0.5.0	PTR	mem141.miraheze.org.
+11.0.5.0	PTR	db142.miraheze.org.
+12.0.5.0	PTR	graylog141.miraheze.org.
+13.0.5.0	PTR	mw143.miraheze.org.
