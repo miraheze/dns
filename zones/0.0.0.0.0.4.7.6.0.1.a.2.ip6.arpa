@@ -32,6 +32,10 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 
 ; cloud13 - 400-499
 0.0.4.0		PTR	cloud13.miraheze.org.
+3.0.4.0		PTR	mw131.miraheze.org.
+4.0.4.0		PTR	mw132.miraheze.org.
+9.0.4.0		PTR	mw133.miraheze.org.
+10.0.4.0	PTR	mw134.miraheze.org.
 
 ; cloud14 - 500-599
 0.0.5.0		PTR	cloud14.miraheze.org.
