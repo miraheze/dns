@@ -27,8 +27,6 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 3.0.2.0		PTR	swiftobject111.miraheze.org.
 4.0.2.0		PTR	swiftobject112.miraheze.org.
 5.0.2.0		PTR	swiftobject113.miraheze.org.
-; Uses cloud10
-1.1.2.0		PTR	db112.miraheze.org.
 
 ; cloud12 - 300-399
 0.0.3.0		PTR	cloud12.miraheze.org.
