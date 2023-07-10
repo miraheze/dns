@@ -15,12 +15,9 @@ $TTL 300
 
 ; 2a10:6740::6:/64
 $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
-; cloud10 - 100-199
-0.0.1.0		PTR	cloud10.miraheze.org.
-2.0.1.0		PTR	db101.miraheze.org.
 
 ; cloud10 - 100-199
-0.0.1.0		PTR	cloud11.miraheze.org.
+0.0.1.0		PTR	cloud10.miraheze.org.
 2.0.1.0		PTR	db101.miraheze.org.
 
 ; cloud11 - 200-299
