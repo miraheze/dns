@@ -25,6 +25,7 @@ $ORIGIN wikiyri.org.
 ; Servers
 
 ; Services
+bn		DYNA	geoip!cp
 en		DYNA	geoip!cp
 data		DYNA	geoip!cp
 dft		DYNA	geoip!cp
