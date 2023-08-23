@@ -23,22 +23,8 @@ $ORIGIN orain.org.
 
 ; Miscellaneous
 
-_acme-challenge.orain.org.   TXT     "l3DDDYABoE7mP6Vv7becPDAIPXroe7vnW_sEMhc_t-M"	
-_acme-challenge.orain.org.   TXT     "Ml4nWA2pevz0eyGpmjtv120X2HAuI-7GzA563ByQh4A"
-_acme-challenge.orain.org.   TXT     "WCzcwKKRu5ttY9x0J1ECmOCGqa8ZwG6L25ceCRe5Pak"
-_acme-challenge.orain.org.   TXT     "SM9vs7uhy3DxWqqSFAKc4-kNVuMVAX5ZVQFOngKtFvY"
-_acme-challenge.orain.org.   TXT     "oIY3bf36qnr8UZBdb9degCGx-T9zdwMH-hKPbUaigPM"
-_acme-challenge.orain.org.   TXT     "AsVYCz9HywdYoZDZgVOPvSkcwTMTDEwOEpoEMUT479U"
-_acme-challenge.orain.org.   TXT     "uiUuD1AJftBnztlxkmYewyE8kiElylbl1dsCW-qjgEQ"
-_acme-challenge.orain.org.   TXT     "w0zhAWVHFktlPX5uwKxJOQZKjwglbZJSRWexN_JIAw4"
-_acme-challenge.orain.org.   TXT     "8T9JbO4lRMf7_Xc9ELQzG9Mr12t7fNAJeVX1ZuQxnWA"
-_acme-challenge.orain.org.   TXT     "vAqS4OzCfXqVgmUwdanwlsPOx1xUj-j24qUTHdHOPg8"
-_acme-challenge.orain.org.   TXT     "YbNZZN6iQOksgTrN0h6mraC-fNGDew5KXKF4CI7wLS4"
-_acme-challenge.orain.org.   TXT     "qjGtfp8InOt0NP9an3_eWsoXsTeoW5Qtt77239Ga8nk"
-_acme-challenge.orain.org.   TXT     "XqNfcDYVMsgUTr4D7DjfKlfe1-HbqAxfFKX4AytRiZU"
-_acme-challenge.orain.org.   TXT     "aLr4rIR1_9eGgZz85Ih_9-z5iUidNXJClbOhNii5n_0"
-_acme-challenge.orain.org.   TXT     "P4Rvby1swUQFa2F1UoIhyAJYF6s7FZfZYxWMRysQS6U"
-_acme-challenge.orain.org.   TXT     "hQhqfoZP400w7Wq_tUZjD4VRUc6Yf-K8QEQh8I3Lxrw"
+_acme-challenge.orain.org.   TXT     "tC9iu1qiWXsCXQipvIUSRxZ_No4OXGyQ2xQERmZFOh0"	
+_acme-challenge.orain.org.   TXT     "Vn8FlCZqwNHpdCCF61PV60ZSfQp_yJGY3k-VL2eCZHI"
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
