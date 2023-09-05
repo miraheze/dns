@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN partopedia.ru.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20230912000001	; serial
+		20230905000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
