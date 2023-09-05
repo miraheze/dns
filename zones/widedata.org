@@ -25,6 +25,7 @@ $ORIGIN widedata.org.
 ; Servers
 
 ; Services
+www		DYNA	geoip!cp
 
 ; load balancers
 
