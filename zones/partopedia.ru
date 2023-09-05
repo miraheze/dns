@@ -1,8 +1,8 @@
 $TTL 300
-$ORIGIN widedata.org.
+$ORIGIN partopedia.ru.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20221003000001	; serial
+		20230905000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -25,7 +25,6 @@ $ORIGIN widedata.org.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp
 
 ; load balancers
 
