@@ -25,6 +25,7 @@ $ORIGIN burnout.wiki.
 ; Servers
 
 ; Services
+www		DYNA	geoip!cp
 
 ; load balancers
 
