@@ -4,6 +4,8 @@ options => {
         tcp_threads = 2,
 	state_dir = /etc/gdnsd/,
 	acme_challenge_dns_ttl = 300,
+	tcp_timeout = 157
+	tcp_clients_per_thread = 1024
 }
 
 service_types => {
