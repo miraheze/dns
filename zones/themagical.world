@@ -1,8 +1,8 @@
 $TTL 300
-$ORIGIN telepedia-wiki.org.
+$ORIGIN themagical.world.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20230720000001	; serial
+		20231026000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -25,6 +25,7 @@ $ORIGIN telepedia-wiki.org.
 ; Servers
 
 ; Services
+www		DYNA	geoip!cp
 
 ; load balancers
 
