@@ -150,7 +150,7 @@ ldap		CNAME	ldap141
 reports         DYNA	geoip!cp
 
 ; Load Balancers
-bast		DYNA	weighted!bastion
+bast		CNAME	bast121
 opensearch	CNAME	os131
 mw-lb		DYNA	geoip!cp
 swift-lb	DYNA	weighted!swift

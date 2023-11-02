@@ -28,16 +28,6 @@ plugins => {
 		multi = false
 		service_types = up # need to monitor
 		up_thresh = 0.5
-		bastion => {
-			addrs_v4 => {
-				bast121 = [ 31.24.105.138, 1 ]
-				bast141 = [ 31.24.105.137, 1 ]
-			}
-			addrs_v6 => {
-				bast121 = [ 2a10:6740::6:301, 1 ]
-				bast141 = [ 2a10:6740::6:509, 1 ]
-			}
-		}
 		swift => {
 			multi => false
 			addrs_v6 => {
