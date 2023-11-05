@@ -26,6 +26,9 @@ $ORIGIN orain.org.
 _acme-challenge.orain.org.   TXT     "tC9iu1qiWXsCXQipvIUSRxZ_No4OXGyQ2xQERmZFOh0"	
 _acme-challenge.orain.org.   TXT     "Vn8FlCZqwNHpdCCF61PV60ZSfQp_yJGY3k-VL2eCZHI"
 
+_acme-challenge.orain.org.   TXT     "CS3GZY9XbR4_D9leCtRJO8xqTIPpRL2_JcDwf3QlwPU"	
+_acme-challenge.orain.org.   TXT     "wGImAclfn6ubSTIQsgJjplU0Bm-oSD7FidLoDTaH4Ps"
+
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
