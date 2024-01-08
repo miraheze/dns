@@ -24,13 +24,13 @@ ns2		A	31.24.105.140
 		AAAA	2a10:6740::6:314
 
 ; Mail exchanges
-;@		MX	10	mail.miraheze.org.
-@		MX	1	smtp.google.com.
-;phabricator	MX	10	mail.miraheze.org.
+@		MX	10	mail.miraheze.org.
+@		MX	20	smtp.google.com.
+phabricator	MX	10	mail.miraheze.org.
 
 ; Mail policies
 ;; SPF - Policy: Mail not from mail121 is rejected.
-miraheze.org.		TXT	"v=spf1 ip4:31.24.105.139 ip6:2a10:6740::6:307 -all"
+miraheze.org.		TXT	"v=spf1 ip4:31.24.105.139 ip6:2a10:6740::6:307 include:_spf.google.com -all"
 
 ; Mail autodiscovery
 _imaps._tcp		IN SRV	0 0 143 mail.miraheze.org.
