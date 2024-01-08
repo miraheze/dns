@@ -49,7 +49,7 @@ _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc
 
 ; Miscellaneous - GSV should be given to @miraheze.org GCI accounts where possible, currently: rhinosf1
 miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpfkWK0jbiKG8VnK"
-miraheze.org.   TXT     "google-site-verification=rLiYQP62CfBKGd-BlN0Mpl4wUZ4F_26__ktw2QGIz2o"
+miraheze.org.   TXT     "google-site-verification=fVCiW2Ct9RPotFUjRb5vj5O0YLOKPQfbBGjDttn07_w"
 
 ; m.miraheze.org challenge (acme)
 _acme-challenge.m.miraheze.org.   TXT     "4vvLQWhLHe22BYzB4Av_wjuQvkCHFb-WDAxyg5Ojphc"
