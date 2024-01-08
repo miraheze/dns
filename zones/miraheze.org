@@ -38,7 +38,7 @@ _submission._tcp	IN SRV	0 0 587 mail.miraheze.org.
 
 ;; DKIM - Policy: Mail may be signed. Not required.
 mail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLIGrjEMDm0fgER69Wv3OQEPmVPpzfbvspXe+FjFyHnZ2kbuQhMHjDgwX6E/tA5NzDG+dhgaUV0D90H12dhu3wXWaocyLjxrAs9dNkqK69hG8oLdDj8KFpPI6JAm6LskBXHmlOpdzRc+yNBRm5wT9fIsw8in7fnAW170Jb3fdEbwIDAQAB"
-
+google._domainkey	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmxDVuJBUkuiLcb6MRelfLETFaOqlyMqNxPQRHEC7pCn8zamEcLcF+wULZ5SvI86ABzPKT1mr0+V4BoTbdUJy1YMU3gowaXrJnEbe9zTa3Ehu7uWy2dc28RQdFp4hsgNOk/BRkOADn9yUgRwXKuTrJd/O05P0pL3izkihZWJOyko2F2a2+fegpQy2iJAYKEXzQwpqlpvdtIyYTFH+NfCiLqCcON0MZMExiarXR/8ZYmChJL9qM57ifmwzo5SEhKj/sYvjsRd3rYBtl0DhBrL2ylXVlfajQxKCFxguazgK3pe3TLpWqxlzIiVWFJPN9T1wKYaK6G6jdOXflKmRvf34gwIDAQAB"
 ;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
 _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc@miraheze.org; fo=1; adkim=r; aspf=r; pct=100; rf=afrf; ri=86400; sp=none"
 
