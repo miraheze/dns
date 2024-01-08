@@ -24,8 +24,8 @@ ns2		A	31.24.105.140
 		AAAA	2a10:6740::6:314
 
 ; Mail exchanges
-@		MX	10	mail.miraheze.org.
-@		MX	20	smtp.google.com.
+@		MX	10	smtp.google.com.
+@		MX	20	mail.miraheze.org.
 phabricator	MX	10	mail.miraheze.org.
 
 ; Mail policies
