@@ -1,8 +1,8 @@
 $TTL 300
 $ORIGIN wikitide.net.
 
-@		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20240106000001	; serial
+@		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
+		20230905000002	; serial
 		7200	; refresh
 		30M		; retry
 		3D		; expire
@@ -14,8 +14,8 @@ $ORIGIN wikitide.net.
 *		DYNA	geoip!cp
 
 ; Name servers
-@		NS	ns1.miraheze.org.
-@		NS	ns2.miraheze.org.
+@		NS	ns1.wikitide.net.
+@		NS	ns2.wikitide.net.
 
 ; CAA (issue: letsencrypt.com, iodef: mailto:sre@wikitide.org)
 @				TYPE257	\# 22 000569737375656C657473656E63727970742E6F7267
@@ -37,6 +37,7 @@ wikitide.net.	TXT	"v=spf1 include:_spf.google.com ~all"
 
 ; Servers
 cloud1			A	63.141.240.2
+cloud2			A	23.95.103.18
 cloud3			A	104.168.123.210
 cloud4			A	198.23.193.74
 cp1			A	63.141.240.6
@@ -85,6 +86,38 @@ swiftobject1		A	10.0.0.121
 swiftproxy1		A	10.0.0.122
 bots1			A	10.0.0.123
 
+; Cloud2
+cloud2-private		A	10.0.2.1
+bast21			A	23.95.103.19
+bast21-private		A	10.0.2.2
+db21			A	10.0.2.3
+mem21			A	10.0.2.4
+mw21			A	23.95.103.21
+mw21-private		A	10.0.2.5
+mw22			A	23.95.103.22
+mw22-private		A	10.0.2.6
+jobchron21		A	10.0.2.7
+jobrunner21		A	10.0.2.8
+test21			A	23.95.103.27
+test21-private		A	10.0.2.9
+phorge21		A	23.95.103.26
+phorge21-private	A	10.0.2.10
+puppet21		A	23.95.103.20
+puppet21-private	A	10.0.2.11
+ldap21			A	10.0.2.12
+mail21			A	23.95.103.24
+mail21-private		A	10.0.2.13
+mon21			A	10.0.2.14
+os21			A	10.0.2.15
+graylog21		A	10.0.2.16
+prometheus21		A	10.0.2.17
+services21		A	10.0.2.18
+matomo21		A	23.95.103.23
+matomo21-private	A	10.0.2.19
+bots21			A	10.0.2.20
+swiftproxy21		A	10.0.2.21
+router21		A	10.0.2.49
+
 ; Cloud3
 cloud3-private		A	10.0.3.1
 bast31			A	10.0.3.2
@@ -119,6 +152,15 @@ cloud15			A	38.46.218.154
 cloud18			A	38.46.219.119
 			AAAA	2602:294:0:b12::100
 puppet181		AAAA	2602:294:0:b12::101
+bast181		        AAAA	2602:294:0:b12::102
+db181		        AAAA	2602:294:0:b12::103
+db182		        AAAA	2602:294:0:b12::104
+mw181		        AAAA	2602:294:0:b12::105
+mw182		        AAAA	2602:294:0:b12::106
+mwtask181		AAAA	2602:294:0:b12::107
+swiftobject181		AAAA	2602:294:0:b12::108
+swiftproxy181		AAAA	2602:294:0:b12::109
+mon181  		AAAA	2602:294:0:b12::110
 
 ; Services
 bastion			A	23.95.103.19
