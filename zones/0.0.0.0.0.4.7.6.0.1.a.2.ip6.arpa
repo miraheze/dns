@@ -61,7 +61,6 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 4.0.5.0		PTR	mwtask141.miraheze.org.
 5.0.5.0		PTR	mon141.miraheze.org.
 6.0.5.0		PTR	ldap141.miraheze.org.
-7.0.5.0		PTR	puppet141.miraheze.org.
 9.0.5.0		PTR	bast141.miraheze.org.
 10.0.5.0	PTR	mem141.miraheze.org.
 11.0.5.0	PTR	db142.miraheze.org.
