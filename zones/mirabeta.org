@@ -35,3 +35,6 @@ $ORIGIN mirabeta.org.
 
 _acme-challenge.mirabeta.org.		TXT     "mA5wJ5fZPv0IypyXdVl56D-kRMVbnGjfBKpLmd6jqmY"
 _acme-challenge.mirabeta.org.		TXT	"Qxa6ZBtKB1pGimavGmvAlIUPNCZTcvVerhbfuyLxUY8"
+
+_acme-challenge.mirabeta.org.		TXT     "Jn6GcGjPJaAJAADTQjDGqM6ZCyRThAmqfug93IlsrGo"
+_acme-challenge.mirabeta.org.		TXT	"uE-YETDYPeJ_ItpEMqhf5lOOI58v1-akQ4izC-z86aQ"
