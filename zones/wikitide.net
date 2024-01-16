@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN wikitide.net.
 
-@		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
+@		SOA ns2.wikitide.net. hostmaster.wikitide.net. (
 		20230905000002	; serial
 		7200	; refresh
 		30M		; retry
@@ -179,8 +179,8 @@ swift-lb2		CNAME	swiftproxy21
 ; Miscellaneous
 status					CNAME	wikitide.hund.io.
 wikitide.net.				TXT	"google-site-verification=bv4s5wmWTcHmyc_hne1A_QNohw-GXA8jzopgYKF3BbU"
-_acme-challenge.wikitide.net.		TXT	"CpFa9sSweQCwDI1bA32J1zos4Ep0JoB0A0NbKOiIq_Q"
-_acme-challenge.wikitide.net.		TXT	"SCWiMO0sMQlcG-IL_hb76QE8OaQ11ptlXueVEsy-BEk"
+_acme-challenge.wikitide.net.		TXT	"G0dOynadUrtUnzTmwZ3w9kodV_dsgCanDVXOxJH7KNA"
+_acme-challenge.wikitide.net.		TXT	"uAD9FZcYdYBxB1zlvIJyqP534SzWvWJdbxIFrtkZSd8"
 ownercheck.cp3.wikitide.net.		TXT	"71fe33ab"
 ownercheck.cp4.wikitide.net.		TXT	"f1db755f"
 ownercheck.cp5.wikitide.net.		TXT	"71a2bd9d"
