@@ -1,8 +1,8 @@
 $TTL 300
 $ORIGIN wikitide.net.
 
-@		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
-		20230905000002	; serial
+@		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
+		20240115000001	; serial
 		7200	; refresh
 		30M		; retry
 		3D		; expire
