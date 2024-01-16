@@ -21,6 +21,18 @@ service_types => {
 		interval => 7,
 		timeout => 5,
 	}
+	cpweb2 => {
+		plugin => http_status,
+		port => 80,
+		ok_codes => [ 200 ],
+		url_path => /check
+		vhost => health.wikitide.org
+		up_thresh => 3,
+		ok_thresh => 3,
+		down_thresh => 3,
+		interval => 7,
+		timeout => 5,
+	}
 }
 
 plugins => {
@@ -127,7 +139,7 @@ plugins => {
 			}
 			cp2 => {
 				map => generic-map-2
-				service_types => cpweb
+				service_types => cpweb2
 				dcmap => {
 					au => {
 						addrs_v4 => {
