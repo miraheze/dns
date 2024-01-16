@@ -135,6 +135,7 @@ mail			A	63.141.240.5
 opensearch		CNAME	os1
 restbase		CNAME	services1
 swift-lb		CNAME	swiftproxy1
+static			DYNA	geoip!cp2
 
 ; load balancers
 
