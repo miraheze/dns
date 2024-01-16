@@ -3,7 +3,7 @@ $ORIGIN wikitide.net.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
 		20240115000001	; serial
-		7200	; refresh
+		7200		; refresh
 		30M		; retry
 		3D		; expire
 		900		; ncache
@@ -18,7 +18,7 @@ $ORIGIN wikitide.net.
 @				TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
 
 ; Mail exchanges
-@		MX	1	smtp.google.com.
+@		MX	10	smtp.google.com.
 
 ; Mail policies
 wikitide.net.	TXT	"v=spf1 include:_spf.google.com ~all"
@@ -46,7 +46,6 @@ cp5			A	15.235.167.159
 			AAAA	2402:1f00:8000:800::1b3d
 cp6			A	139.99.236.151
 			AAAA	2402:1f00:8100:400::1d23
-mail1			AAAA	2604:4300:a:24::110
 mw1			AAAA	2604:4300:a:24::101
 mw2			AAAA	2604:4300:a:24::102
 phorge1			AAAA	2604:4300:a:24::108
@@ -131,7 +130,6 @@ bast1-public		A	63.141.240.3
 icinga			CNAME	mon1
 ldap			CNAME	ldap1
 logging 		CNAME	graylog1
-mail			A	63.141.240.5
 opensearch		CNAME	os1
 restbase		CNAME	services1
 swift-lb		CNAME	swiftproxy1
@@ -143,6 +141,6 @@ static			DYNA	geoip!cp2
 ; load balancers
 
 ; Miscellaneous
-status					CNAME	wikitide.hund.io.
+status			CNAME	wikitide.hund.io.
 
 ; Other
