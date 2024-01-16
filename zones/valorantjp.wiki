@@ -27,7 +27,7 @@ $ORIGIN valorantjp.wiki.
 ; Servers
 
 ; Services
-www  DYNA  geoip!cp2
+www		DYNA	geoip!cp2
 
 ; load balancers
 
