@@ -40,13 +40,11 @@ _dmarc			TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
 ; BIMI - Used for verified emails
 default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTide_BIMI.svg;a="
 
-
 ; Servers
 
 ; Services
 
 ; load balancers
-
 
 ; Miscellaneous
 wikitide.org.				TXT	"libera-verify-8870"
