@@ -144,13 +144,5 @@ static			DYNA	geoip!cp2
 
 ; Miscellaneous
 status					CNAME	wikitide.hund.io.
-wikitide.net.				TXT	"google-site-verification=bv4s5wmWTcHmyc_hne1A_QNohw-GXA8jzopgYKF3BbU"
-_acme-challenge.wikitide.net.		TXT	"G0dOynadUrtUnzTmwZ3w9kodV_dsgCanDVXOxJH7KNA"
-_acme-challenge.wikitide.net.		TXT	"uAD9FZcYdYBxB1zlvIJyqP534SzWvWJdbxIFrtkZSd8"
-ownercheck.cp3.wikitide.net.		TXT	"71fe33ab"
-ownercheck.cp4.wikitide.net.		TXT	"f1db755f"
-ownercheck.cp5.wikitide.net.		TXT	"71a2bd9d"
-ownercheck.cp6.wikitide.net.		TXT	"2895777a"
-_github-pages-challenge-WikiTideOrg	TXT	"fe5561b394cd174fc4522a4be08a99"
 
 ; Other
