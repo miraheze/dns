@@ -29,7 +29,7 @@ $ORIGIN rosettacode.org.
 
 ; Services
 www		DYNA	geoip!cp2
-mail		CNAME	mail.rosettacode.org.cust.b.hostedemail.com
+mail		CNAME	mail.rosettacode.org.cust.b.hostedemail.com.
 
 ; load balancers
 
