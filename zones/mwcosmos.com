@@ -1,5 +1,5 @@
 $TTL 300
-$ORIGIN rosettacode.org.
+$ORIGIN mwcosmos.com.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
 		20240116000001	; serial
@@ -23,13 +23,12 @@ $ORIGIN rosettacode.org.
 ; Miscellaneous
 
 ; Mail exchangers
-@		MX	1	mx.rosettacode.org.cust.b.hostedemail.com.
 
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp2
-mail		CNAME	mail.rosettacode.org.cust.b.hostedemail.com.
+www			DYNA	geoip!cp2
+discord-chatlogs	CNAME	universal-omega.github.io.
 
 ; load balancers
 

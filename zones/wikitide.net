@@ -51,10 +51,10 @@ mw2			AAAA	2604:4300:a:24::102
 phorge1			AAAA	2604:4300:a:24::108
 puppet1			AAAA	2604:4300:a:24::100
 matomo1			AAAA	2604:4300:a:24::119
-ns1			A	63.141.240.4
-			AAAA	2604:4300:a:24:74af:35ff:fe0c:d0a7
-ns2			A	51.75.170.66
-			AAAA	2001:41d0:801:2000::4089
+ns1			A	74.208.210.151
+			AAAA	2607:f1c0:1800:1f2::1
+ns2			A	31.24.105.140
+			AAAA	2a10:6740::6:314
 puppet1-private		A	10.0.0.100
 mw1-private		A	10.0.0.101
 mw2-private		A	10.0.0.102
