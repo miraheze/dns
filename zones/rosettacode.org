@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN rosettacode.org.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20220824000001	; serial
+		20240116000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -10,25 +10,26 @@ $ORIGIN rosettacode.org.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp
+@		DYNA	geoip!cp2
 
 ; Name servers
 @		NS	ns1.miraheze.org.
 @		NS	ns2.miraheze.org.
 
-; Mail exchangers
-@		MX	1	mx.rosettacode.org.cust.b.hostedemail.com.
-
-; CAA (issue: letsencrypt.com, iodef: operations)
+; CAA (issue: letsencrypt.com, iodef: mailto:sre@wikitide.org)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 
 ; Miscellaneous
-rosettacode.org.   TXT     "google-site-verification=6gfMOTA-aG9DRWK-Xr2PdBZnSTb3ogDYVW200hAlTqY"
+
+; Mail exchangers
+@		MX	1	mx.rosettacode.org.cust.b.hostedemail.com.
+
+; Servers
 
 ; Services
-www	DYNA	geoip!cp
-mail	CNAME	mail.rosettacode.org.cust.b.hostedemail.com.
+www		DYNA	geoip!cp2
+mail		CNAME	mail.rosettacode.org.cust.b.hostedemail.com
 
 ; load balancers
 
