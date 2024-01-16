@@ -22,7 +22,7 @@ $ORIGIN wikitide.com.
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 
 ; Mail exchanges
-@			MX	1	smtp.google.com.
+@			MX	10	smtp.google.com.
 
 ; Mail policies
 wikitide.com.		TXT	"v=spf1 include:_spf.google.com ~all"
