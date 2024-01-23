@@ -13,6 +13,12 @@ $ORIGIN wikitide.net.
 @		NS	ns1.miraheze.org.
 @		NS	ns2.miraheze.org.
 
+;; A records
+ns1		A	74.208.210.151
+		AAAA	2607:f1c0:1800:1f2::1
+ns2		A	31.24.105.140
+		AAAA	2a10:6740::6:314
+
 ; CAA (issue: letsencrypt.com, iodef: mailto:sre@wikitide.org)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
@@ -24,23 +30,29 @@ $ORIGIN wikitide.net.
 wikitide.net.	TXT	"v=spf1 include:_spf.google.com ~all"
 
 ; Mail autodiscovery
+_imaps._tcp		IN SRV	0 0 993	imap.gmail.com.
+_submission._tcp	IN SRV  0 0 587	smtp.gmail.com.
 
 ;; DKIM - Policy: Mail may be signed. Not required.
+mail._domainkey		TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvn/JeGnNnhRHqyvuHEJxY87GckiFFGnx5lhWGY2oKJtt6yR74VXSi3UAonUIjlfkDl+KqrNZtRtTIVLsLU8eTx67xJGi5oOgdv2nu0EwOAbDU9EWZjoA1FrJKRfFLfyfkRhnXLX0WTIXs5v+lWz9FAva+E/muXBb5PRk0UpaiorN5oGXyX18T0Xdnmq07aG5TgNeQQgYX2hSxY9njb9Lpw8KDAqH2exczmtQP/dmY5Yc0UmvRcBSAQ8yc9RtAGtzcDzaidtjyyolyQDcYVcW4p8nv8Wzhr8/EKrS0qKq4WV5OfVfWhfPH+iFQ1mJPphN7IrH5vAlxudJQm72LAKDcwIDAQAB"
 
 ;; DMARC - Policy: Reject - unauthorized mail will not send, remote SMTPs will just drop the mail.
+_dmarc			TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
 
 ; BIMI - Used for verified emails
+default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTide_BIMI.svg;a="
+
+; Miscellaneous
 
 ; Management Interfaces
-wt15.mgmt	A	38.46.218.155
-wt16.mgmt	A	38.46.218.226
-wt17.mgmt	A	38.46.218.228
-wt18.mgmt	A	38.46.218.157
+wt15.mgmt		A	38.46.218.155
+wt16.mgmt		A	38.46.218.226
+wt17.mgmt		A	38.46.218.228
+wt18.mgmt		A	38.46.218.157
 
 ; Servers
+;; Cloud1 (WikiTide's Cloud Server)
 cloud1			A	63.141.240.2
-cloud3			A	104.168.123.210
-cloud4			A	198.23.193.74
 cp1			A	63.141.240.6
 cp2			A	51.79.55.151
 			AAAA	2607:5300:205:200::2aa8
@@ -57,10 +69,7 @@ mw2			AAAA	2604:4300:a:24::102
 phorge1			AAAA	2604:4300:a:24::108
 puppet1			AAAA	2604:4300:a:24::100
 matomo1			AAAA	2604:4300:a:24::119
-ns1			A	74.208.210.151
-			AAAA	2607:f1c0:1800:1f2::1
-ns2			A	31.24.105.140
-			AAAA	2a10:6740::6:314
+bast1-public		A	63.141.240.3
 puppet1-private		A	10.0.0.100
 mw1-private		A	10.0.0.101
 mw2-private		A	10.0.0.102
@@ -86,33 +95,7 @@ swiftobject1		A	10.0.0.121
 swiftproxy1		A	10.0.0.122
 bots1			A	10.0.0.123
 
-; Cloud3
-cloud3-private		A	10.0.3.1
-bast31			A	10.0.3.2
-db31			A	10.0.3.3
-mem31			A	10.0.3.4
-mw31			A	10.0.3.5
-mw32			A	10.0.3.6
-jobrunner31		A	10.0.3.7
-os31			A	10.0.3.8
-swiftac31		A	10.0.3.9
-swiftobject31		A	10.0.3.10
-swiftproxy21		A	10.0.2.11
-storage31		A	10.0.3.12
-router31		A	10.0.3.49
-
-; Cloud4
-cloud4-private		A	10.0.4.1
-bast41			A	10.0.4.2
-db41			A	10.0.4.3
-mem31			A	10.0.4.4
-mw41			A	10.0.4.5
-mw42			A	10.0.4.6
-jobrunner41		A	10.0.4.7
-storage41		A	10.0.4.8
-router41		A	10.0.4.49
-
-; Cloud15
+;; Cloud15
 cloud15			A	38.46.218.154
 			AAAA	2602:294:0:c8::100
 db151   		AAAA	2602:294:0:c8::101
@@ -125,13 +108,13 @@ prometheus151   	AAAA	2602:294:0:c8::107
 swiftobject151   	AAAA	2602:294:0:c8::108
 test151         	AAAA	2602:294:0:c8::109
 
-; Cloud16
+;; Cloud16
 cloud16			A	38.46.218.226
 
-; Cloud17
+;; Cloud17
 cloud17			A	38.46.218.228
 
-; Cloud18
+;; Cloud18
 cloud18			A	38.46.218.156
 			AAAA	2602:294:0:b12::100
 puppet181		AAAA	2602:294:0:b12::101
@@ -145,27 +128,24 @@ swiftobject181		AAAA	2602:294:0:b12::108
 swiftproxy181		AAAA	2602:294:0:b12::109
 mon181  		AAAA	2602:294:0:b12::110
 
-; Proxmox Backup
+;; Proxmox Backup
 pbs1			A	104.168.123.210
 pbs2			A	172.245.40.222
 
 ; Services
-bastion			A	23.95.103.19
-bast1-public		A	63.141.240.3
 icinga			CNAME	mon1
 ldap			CNAME	ldap1
 logging 		CNAME	graylog1
-opensearch		CNAME	os1
 restbase		CNAME	services1
-swift-lb		CNAME	swiftproxy1
+status			CNAME	wikitide.hund.io.
 analytics		DYNA	geoip!cp2
 grafana			DYNA	geoip!cp2
 monitoring		DYNA	geoip!cp2
 static			DYNA	geoip!cp2
 
-; load balancers
-
-; Miscellaneous
-status			CNAME	wikitide.hund.io.
+; Load Balancers
+bastion			CNAME	bast181
+swift-lb		CNAME	swiftproxy1
+opensearch		CNAME	os1
 
 ; Other
