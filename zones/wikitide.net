@@ -31,6 +31,12 @@ wikitide.net.	TXT	"v=spf1 include:_spf.google.com ~all"
 
 ; BIMI - Used for verified emails
 
+; Management Interfaces
+wt15.mgmt	A	38.46.218.155
+wt16.mgmt	A	38.46.218.226
+wt17.mgmt	A	38.46.218.228
+wt18.mgmt	A	38.46.218.157
+
 ; Servers
 cloud1			A	63.141.240.2
 cloud3			A	104.168.123.210
@@ -126,7 +132,7 @@ cloud16			A	38.46.218.226
 cloud17			A	38.46.218.228
 
 ; Cloud18
-cloud18			A	38.46.219.119
+cloud18			A	38.46.218.156
 			AAAA	2602:294:0:b12::100
 puppet181		AAAA	2602:294:0:b12::101
 bast181		        AAAA	2602:294:0:b12::102
@@ -138,6 +144,10 @@ mwtask181		AAAA	2602:294:0:b12::107
 swiftobject181		AAAA	2602:294:0:b12::108
 swiftproxy181		AAAA	2602:294:0:b12::109
 mon181  		AAAA	2602:294:0:b12::110
+
+; Proxmox Backup
+pbs1			A	104.168.123.210
+pbs2			A	172.245.40.222
 
 ; Services
 bastion			A	23.95.103.19
