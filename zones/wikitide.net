@@ -86,9 +86,7 @@ mem1			A	10.0.0.106
 test1			A	10.0.0.107
 phorge1-private		A	10.0.0.108
 ldap1			A	10.0.0.109
-mail1-private		A	10.0.0.110
 mon1			A	10.0.0.111
-ns1-private		A	10.0.0.112
 cp1-private		A	10.0.0.113
 bast1			A	10.0.0.114
 services1		A	10.0.0.115
