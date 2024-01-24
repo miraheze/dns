@@ -1,8 +1,8 @@
 $TTL 300
-$ORIGIN satepedia.com.
+$ORIGIN ff8.wiki.
 
 @		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
-		20240122000001	; serial
+		20240124000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -25,7 +25,6 @@ $ORIGIN satepedia.com.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp
 
 ; load balancers
 
