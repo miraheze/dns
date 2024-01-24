@@ -25,6 +25,7 @@ $ORIGIN satepedia.com.
 ; Servers
 
 ; Services
+www		DYNA	geoip!cp
 
 ; load balancers
 
