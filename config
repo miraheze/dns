@@ -52,21 +52,25 @@ plugins => {
 		maps => {
 			generic-map => {
 				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
-				datacenters => [ca, gb]
+				datacenters => [ca, de, ja, au]
 				map => {
-					AF => [gb, ca],
+					AF => [de, ca, au, ja],
 					AS => {
-						default => [gb, ca],
-						CN => [ca, gb],
-						JP => [ca, gb],
-						KP => [ca, gb],
-						KR => [ca, gb],
+						default => [ja, au, de, ca],
+						IR => [de, ja, au, ca],
+						IQ => [de, ja, au, ca],
+						LB => [de, ja, au, ca],
+						OM => [de, ja, au, ca],
+						RU => [de, ja, au, ca],
+						SA => [de, ja, au, ca],
+						TR => [de, ja, au, ca],
+						YE => [de, ja, au, ca],
 					},
-					EU => [gb, ca],
-					NA => [ca, gb],
-					OC => [gb, ca],
-					SA => [ca, gb],
-					default => [gb, ca],
+					EU => [de, ca, ja, au],
+					NA => [ca, de, au, ja],
+					OC => [au, ja, ca, de],
+					SA => [ca, de, au, ja],
+					default => [de, ca, ja, au],
 				},
 			},
 			generic-map-2 => {
@@ -115,14 +119,12 @@ plugins => {
 				map => generic-map
 				service_types => cpweb
 				dcmap => {
-					gb => {
+					au => {
 						addrs_v4 => {
-							cp24 => 51.195.201.140,
-							cp25 => 51.89.139.24
+							cp51 => 46.250.240.167
 						},
 						addrs_v6 => {
-							cp24 => 2001:41d0:801:2000::5d68,
-							cp25 => 2001:41d0:801:2000::3a18
+							cp51 => 2407:3641:2161:9774::1
 						}
 					}
 					ca => {
@@ -133,6 +135,22 @@ plugins => {
 						addrs_v6 => {
 							cp34 => 2607:5300:205:200::3121,
 							cp35 => 2607:5300:205:200::1c93
+						}
+					}
+					de => {
+						addrs_v4 => {
+							cp24 => 84.247.188.12
+						},
+						addrs_v6 => {
+							cp26 => 2a02:c206:2161:9253::1
+						}
+					}
+					ja => {
+						addrs_v4 => {
+							cp41 => 109.123.230.163
+						},
+						addrs_v6 => {
+							cp41 => 2400:d320:2161:9775::1
 						}
 					}
 				}
