@@ -153,7 +153,6 @@ mw181		        AAAA	2602:294:0:b12::105
 mw182		        AAAA	2602:294:0:b12::106
 mwtask181		AAAA	2602:294:0:b12::107
 swiftobject181		AAAA	2602:294:0:b12::108
-swiftproxy181		AAAA	2602:294:0:b12::109
 mon181  		AAAA	2602:294:0:b12::110
 
 ;; Proxmox Backup
