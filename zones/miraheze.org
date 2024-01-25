@@ -144,4 +144,7 @@ opensearch	CNAME	os131
 mw-lb		DYNA	geoip!cp
 swift-lb	DYNA	weighted!swift
 
+; wikitide (cloud17)
+ldap   		AAAA	2602:294:0:b23::103
+
 ; Other
