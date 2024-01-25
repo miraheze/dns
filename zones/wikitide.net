@@ -139,6 +139,7 @@ phorge171   		AAAA	2602:294:0:b23::106
 swiftac171   		AAAA	2602:294:0:b23::107
 swiftobject171   	AAAA	2602:294:0:b23::108
 swiftproxy171   	AAAA	2602:294:0:b23::109
+reports171   	        AAAA	2602:294:0:b23::110
 
 ;; Cloud18
 cloud18			A	38.46.218.156
