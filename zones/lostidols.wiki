@@ -26,6 +26,8 @@ $ORIGIN lostidols.wiki.
 
 ; Services
 www		DYNA	geoip!cp
+blog		CNAME	1042329122148943.cn-hangzhou.fc.aliyuncs.com.
+archive		CNAME	lostidols.netlify.app.
 
 ; load balancers
 
