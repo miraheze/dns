@@ -135,7 +135,6 @@ donate		DYNA	geoip!cp
 phabricator	DYNA	geoip!cp
 blog		CNAME	phabricator
 graylog		CNAME	graylog131
-ldap		CNAME	ldap141
 reports         DYNA	geoip!cp
 
 ; Load Balancers
