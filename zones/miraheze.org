@@ -97,8 +97,6 @@ db142		AAAA	2a10:6740::6:511
 graylog131	AAAA	2a10:6740::6:512
 jobchron121	AAAA	2a10:6740::6:306
 ldap141		AAAA	2a10:6740::6:506
-mail121		A	31.24.105.139
-		AAAA	2a10:6740::6:307
 matomo121	AAAA	2a10:6740::6:207
 mem131		AAAA	2a10:6740::6:405
 mem141		AAAA	2a10:6740::6:510
@@ -131,14 +129,11 @@ grafana		DYNA	geoip!cp
 icinga		DYNA	geoip!cp
 m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
-mail		A	31.24.105.139
-		AAAA	2a10:6740::6:307
 matomo		DYNA	geoip!cp
 static		DYNA	geoip!cp
 donate		DYNA	geoip!cp
 phabricator	DYNA	geoip!cp
 blog		CNAME	phabricator
-webmail		DYNA	geoip!cp
 graylog		CNAME	graylog131
 ldap		CNAME	ldap141
 reports         DYNA	geoip!cp
