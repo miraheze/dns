@@ -34,7 +34,6 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 1.0.3.0		PTR	bast121.miraheze.org.
 2.0.3.0		PTR	db121.miraheze.org.
 6.0.3.0		PTR	jobchron121.miraheze.org.
-7.0.3.0		PTR	mail121.miraheze.org.
 1.1.3.0		PTR	phab121.miraheze.org.
 6.1.3.0		PTR	swiftobject121.miraheze.org.
 7.1.3.0		PTR	swiftobject122.miraheze.org.
