@@ -23,7 +23,6 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 
 ; cloud11 - 200-299
 0.0.2.0		PTR	cloud11.miraheze.org.
-1.0.2.0		PTR	swiftproxy111.miraheze.org.
 2.0.2.0		PTR	swiftac111.miraheze.org.
 3.0.2.0		PTR	swiftobject111.miraheze.org.
 4.0.2.0		PTR	swiftobject112.miraheze.org.
