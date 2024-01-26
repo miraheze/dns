@@ -121,7 +121,7 @@ graylog   	AAAA	2602:294:0:b13::104
 reports         DYNA	geoip!cp
 
 ; Load Balancers
-opensearch	CNAME	os131
+opensearch   	A	10.0.15.111
 mw-lb		DYNA	geoip!cp
 swift-lb	DYNA	weighted!swift
 
