@@ -70,10 +70,6 @@ mhl004.mgmt	A	31.24.105.141
 csw1		A	31.24.105.132
 
 ; Servers
-bast121		A	31.24.105.138
-		AAAA	2a10:6740::6:301
-bast141		A	31.24.105.137
-		AAAA	2a10:6740::6:509
 cloud10		A	31.24.105.133
 		AAAA	2a10:6740::6:100
 cloud11		AAAA	2a10:6740::6:200
@@ -90,14 +86,11 @@ cp34		A	51.222.14.30
 cp35		A	51.222.12.133
 		AAAA	2607:5300:205:200::1c93
 db101		AAAA	2a10:6740::6:102
-db112		AAAA	2a10:6740::6:211
 db121		AAAA	2a10:6740::6:302
 db131		AAAA	2a10:6740::6:408
 db142		AAAA	2a10:6740::6:511
 graylog131	AAAA	2a10:6740::6:512
 jobchron121	AAAA	2a10:6740::6:306
-ldap141		AAAA	2a10:6740::6:506
-matomo121	AAAA	2a10:6740::6:207
 mem131		AAAA	2a10:6740::6:405
 mem141		AAAA	2a10:6740::6:510
 mw131		AAAA	2a10:6740::6:403
@@ -110,9 +103,6 @@ mw143		AAAA	2a10:6740::6:513
 mwtask141	AAAA	2a10:6740::6:504
 os131		AAAA	2a10:6740::6:401
 os141		AAAA	2a10:6740::6:501
-phab121		AAAA	2a10:6740::6:311
-prometheus131	AAAA	2a10:6740::6:402
-reports121	AAAA	2a10:6740::6:312
 swiftac111	AAAA	2a10:6740::6:202
 swiftobject101	AAAA	2a10:6740::6:103
 swiftobject111	AAAA	2a10:6740::6:203
@@ -122,7 +112,6 @@ swiftobject121	AAAA	2a10:6740::6:316
 swiftobject122	AAAA	2a10:6740::6:317
 swiftproxy111	AAAA	2a10:6740::6:201
 swiftproxy131	AAAA	2a10:6740::6:315
-test131		AAAA	2a10:6740::6:406
 
 ; Services
 grafana		DYNA	geoip!cp
@@ -138,7 +127,6 @@ graylog		CNAME	graylog131
 reports         DYNA	geoip!cp
 
 ; Load Balancers
-bast		CNAME	bast121
 opensearch	CNAME	os131
 mw-lb		DYNA	geoip!cp
 swift-lb	DYNA	weighted!swift
