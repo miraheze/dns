@@ -117,7 +117,7 @@ static		DYNA	geoip!cp
 donate		DYNA	geoip!cp
 phabricator	DYNA	geoip!cp
 blog		CNAME	phabricator
-graylog		CNAME	graylog131
+graylog   	AAAA	2602:294:0:b13::104
 reports         DYNA	geoip!cp
 
 ; Load Balancers
