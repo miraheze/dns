@@ -37,7 +37,6 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 
 ; cloud13 - 400-499
 0.0.4.0		PTR	cloud13.miraheze.org.
-1.0.4.0		PTR	os131.miraheze.org.
 3.0.4.0		PTR	mw131.miraheze.org.
 4.0.4.0		PTR	mw132.miraheze.org.
 5.0.4.0		PTR	mem131.miraheze.org.
@@ -47,7 +46,6 @@ $ORIGIN 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.@Z
 
 ; cloud14 - 500-599
 0.0.5.0		PTR	cloud14.miraheze.org.
-1.0.5.0		PTR	os141.miraheze.org.
 2.0.5.0		PTR	mw141.miraheze.org.
 3.0.5.0		PTR	mw142.miraheze.org.
 4.0.5.0		PTR	mwtask141.miraheze.org.
