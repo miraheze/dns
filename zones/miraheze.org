@@ -106,8 +106,6 @@ swiftobject112	AAAA	2a10:6740::6:204
 swiftobject113	AAAA	2a10:6740::6:205
 swiftobject121	AAAA	2a10:6740::6:316
 swiftobject122	AAAA	2a10:6740::6:317
-swiftproxy111	AAAA	2a10:6740::6:201
-swiftproxy131	AAAA	2a10:6740::6:315
 
 ; Services
 grafana		DYNA	geoip!cp
