@@ -14,8 +14,8 @@ $ORIGIN wikitide.net.
 @		NS	ns2.miraheze.org.
 
 ;; A records
-ns1		A	74.208.210.151
-		AAAA	2607:f1c0:1800:1f2::1
+ns1		A	38.46.223.204
+		AAAA	2602:294:0:b23::111
 ns2		A	31.24.105.140
 		AAAA	2a10:6740::6:314
 
