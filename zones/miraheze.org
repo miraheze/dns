@@ -20,8 +20,8 @@ $ORIGIN miraheze.org.
 ;; A records
 ns1		A	38.46.223.204
 		AAAA	2602:294:0:b23::111
-ns2		A	31.24.105.140
-		AAAA	2a10:6740::6:314
+ns2		A	51.75.170.66
+		AAAA	2001:41d0:801:2000::4089
 
 ; Mail exchanges
 @		MX	10	smtp.google.com.
@@ -57,32 +57,6 @@ _acme-challenge.m.miraheze.org.   TXT     "FlkR2fwer-aauhjNSoOM0O9VRYwp_VzDYyKKp
 _acme-challenge.m.miraheze.org.   TXT     "5jV1bquHG2mHmXFdAjYkSiCoxWhRhORf9vFHpuotHVc"
 _acme-challenge.m.miraheze.org.   TXT     "ODnNtiTOABI_8moDsBLVxqY4_7INf84EEy7hmljvXMU"
 _acme-challenge.m.miraheze.org.   TXT     "LpIprRQrUOT4ercSt7mK40ubi1tbhTsPyjjJJ5Cd2ik"
-
-; Management Interfaces
-mhl002.mgmt	A	31.24.105.142
-		AAAA	2a10:6740::6:50
-mhl003.mgmt	A	31.24.105.136
-		AAAA	2a10:6740::6:51
-mhl004.mgmt	A	31.24.105.141
-		AAAA	2a10:6740::6:52
-
-; Network
-csw1		A	31.24.105.132
-
-; Servers
-cloud10		A	31.24.105.133
-		AAAA	2a10:6740::6:100
-cloud11		AAAA	2a10:6740::6:200
-cloud12		A	31.24.105.135
-		AAAA	2a10:6740::6:300
-cloud13		AAAA	2a10:6740::6:400
-cloud14		AAAA	2a10:6740::6:500
-swiftobject101	AAAA	2a10:6740::6:103
-swiftobject111	AAAA	2a10:6740::6:203
-swiftobject112	AAAA	2a10:6740::6:204
-swiftobject113	AAAA	2a10:6740::6:205
-swiftobject121	AAAA	2a10:6740::6:316
-swiftobject122	AAAA	2a10:6740::6:317
 
 ; Services
 grafana		DYNA	geoip!cp
