@@ -52,25 +52,25 @@ plugins => {
 		maps => {
 			generic-map => {
 				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
-				datacenters => [ca, de, ja, au]
+				datacenters => [ca, lu, ja, au]
 				map => {
-					AF => [de, ca, au, ja],
+					AF => [lu, ca, au, ja],
 					AS => {
-						default => [ja, au, de, ca],
-						IR => [de, ja, au, ca],
-						IQ => [de, ja, au, ca],
-						LB => [de, ja, au, ca],
-						OM => [de, ja, au, ca],
-						RU => [de, ja, au, ca],
-						SA => [de, ja, au, ca],
-						TR => [de, ja, au, ca],
-						YE => [de, ja, au, ca],
+						default => [ja, au, lu, ca],
+						IR => [lu, ja, au, ca],
+						IQ => [lu, ja, au, ca],
+						LB => [lu, ja, au, ca],
+						OM => [lu, ja, au, ca],
+						RU => [lu, ja, au, ca],
+						SA => [lu, ja, au, ca],
+						TR => [lu, ja, au, ca],
+						YE => [lu, ja, au, ca],
 					},
-					EU => [de, ca, ja, au],
-					NA => [ca, de, au, ja],
-					OC => [au, ja, ca, de],
-					SA => [ca, de, au, ja],
-					default => [de, ca, ja, au],
+					EU => [lu, ca, ja, au],
+					NA => [ca, lu, au, ja],
+					OC => [au, ja, ca, lu],
+					SA => [ca, lu, au, ja],
+					default => [lu, ca, ja, au],
 				},
 			},
 			generic-map-2 => {
@@ -137,14 +137,12 @@ plugins => {
 							cp37 => 2602:294:0:b23::112
 						}
 					}
-					de => {
+					lu => {
 						addrs_v4 => {
-							cp26 => 84.247.188.12,
-							cp27 => 37.60.225.206
+							cp28 => 159.255.146.183
 						},
 						addrs_v6 => {
-							cp26 => 2a02:c206:2161:9253::1,
-							cp27 => 2a02:c206:2162:6187::1
+							cp28 => 2001:470:25:715::2
 						}
 					}
 					ja => {
