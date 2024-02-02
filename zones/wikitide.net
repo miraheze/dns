@@ -185,5 +185,6 @@ static			DYNA	geoip!cp2
 bastion			CNAME	bast181
 swift-lb		CNAME	swiftproxy1
 opensearch		CNAME	os1
+opensearch-mw		CNAME	os162-private
 
 ; Other
