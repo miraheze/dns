@@ -182,7 +182,7 @@ monitoring		DYNA	geoip!cp2
 static			DYNA	geoip!cp2
 
 ; Load Balancers
-bastion			CNAME	bast181
+bastion			CNAME	bast161
 swift-lb		CNAME	swiftproxy1
 opensearch		CNAME	os1
 opensearch-mw		CNAME	os162-private
