@@ -20,8 +20,8 @@ $ORIGIN miraheze.org.
 ;; A records
 ns1		A	38.46.223.204
 		AAAA	2602:294:0:b23::111
-ns2		A	31.24.105.140
-		AAAA	2a10:6740::6:314
+ns2		A	51.75.170.66
+		AAAA	2001:41d0:801:2000::4089
 
 ; Mail exchanges
 @		MX	10	smtp.google.com.
