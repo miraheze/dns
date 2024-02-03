@@ -43,6 +43,7 @@ _dmarc			TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
 default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTide_BIMI.svg;a="
 
 ; Miscellaneous
+ownercheck.ns2.wikitide.net.	TXT	"71fe33ab"
 
 ; Management Interfaces
 wt15.mgmt		A	38.46.218.155
