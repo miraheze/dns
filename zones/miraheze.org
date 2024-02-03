@@ -69,10 +69,6 @@ mhl004.mgmt	A	31.24.105.141
 ; Network
 csw1		A	31.24.105.132
 
-; Servers
-cloud12		A	31.24.105.135
-		AAAA	2a10:6740::6:300
-
 ; Services
 grafana		DYNA	geoip!cp
 icinga		DYNA	geoip!cp
