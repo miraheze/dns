@@ -3,4 +3,6 @@
 # To mark an entire data center as down;
 #	geoip/generic-map/gb => DOWN
 #
+geoip/generic-map/ja => DOWN
+geoip/generic-map/au => DOWN
 geoip/generic-map/lu => DOWN
