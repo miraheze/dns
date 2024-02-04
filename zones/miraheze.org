@@ -25,7 +25,7 @@ ns2		A	51.75.170.66
 
 ; Mail exchanges
 @		MX	10	smtp.google.com.
-phabricator	MX	10	smtp.google.com.
+phorge		MX	10	smtp.google.com.
 
 ; Mail policies
 miraheze.org.		TXT	"v=spf1 include:_spf.google.com ~all"
