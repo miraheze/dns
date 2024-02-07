@@ -184,6 +184,7 @@ analytics		DYNA	geoip!cp
 grafana			DYNA	geoip!cp2
 monitoring		DYNA	geoip!cp2
 static			DYNA	geoip!cp2
+phorge-static		DYNA	geoip!cp
 
 ; Load Balancers
 bastion			CNAME	bast161
