@@ -81,6 +81,7 @@ phabricator	DYNA	geoip!cp
 blog		CNAME	phabricator
 graylog   	AAAA	2602:294:0:b13::104
 reports         DYNA	geoip!cp
+status		CNAME	miraheze.hund.io.
 
 ; Load Balancers
 opensearch   	A	10.0.15.111
