@@ -180,7 +180,7 @@ ldap			CNAME	ldap1
 logging 		CNAME	graylog1
 restbase		CNAME	services1
 status			CNAME	wikitide.hund.io.
-analytics		DYNA	geoip!cp2
+analytics		DYNA	geoip!cp
 grafana			DYNA	geoip!cp2
 monitoring		DYNA	geoip!cp2
 static			DYNA	geoip!cp2
