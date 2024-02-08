@@ -29,7 +29,6 @@ miraheze.wiki.                          TXT     "google-site-verification=JMCfdj
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 
 ; Services
-status		CNAME	miraheze.hund.io.
 
 ; load balancers
 
