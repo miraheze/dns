@@ -50,5 +50,7 @@ default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiT
 wikitide.org.				TXT	"libera-verify-8870"
 _github-pages-challenge-WikiTideOrg	TXT	"fe5561b394cd174fc4522a4be08a99"
 _github-challenge-WikiTideOrg-org	TXT	"2b459dee8b"
+_acme-challenge.wikitide.org.		TXT     "fzcjvkqnb2CcdYbykxhT9MTN-SRC2_aufUlysLE2d3E"	
+_acme-challenge.wikitide.org.		TXT     "26usIxAAt30CL9xLk9FI-t9Un7Pc1yVVfyS66yYFKkI"
 
 ; Other
