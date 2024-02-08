@@ -54,8 +54,6 @@ wt18.mgmt		A	38.46.218.157
 ;; Cloud1 (WikiTide's Cloud Server)
 cloud1			A	63.141.240.2
 cp1			A	63.141.240.6
-cp2			A	51.79.55.151
-			AAAA	2607:5300:205:200::2aa8
 cp4			A	146.59.44.171
 			AAAA	2001:41d0:601:1100::4062
 cp5			A	15.235.167.159
@@ -74,10 +72,7 @@ cp51			A	46.250.240.167
 			AAAA	2407:3641:2161:9774::1
 mw1			AAAA	2604:4300:a:24::101
 mw2			AAAA	2604:4300:a:24::102
-phorge1			AAAA	2604:4300:a:24::108
 puppet1			AAAA	2604:4300:a:24::100
-matomo1			AAAA	2604:4300:a:24::119
-bast1-public		A	63.141.240.3
 puppet1-private		A	10.0.0.100
 mw1-private		A	10.0.0.101
 mw2-private		A	10.0.0.102
@@ -85,21 +80,10 @@ db1			A	10.0.0.103
 jobrunner1		A	10.0.0.104
 jobchron1		A	10.0.0.105
 mem1			A	10.0.0.106
-test1			A	10.0.0.107
-phorge1-private		A	10.0.0.108
-ldap1			A	10.0.0.109
-mon1			A	10.0.0.111
 cp1-private		A	10.0.0.113
-bast1			A	10.0.0.114
-services1		A	10.0.0.115
-os1			A	10.0.0.116
-graylog1		A	10.0.0.117
-prometheus1		A	10.0.0.118
-matomo1-private		A	10.0.0.119
 swiftac1		A	10.0.0.120
 swiftobject1		A	10.0.0.121
 swiftproxy1		A	10.0.0.122
-bots1			A	10.0.0.123
 
 ;; Cloud15
 cloud15			A	38.46.218.154
@@ -175,14 +159,6 @@ pbs1			A	104.168.123.210
 pbs2			A	172.245.40.222
 
 ; Services
-icinga			CNAME	mon1
-ldap			CNAME	ldap1
-logging 		CNAME	graylog1
-restbase		CNAME	services1
-status			CNAME	wikitide.hund.io.
-analytics		DYNA	geoip!cp
-grafana			DYNA	geoip!cp2
-monitoring		DYNA	geoip!cp2
 static			DYNA	geoip!cp2
 phorge-static		DYNA	geoip!cp
 
