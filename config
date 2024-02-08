@@ -75,42 +75,42 @@ plugins => {
 			},
 			generic-map-2 => {
 				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
-				datacenters => [au, ca, pl, sg, us]
+				datacenters => [au, pl, sg, us]
 				map => {
-					AF => [pl, us, ca, sg, au],
+					AF => [pl, us, sg, au],
 					AS => {
-						default => [sg, au, pl, us, ca],
-						IR => [pl, sg, us, au, ca],
-						IQ => [pl, sg, us, au, ca],
-						LB => [pl, sg, us, au, ca],
-						OM => [pl, sg, us, au, ca],
-						RU => [pl, sg, us, au, ca],
-						SA => [pl, sg, us, au, ca],
-						TR => [pl, sg, us, au, ca],
-						YE => [pl, sg, us, au, ca],
+						default => [sg, au, pl, us],
+						IR => [pl, sg, us, au],
+						IQ => [pl, sg, us, au],
+						LB => [pl, sg, us, au],
+						OM => [pl, sg, us, au],
+						RU => [pl, sg, us, au],
+						SA => [pl, sg, us, au],
+						TR => [pl, sg, us, au],
+						YE => [pl, sg, us, au],
 					},
 					EU => {
-						default => [pl, us, ca, sg, au],
-						EE => [pl, us, sg, ca, au],
-						FI => [pl, us, sg, ca, au],
-						GR => [pl, us, sg, ca, au],
-						HU => [pl, us, sg, ca, au],
-						LT => [pl, us, sg, ca, au],
-						LV => [pl, us, sg, ca, au],
-						PL => [pl, us, sg, ca, au],
-						RO => [pl, us, sg, ca, au],
-						RS => [pl, us, sg, ca, au],
-						SK => [pl, us, sg, ca, au],
-						UA => [pl, us, sg, ca, au],
+						default => [pl, us, sg, au],
+						EE => [pl, us, sg, au],
+						FI => [pl, us, sg, au],
+						GR => [pl, us, sg, au],
+						HU => [pl, us, sg, au],
+						LT => [pl, us, sg, au],
+						LV => [pl, us, sg, au],
+						PL => [pl, us, sg, au],
+						RO => [pl, us, sg, au],
+						RS => [pl, us, sg, au],
+						SK => [pl, us, sg, au],
+						UA => [pl, us, sg, au],
 					},
 					NA => {
-						default => [us, ca, pl, sg, au],
-						CA => [ca, us, pl, sg, au],
-						GR => [ca, us, pl, sg, au],
+						default => [us, pl, sg, au],
+						CA => [us, pl, sg, au],
+						GR => [us, pl, sg, au],
 					},
-					OC => [au, sg, pl, us, ca],
-					SA => [us, ca, au, sg, pl],
-					default => [us, ca, pl, sg, au],
+					OC => [au, sg, pl, us],
+					SA => [us, au, sg, pl],
+					default => [us, pl, sg, au],
 				},
 			},
 		},
@@ -165,14 +165,6 @@ plugins => {
 						},
 						addrs_v6 => {
 							cp6 => 2402:1f00:8100:400::1d23
-						}
-					}
-					ca => {
-						addrs_v4 => {
-							cp2 => 51.79.55.151
-						},
-						addrs_v6 => {
-							cp2 => 2607:5300:205:200::2aa8
 						}
 					}
 					pl => {
