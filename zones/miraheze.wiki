@@ -23,22 +23,12 @@ $ORIGIN miraheze.wiki.
 ; Miscellaneous
 
 miraheze.wiki.                          TXT     "google-site-verification=JMCfdjbNCadPDxW4_Y4RBeRCQc3TgkqokatmJr_DHmE"
-_acme-challenge.miraheze.wiki.		TXT	"ISMR6INIBkFOZVDif8inkggsWP_XVMuaoc_yKkgHtuM"
-_acme-challenge.miraheze.wiki.		TXT	"TqlpzCu3MAVcq6vfBAx206WjALmChNfUpry_Qn_c3Eo"
-_acme-challenge.miraheze.wiki.		TXT	"UmwYTux4WI3JxgYaT5DYtjlHcuZMFmnzMtVjps7rRrw"
-_acme-challenge.miraheze.wiki.		TXT	"i4aUHilqvxMClfgR3SIvYz7_eQpw0Hl5-aCz9S0iyNc"
-_acme-challenge.miraheze.wiki.		TXT	"sw31ypPBjrpuwYMh4jdh27C4A9bgmcKbwQD3tcZihIA"
-
-
-
-_acme-challenge.phab.miraheze.wiki.	TXT	"7m0Tha1u58uJMzlbyFCNeUHK8Ji9GxfqEKXc5VfovKg"
 
 ; CAA (issue: letsencrypt.com, iodef: operations)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 
 ; Services
-phab		DYNA	geoip!cp
 status		CNAME	miraheze.hund.io.
 
 ; load balancers
