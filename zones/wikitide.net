@@ -165,7 +165,6 @@ phorge-static		DYNA	geoip!cp
 ; Load Balancers
 bastion			CNAME	bast161
 swift-lb		CNAME	swiftproxy1
-opensearch		CNAME	os1
 opensearch-mw		CNAME	os162-private
 
 ; Other
