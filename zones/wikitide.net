@@ -159,6 +159,7 @@ pbs1			A	104.168.123.210
 pbs2			A	172.245.40.222
 
 ; Services
+analytics		DYNA	geoip!cp
 static			DYNA	geoip!cp2
 phorge-static		DYNA	geoip!cp
 
