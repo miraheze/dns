@@ -45,5 +45,7 @@ default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiT
 ; load balancers
 
 ; Miscellaneous
+_acme-challenge.wikitide.com.	TXT     "EJ5qixGwqO5R1ffE85EFXvkD5iSH2v-B-IEZ1snoj3Q"	
+_acme-challenge.wikitide.com.	TXT     "LZ4ZZWmzNuvPgBialxYRljMnk_F3ugROIxUhPCArF4M"
 
 ; Other
