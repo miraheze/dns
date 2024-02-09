@@ -10,7 +10,7 @@ $ORIGIN wikitide.org.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp2
+@		DYNA	geoip!cp
 *		DYNA	geoip!cp2
 
 ; Name servers
@@ -43,6 +43,8 @@ default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiT
 ; Servers
 
 ; Services
+www		DYNA	geoip!cp
+issue-tracker	DYNA	geoip!cp
 
 ; load balancers
 
