@@ -57,3 +57,4 @@ _acme-challenge.wikitide.org.		TXT     "26usIxAAt30CL9xLk9FI-t9Un7Pc1yVVfyS66yYF
 
 ; Miraheze subdomains
 io	DYNA	geoip!cp
+dpl3	DYNA	geoip!cp
