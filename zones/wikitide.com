@@ -10,8 +10,8 @@ $ORIGIN wikitide.com.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp2
-*		DYNA	geoip!cp2
+@		DYNA	geoip!cp
+*		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.miraheze.org.
@@ -45,6 +45,5 @@ default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiT
 ; load balancers
 
 ; Miscellaneous
-status			CNAME	wikitide.hund.io
 
 ; Other
