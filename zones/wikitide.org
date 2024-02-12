@@ -62,3 +62,4 @@ io		DYNA	geoip!cp
 dpl3		DYNA	geoip!cp
 cosmos		DYNA	geoip!cp
 polcompball	DYNA	geoip!cp
+trueearth	DYNA	geoip!cp
