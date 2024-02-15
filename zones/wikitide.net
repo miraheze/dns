@@ -169,3 +169,4 @@ swift-lb		CNAME	swiftproxy1
 opensearch-mw		CNAME	os162-private
 
 ; Other
+bastion-private		A	10.0.18.101
