@@ -30,3 +30,5 @@ $ORIGIN wiki.surf.
 ; load balancers
 
 ; Other
+_acme-challenge		TXT	"jgYvPk_XMOh0YTenvQWVnQnJunR169wjcWoySorhSes"
+_acme-challenge		TXT	"sCThHvwjyK3tRawkij0o5j39j2idDLHPOuGTCzc7RVc"
