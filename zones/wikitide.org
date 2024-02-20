@@ -52,8 +52,8 @@ issue-tracker	DYNA	geoip!cp
 wikitide.org.				TXT	"libera-verify-8870"
 _github-pages-challenge-WikiTideOrg	TXT	"fe5561b394cd174fc4522a4be08a99"
 _github-challenge-WikiTideOrg-org	TXT	"2b459dee8b"
-_acme-challenge.wikitide.org.		TXT     "fzcjvkqnb2CcdYbykxhT9MTN-SRC2_aufUlysLE2d3E"	
-_acme-challenge.wikitide.org.		TXT     "26usIxAAt30CL9xLk9FI-t9Un7Pc1yVVfyS66yYFKkI"
+_acme-challenge.wikitide.org.		TXT     "WEZQbUYiMQcM9jfJ6S80MLt3sl05Cv0WD1n_WskGrM4"	
+_acme-challenge.wikitide.org.		TXT     "MDYS2qCxqBS5HPYmerqb9KMNqcJ86VFkUh4XdVFQgew"
 
 ; Other
 
