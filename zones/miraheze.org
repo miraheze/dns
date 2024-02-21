@@ -81,7 +81,6 @@ issue-tracker	DYNA	geoip!cp
 blog		CNAME	issue-tracker
 graylog   	AAAA	2602:294:0:b13::104
 reports         DYNA	geoip!cp
-status		CNAME	miraheze.hund.io.
 
 ; Load Balancers
 opensearch   	A	10.0.15.111
