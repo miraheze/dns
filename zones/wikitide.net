@@ -167,6 +167,7 @@ phorge-static		DYNA	geoip!cp
 bastion			CNAME	bast161
 swift-lb		CNAME	swiftproxy1
 opensearch-mw		CNAME	os162-private
+mw-lb			DYNA	geoip!cp2
 
 ; Other
 bastion-private		A	10.0.18.101
