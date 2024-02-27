@@ -10,7 +10,7 @@ $ORIGIN rosettacode.org.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp2
+@		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.miraheze.org.
@@ -28,7 +28,7 @@ $ORIGIN rosettacode.org.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp2
+www		DYNA	geoip!cp
 mail		CNAME	mail.rosettacode.org.cust.b.hostedemail.com.
 
 ; load balancers
