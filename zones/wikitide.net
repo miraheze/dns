@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN wikitide.net.
 
-@		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
+@		SOA ns1 hostmaster (
 		20240115000001	; serial
 		7200		; refresh
 		30M		; retry
@@ -10,8 +10,8 @@ $ORIGIN wikitide.net.
 )
 
 ; Name servers
-@		NS	ns1.miraheze.org.
-@		NS	ns2.miraheze.org.
+@		NS	ns1.wikitide.net.
+@		NS	ns2.wikitide.net.
 
 ;; A records
 ns1		A	38.46.223.204
