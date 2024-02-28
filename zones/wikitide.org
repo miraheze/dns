@@ -64,3 +64,4 @@ cosmos		DYNA	geoip!cp
 polcompball	DYNA	geoip!cp
 trueearth	DYNA	geoip!cp
 timshotwheels	DYNA	geoip!cp
+homevideo	DYNA	geoip!cp
