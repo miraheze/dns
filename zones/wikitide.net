@@ -163,7 +163,7 @@ pbs2			A	172.245.40.222
 analytics		DYNA	geoip!cp
 static			DYNA	geoip!cp2
 phorge-static		DYNA	geoip!cp
-status			CNAME	d87q9nstfv0s.stspg-customer.com
+status			CNAME	d87q9nstfv0s.stspg-customer.com.
 
 ; Load Balancers
 bastion			CNAME	bast161
