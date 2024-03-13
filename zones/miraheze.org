@@ -70,16 +70,12 @@ mhl004.mgmt	A	31.24.105.141
 csw1		A	31.24.105.132
 
 ; Services
-grafana		DYNA	geoip!cp
-icinga		DYNA	geoip!cp
 m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
-matomo		DYNA	geoip!cp
 static		DYNA	geoip!cp
 donate		DYNA	geoip!cp
 issue-tracker	DYNA	geoip!cp
 blog		CNAME	issue-tracker
-graylog   	AAAA	2602:294:0:b13::104
 reports         DYNA	geoip!cp
 
 ; Load Balancers
