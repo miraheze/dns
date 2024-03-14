@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN inourownwords.online.
 
-@		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
+@		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
 		20210428000002	; serial
 		7200		; refresh
 		30M		; retry
@@ -13,8 +13,8 @@ $ORIGIN inourownwords.online.
 @		DYNA	geoip!cp
 
 ; Name servers
-@		NS	ns1.miraheze.org.
-@		NS	ns2.miraheze.org.
+@		NS	ns1.wikitide.net.
+@		NS	ns2.wikitide.net.
 
 ; Mail exchangers
 
