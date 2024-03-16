@@ -21,7 +21,7 @@ wikicryptos.org.	TXT	"zoho-verify=zb61496134.zmverify.zoho.com"
 @	                TXT	"v=spf1 include:zoho.com ~all"
 wikicryptos._domainkey  TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChXH1pBKznHu8xugNRc/CZpQfoETXbeNuZHU4CIuUTJf3nw6M2Jj8Y7L63vqm0ffKJ5Kdq1yzii9G2GgQ5dsZdy+YJCl7OLelSQvxIMKlK4CPcsai0yeSjOSzj+arIMUcBoI2JLz3dUdTIPjamDDeFWFL93dMTjuK26usqpjZwmQIDAQAB"
 
-; CAA (issue: letsencrypt.com, iodef: mailto:caapolicy@wikitide.org)
+; CAA (issue: letsencrypt.org, iodef: mailto:caapolicy@wikitide.org)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 36 0005696F6465666D61696C746F3A636161706F6C6963794077696B69746964652E6F7267
 
