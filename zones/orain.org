@@ -31,7 +31,7 @@ _acme-challenge.orain.org.   TXT     "wGImAclfn6ubSTIQsgJjplU0Bm-oSD7FidLoDTaH4P
 
 _acme-challenge.orain.org.   TXT     "A3SusTqgiti3GHwyQUM8XC7CXmZvAukhmfXBpM18knQ"
 
-; CAA (issue: letsencrypt.com, iodef: operations)
+; CAA (issue: letsencrypt.com, iodef: mailto:caapolicy@wikitide.org)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 

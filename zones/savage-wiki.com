@@ -18,7 +18,7 @@ $ORIGIN savage-wiki.com.
 
 ; Mail exchangers
 
-; CAA (issue: symantec.com, iodef: operations)
+; CAA (issue: symantec.com, iodef: mailto:caapolicy@wikitide.org)
 @		TYPE257 \# 19 0005697373756573796D616E7465632E636F6D
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 

@@ -16,7 +16,7 @@ $ORIGIN istpcomputing.com.
 @		NS	ns1.wikitide.net.
 @		NS	ns2.wikitide.net.
 
-; CAA (issue: letsencrypt.com, iodef: operations)
+; CAA (issue: letsencrypt.com, iodef: mailto:caapolicy@wikitide.org)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257 \# 37 0005696F6465666D61696C746F3A6F7065726174696F6E73406D69726168657A652E6F7267
 
