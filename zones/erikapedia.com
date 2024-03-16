@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN erikapedia.com.
 
-@		SOA ns1.miraheze.org. hostmaster.miraheze.org. (
+@		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
 		20200602000001	; serial
 		7200		; refresh
 		30M		; retry
@@ -13,8 +13,8 @@ $ORIGIN erikapedia.com.
 @		DYNA	geoip!cp
 
 ; Name servers
-@		NS	ns1.miraheze.org.
-@		NS	ns2.miraheze.org.
+@		NS	ns1.wikitide.net.
+@		NS	ns2.wikitide.net.
 
 ; Mail exchangers
 @		MX	1	ASPMX.L.GOOGLE.COM.
