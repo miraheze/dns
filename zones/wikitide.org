@@ -35,7 +35,7 @@ _submission._tcp	IN SRV  0 0 587	smtp.gmail.com.
 mail._domainkey		TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvn/JeGnNnhRHqyvuHEJxY87GckiFFGnx5lhWGY2oKJtt6yR74VXSi3UAonUIjlfkDl+KqrNZtRtTIVLsLU8eTx67xJGi5oOgdv2nu0EwOAbDU9EWZjoA1FrJKRfFLfyfkRhnXLX0WTIXs5v+lWz9FAva+E/muXBb5PRk0UpaiorN5oGXyX18T0Xdnmq07aG5TgNeQQgYX2hSxY9njb9Lpw8KDAqH2exczmtQP/dmY5Yc0UmvRcBSAQ8yc9RtAGtzcDzaidtjyyolyQDcYVcW4p8nv8Wzhr8/EKrS0qKq4WV5OfVfWhfPH+iFQ1mJPphN7IrH5vAlxudJQm72LAKDcwIDAQAB"
 
 ;; DMARC - Policy: Reject - unauthorized mail will not send, remote SMTPs will just drop the mail.
-_dmarc			TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
+_dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@wikitide.org; ruf=mailto:dmarc@wikitide.org; fo=1; adkim=r; aspf=r; pct=100; rf=afrf; ri=86400; sp=none"
 
 ; BIMI - Used for verified emails
 default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTide_BIMI.svg;a="
