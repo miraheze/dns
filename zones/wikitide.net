@@ -175,4 +175,3 @@ opensearch-mw		CNAME	os162-private
 mw-lb			DYNA	geoip!cp2
 
 ; Other
-bastion-private		A	10.0.18.101
