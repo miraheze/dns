@@ -34,10 +34,10 @@ _imaps._tcp		IN SRV	0 0 993	imap.gmail.com.
 _submission._tcp	IN SRV  0 0 587	smtp.gmail.com.
 
 ;; DKIM - Policy: Mail may be signed. Not required.
-google._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3FN2pcwBO2KajrcpORYCNgJnne2jJ3C0h7HSEPhwR6Z7oHXfhCPoWZnpzNRtyb+cO+Gy4SeAP+pbRNqjwOM8Pa2JsZS2+RKlM1IFkTAqo/PTwAIWwPhBjCMetNb0hjOeKtIb8ve9bWgUd6AnNGaHgPa8tYznx1fmoOdL4g6De+wIDAQAB"
+mail._domainkey		TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6G9cvC788kh1IUhXsrTUufHEEI4M4h1rDYDMUyBW4EL94Ls250F5wCOTR1HdcizHZy/ZetR8iVUz3vzGsMuGvuM2oL8L2vqGHMjorMuAEL46jaehC66psbBGlswtZFTG0ErWEAc4J8Mo9fLOvePUBn2cYDjHfm7xaqPP2lI2qbljzBVRG19IIQyOqvHZUsMvttWz98GK64ND3oKr2kfQyJFzNNMZG+Ynu8dZxr9iOTvZA4SQKW+ckOAglYe3lQr5IstIjJQt9gDH/lhNisn8Ew6/85lQCME0+hw0yaJGVc857f2w5erNl8wrTFsAkdmm3tdBaB8B4w+3CVVWp6v9zwIDAQAB"
 
 ;; DMARC - Policy: Reject - unauthorized mail will not send, remote SMTPs will just drop the mail.
-_dmarc			TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
+_dmarc			TXT	"v=DMARC1; p=reject; pct=100; fo=1"
 
 ; BIMI - Used for verified emails
 default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTide_BIMI.svg;a="
