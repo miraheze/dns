@@ -58,25 +58,14 @@ _acme-challenge.m.miraheze.org.   TXT     "5jV1bquHG2mHmXFdAjYkSiCoxWhRhORf9vFHp
 _acme-challenge.m.miraheze.org.   TXT     "ODnNtiTOABI_8moDsBLVxqY4_7INf84EEy7hmljvXMU"
 _acme-challenge.m.miraheze.org.   TXT     "LpIprRQrUOT4ercSt7mK40ubi1tbhTsPyjjJJ5Cd2ik"
 
-; Management Interfaces
-mhl002.mgmt	A	31.24.105.142
-		AAAA	2a10:6740::6:50
-mhl003.mgmt	A	31.24.105.136
-		AAAA	2a10:6740::6:51
-mhl004.mgmt	A	31.24.105.141
-		AAAA	2a10:6740::6:52
-
-; Network
-csw1		A	31.24.105.132
-
 ; Services
 m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
 static		DYNA	geoip!cp
 donate		DYNA	geoip!cp
 issue-tracker	DYNA	geoip!cp
-blog		CNAME	issue-tracker
 reports         DYNA	geoip!cp
+blog		CNAME	issue-tracker
 
 ; Load Balancers
 opensearch   	A	10.0.15.111
