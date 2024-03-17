@@ -34,7 +34,7 @@ _imaps._tcp		IN SRV	0 0 993	imap.gmail.com.
 _submission._tcp	IN SRV  0 0 587	smtp.gmail.com.
 
 ;; DKIM - Policy: Mail may be signed. Not required.
-mail._domainkey		TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvn/JeGnNnhRHqyvuHEJxY87GckiFFGnx5lhWGY2oKJtt6yR74VXSi3UAonUIjlfkDl+KqrNZtRtTIVLsLU8eTx67xJGi5oOgdv2nu0EwOAbDU9EWZjoA1FrJKRfFLfyfkRhnXLX0WTIXs5v+lWz9FAva+E/muXBb5PRk0UpaiorN5oGXyX18T0Xdnmq07aG5TgNeQQgYX2hSxY9njb9Lpw8KDAqH2exczmtQP/dmY5Yc0UmvRcBSAQ8yc9RtAGtzcDzaidtjyyolyQDcYVcW4p8nv8Wzhr8/EKrS0qKq4WV5OfVfWhfPH+iFQ1mJPphN7IrH5vAlxudJQm72LAKDcwIDAQAB"
+google._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3FN2pcwBO2KajrcpORYCNgJnne2jJ3C0h7HSEPhwR6Z7oHXfhCPoWZnpzNRtyb+cO+Gy4SeAP+pbRNqjwOM8Pa2JsZS2+RKlM1IFkTAqo/PTwAIWwPhBjCMetNb0hjOeKtIb8ve9bWgUd6AnNGaHgPa8tYznx1fmoOdL4g6De+wIDAQAB"
 
 ;; DMARC - Policy: Reject - unauthorized mail will not send, remote SMTPs will just drop the mail.
 _dmarc			TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
