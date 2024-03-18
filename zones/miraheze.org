@@ -66,6 +66,7 @@ donate		DYNA	geoip!cp
 issue-tracker	DYNA	geoip!cp
 reports         DYNA	geoip!cp
 blog		CNAME	issue-tracker
+phorge		CNAME	issue-tracker
 
 ; Load Balancers
 opensearch   	A	10.0.15.111
