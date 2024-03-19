@@ -161,6 +161,7 @@ pbs1			A	104.168.123.210
 pbs2			A	172.245.40.222
 
 ; Services
+prometheus-pushgateway	A	10.0.15.116
 analytics		DYNA	geoip!cp
 grafana			DYNA	geoip!cp
 monitoring		DYNA	geoip!cp
@@ -168,7 +169,6 @@ static			DYNA	geoip!cp2
 phorge-static		DYNA	geoip!cp
 graphite		CNAME	graphite151
 logging 		CNAME	graylog161
-prometheus-pushgateway	CNAME	prometheus151
 status			CNAME	d87q9nstfv0s.stspg-customer.com.
 
 ; Load Balancers
