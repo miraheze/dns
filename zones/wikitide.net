@@ -155,6 +155,7 @@ mw182		        AAAA	2602:294:0:b12::106
 mwtask181		AAAA	2602:294:0:b12::107
 swiftobject181		AAAA	2602:294:0:b12::108
 mon181  		AAAA	2602:294:0:b12::110
+kafka181		AAAA	2602:294:0:b12::111
 
 ;; Proxmox Backup
 pbs1			A	104.168.123.210
