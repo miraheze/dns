@@ -172,6 +172,7 @@ static			DYNA	geoip!cp2
 phorge-static		DYNA	geoip!cp
 graphite		CNAME	graphite151
 logging 		CNAME	graylog161
+jobrunner 		CNAME	test151
 status			CNAME	d87q9nstfv0s.stspg-customer.com.
 
 ; Load Balancers
