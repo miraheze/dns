@@ -88,74 +88,74 @@ swiftproxy1		A	10.0.0.122
 ;; Cloud15
 cloud15			A	38.46.218.154
 			AAAA	2602:294:0:c8::100
-db151   		AAAA	2602:294:0:c8::101
-os151   		AAAA	2602:294:0:c8::102
-os151-private   	A	10.0.15.111
-matomo151   		AAAA	2602:294:0:c8::103
-mem151   		AAAA	2602:294:0:c8::104
-mw151   		AAAA	2602:294:0:c8::105
-mw152   		AAAA	2602:294:0:c8::106
-prometheus151   	AAAA	2602:294:0:c8::107
-swiftobject151   	AAAA	2602:294:0:c8::108
-test151         	AAAA	2602:294:0:c8::109
-rdb151          	AAAA	2602:294:0:c8::110
-graphite151          	AAAA	2602:294:0:c8::111
-changeprop151          	AAAA	2602:294:0:c8::112
+db151			AAAA	2602:294:0:c8::101
+os151			AAAA	2602:294:0:c8::102
+os151-private		A	10.0.15.111
+matomo151		AAAA	2602:294:0:c8::103
+mem151			AAAA	2602:294:0:c8::104
+mw151			AAAA	2602:294:0:c8::105
+mw152			AAAA	2602:294:0:c8::106
+prometheus151		AAAA	2602:294:0:c8::107
+swiftobject151		AAAA	2602:294:0:c8::108
+test151			AAAA	2602:294:0:c8::109
+rdb151			AAAA	2602:294:0:c8::110
+graphite151		AAAA	2602:294:0:c8::111
+changeprop151		AAAA	2602:294:0:c8::112
 
 ;; Cloud16
 cloud16			A	38.46.218.226
 			AAAA	2602:294:0:b13::100
 bast161			A	38.46.223.203
-   		        AAAA	2602:294:0:b13::101
-db161   		AAAA	2602:294:0:b13::102
-os161   		AAAA	2602:294:0:b13::103
-os161-private   	A	10.0.16.129
-graylog161   		AAAA	2602:294:0:b13::104
-mem161   		AAAA	2602:294:0:b13::105
-mw161   		AAAA	2602:294:0:b13::106
-mw162   		AAAA	2602:294:0:b13::107
-swiftobject161   	AAAA	2602:294:0:b13::108
-swiftproxy161   	AAAA	2602:294:0:b13::109
-cp36            	A	38.46.223.205
-cp36            	AAAA	2602:294:0:b13::110
-db162            	AAAA	2602:294:0:b13::111
-os162            	AAAA	2602:294:0:b13::112
+			AAAA	2602:294:0:b13::101
+db161			AAAA	2602:294:0:b13::102
+os161			AAAA	2602:294:0:b13::103
+os161-private		A	10.0.16.129
+graylog161		AAAA	2602:294:0:b13::104
+mem161			AAAA	2602:294:0:b13::105
+mw161			AAAA	2602:294:0:b13::106
+mw162			AAAA	2602:294:0:b13::107
+swiftobject161		AAAA	2602:294:0:b13::108
+swiftproxy161		AAAA	2602:294:0:b13::109
+cp36			A	38.46.223.205
+cp36			AAAA	2602:294:0:b13::110
+db162			AAAA	2602:294:0:b13::111
+os162			AAAA	2602:294:0:b13::112
 os162-private		A	10.0.16.141
-rdb161            	AAAA	2602:294:0:b13::113
+rdb161			AAAA	2602:294:0:b13::113
 
 ;; Cloud17
 cloud17			A	38.46.218.228
 			AAAA	2602:294:0:b23::100
-db171   		AAAA	2602:294:0:b23::101
-jobchron171   		AAAA	2602:294:0:b23::102
-ldap171   		AAAA	2602:294:0:b23::103
-ldap171-private   	A	10.0.17.121
-mw171   		AAAA	2602:294:0:b23::104
-mw172   		AAAA	2602:294:0:b23::105
-phorge171   		AAAA	2602:294:0:b23::106
-swiftac171   		AAAA	2602:294:0:b23::107
-swiftobject171   	AAAA	2602:294:0:b23::108
-swiftproxy171   	AAAA	2602:294:0:b23::109
-reports171   	        AAAA	2602:294:0:b23::110
-cp37    	        A	38.46.223.206
-cp37    	        AAAA	2602:294:0:b23::112
-bots171    	        AAAA	2602:294:0:b23::113
-mwtask171    	    AAAA	2602:294:0:b23::114
+db171			AAAA	2602:294:0:b23::101
+jobchron171		AAAA	2602:294:0:b23::102
+ldap171			AAAA	2602:294:0:b23::103
+ldap171-private		A	10.0.17.121
+mw171			AAAA	2602:294:0:b23::104
+mw172			AAAA	2602:294:0:b23::105
+phorge171		AAAA	2602:294:0:b23::106
+swiftac171		AAAA	2602:294:0:b23::107
+swiftobject171		AAAA	2602:294:0:b23::108
+swiftproxy171		AAAA	2602:294:0:b23::109
+reports171		AAAA	2602:294:0:b23::110
+cp37			A	38.46.223.206
+cp37			AAAA	2602:294:0:b23::112
+bots171			AAAA	2602:294:0:b23::113
+mwtask171		AAAA	2602:294:0:b23::114
 
 ;; Cloud18
 cloud18			A	38.46.218.156
 			AAAA	2602:294:0:b12::100
 puppet181		AAAA	2602:294:0:b12::101
-bast181		        A	38.46.223.202
-bast181		        AAAA	2602:294:0:b12::102
-db181		        AAAA	2602:294:0:b12::103
-db182		        AAAA	2602:294:0:b12::104
+bast181			A	38.46.223.202
+bast181			AAAA	2602:294:0:b12::102
+db181			AAAA	2602:294:0:b12::103
+db182			AAAA	2602:294:0:b12::104
 db182-private		A	10.0.18.103
-mw181		        AAAA	2602:294:0:b12::105
-mw182		        AAAA	2602:294:0:b12::106
+mw181			AAAA	2602:294:0:b12::105
+mw182			AAAA	2602:294:0:b12::106
 mwtask181		AAAA	2602:294:0:b12::107
 swiftobject181		AAAA	2602:294:0:b12::108
-mon181  		AAAA	2602:294:0:b12::110
+mon181			AAAA	2602:294:0:b12::110
 kafka181		AAAA	2602:294:0:b12::111
 eventgate181		AAAA	2602:294:0:b12::112
 
@@ -170,9 +170,9 @@ grafana			DYNA	geoip!cp
 monitoring		DYNA	geoip!cp
 static			DYNA	geoip!cp2
 phorge-static		DYNA	geoip!cp
+jobrunner		DYNA	weighted!jobrunner
 graphite		CNAME	graphite151
 logging 		CNAME	graylog161
-jobrunner 		CNAME	test151
 status			CNAME	d87q9nstfv0s.stspg-customer.com.
 
 ; Load Balancers
