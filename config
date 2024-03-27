@@ -51,6 +51,7 @@ plugins => {
 			multi => true
 			addrs_v4 => {
 				mwtask171 = [ 10.0.17.144, 1 ]
+				mwtask181 = [ 10.0.18.106, 1 ]
 			}
 		}
 	}
