@@ -69,3 +69,4 @@ sherlockholmes	DYNA	geoip!cp
 videocreditarchive	DYNA	geoip!cp
 elysium		DYNA	geoip!cp
 4tourney	DYNA	geoip!cp
+termsofservice	DYNA	geoip!cp
