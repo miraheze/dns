@@ -49,15 +49,6 @@ _dmarc		TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@miraheze.org; ruf=mailto:dmarc
 miraheze.org.	TXT	"_globalsign-domain-verification=VSF3i19MYIR4UsdgiIyOqPxNXKxpfkWK0jbiKG8VnK"
 miraheze.org.   TXT     "google-site-verification=fVCiW2Ct9RPotFUjRb5vj5O0YLOKPQfbBGjDttn07_w"
 
-; m.miraheze.org challenge (acme)
-_acme-challenge.m.miraheze.org.   TXT     "Aat_3CL_k6JFyPv4T9oXN-AL4FQihAuwBga7VMeIKhw"
-_acme-challenge.m.miraheze.org.   TXT     "FxYTroiRw-wwf7drdwofCoH1kfkS0LvKr143YsPRF9E"
-_acme-challenge.m.miraheze.org.   TXT     "KAV2YCkm6D8-pK8BqqIFRK__rxHGrF2O5MgFOTzhPBc"
-_acme-challenge.m.miraheze.org.   TXT     "FlkR2fwer-aauhjNSoOM0O9VRYwp_VzDYyKKpdhwD5E"
-_acme-challenge.m.miraheze.org.   TXT     "5jV1bquHG2mHmXFdAjYkSiCoxWhRhORf9vFHpuotHVc"
-_acme-challenge.m.miraheze.org.   TXT     "ODnNtiTOABI_8moDsBLVxqY4_7INf84EEy7hmljvXMU"
-_acme-challenge.m.miraheze.org.   TXT     "LpIprRQrUOT4ercSt7mK40ubi1tbhTsPyjjJJ5Cd2ik"
-
 ; Services
 m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
