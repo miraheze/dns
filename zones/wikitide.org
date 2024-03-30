@@ -71,3 +71,4 @@ elysium		DYNA	geoip!cp
 4tourney	DYNA	geoip!cp
 termsofservice	DYNA	geoip!cp
 shatteredisles	DYNA	geoip!cp
+miitopia	DYNA	geoip!cp
