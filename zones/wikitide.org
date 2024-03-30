@@ -73,3 +73,4 @@ termsofservice	DYNA	geoip!cp
 shatteredisles	DYNA	geoip!cp
 miitopia	DYNA	geoip!cp
 ticmedia	DYNA	geoip!cp
+lgbtqidentity	DYNA	geoip!cp
