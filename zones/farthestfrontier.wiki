@@ -27,7 +27,7 @@ $ORIGIN farthestfrontier.wiki.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp2
+www		DYNA	geoip!cp
 
 ; load balancers
 
