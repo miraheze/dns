@@ -75,3 +75,4 @@ miitopia	DYNA	geoip!cp
 ticmedia	DYNA	geoip!cp
 lgbtqidentity	DYNA	geoip!cp
 mwcosmos	DYNA	geoip!cp
+redemption	DYNA	geoip!cp
