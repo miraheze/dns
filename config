@@ -21,18 +21,6 @@ service_types => {
 		interval => 7,
 		timeout => 5,
 	}
-	cpweb2 => {
-		plugin => http_status,
-		port => 80,
-		ok_codes => [ 200 ],
-		url_path => /check
-		vhost => health.wikitide.org
-		up_thresh => 3,
-		ok_thresh => 3,
-		down_thresh => 3,
-		interval => 7,
-		timeout => 5,
-	}
 }
 
 plugins => {
@@ -79,46 +67,6 @@ plugins => {
 					default => [lu, ca, ja, au],
 				},
 			},
-			generic-map-2 => {
-				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
-				datacenters => [au, pl, sg, us]
-				map => {
-					AF => [pl, us, sg, au],
-					AS => {
-						default => [sg, au, pl, us],
-						IR => [pl, sg, us, au],
-						IQ => [pl, sg, us, au],
-						LB => [pl, sg, us, au],
-						OM => [pl, sg, us, au],
-						RU => [pl, sg, us, au],
-						SA => [pl, sg, us, au],
-						TR => [pl, sg, us, au],
-						YE => [pl, sg, us, au],
-					},
-					EU => {
-						default => [pl, us, sg, au],
-						EE => [pl, us, sg, au],
-						FI => [pl, us, sg, au],
-						GR => [pl, us, sg, au],
-						HU => [pl, us, sg, au],
-						LT => [pl, us, sg, au],
-						LV => [pl, us, sg, au],
-						PL => [pl, us, sg, au],
-						RO => [pl, us, sg, au],
-						RS => [pl, us, sg, au],
-						SK => [pl, us, sg, au],
-						UA => [pl, us, sg, au],
-					},
-					NA => {
-						default => [us, pl, sg, au],
-						CA => [us, pl, sg, au],
-						GR => [us, pl, sg, au],
-					},
-					OC => [au, sg, pl, us],
-					SA => [us, au, sg, pl],
-					default => [us, pl, sg, au],
-				},
-			},
 		},
 		resources => {
 			cp => {
@@ -157,41 +105,6 @@ plugins => {
 						},
 						addrs_v6 => {
 							cp41 => 2400:d320:2161:9775::1
-						}
-					}
-				}
-			}
-			cp2 => {
-				map => generic-map-2
-				service_types => cpweb2
-				dcmap => {
-					au => {
-						addrs_v4 => {
-							cp6 => 139.99.236.151
-						},
-						addrs_v6 => {
-							cp6 => 2402:1f00:8100:400::1d23
-						}
-					}
-					pl => {
-						addrs_v4 => {
-							cp4 => 146.59.44.171
-						},
-						addrs_v6 => {
-							cp4 => 2001:41d0:601:1100::4062
-						}
-					}
-					sg => {
-						addrs_v4 => {
-							cp5 => 15.235.167.159
-						},
-						addrs_v6 => {
-							cp5 => 2402:1f00:8000:800::1b3d
-						}
-					}
-					us => {
-						addrs_v4 => {
-							cp1 => 63.141.240.6
 						}
 					}
 				}
