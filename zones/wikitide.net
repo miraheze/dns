@@ -171,7 +171,6 @@ prometheus-pushgateway	A	10.0.15.116
 analytics		DYNA	geoip!cp
 grafana			DYNA	geoip!cp
 monitoring		DYNA	geoip!cp
-static			DYNA	geoip!cp2
 phorge-static		DYNA	geoip!cp
 jobrunner		DYNA	weighted!jobrunner
 graphite		CNAME	graphite151
@@ -184,6 +183,6 @@ bastion			CNAME	bast161
 swift-lb		CNAME	swiftproxy1
 opensearch		CNAME	os151-private
 opensearch-mw		CNAME	os162-private
-mw-lb			DYNA	geoip!cp2
+mw-lb			DYNA	geoip!cp
 
 ; Other
