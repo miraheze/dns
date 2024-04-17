@@ -11,7 +11,7 @@ $ORIGIN wikitide.org.
 
 ; Wildcard services
 @		DYNA	geoip!cp
-*		DYNA	geoip!cp2
+*		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.wikitide.net.
@@ -49,36 +49,5 @@ issue-tracker	DYNA	geoip!cp
 ; load balancers
 
 ; Miscellaneous
-wikitide.org.				TXT	"libera-verify-8870"
-_github-pages-challenge-WikiTideOrg	TXT	"fe5561b394cd174fc4522a4be08a99"
-_github-challenge-WikiTideOrg-org	TXT	"2b459dee8b"
-_acme-challenge.wikitide.org.		TXT     "WEZQbUYiMQcM9jfJ6S80MLt3sl05Cv0WD1n_WskGrM4"	
-_acme-challenge.wikitide.org.		TXT     "MDYS2qCxqBS5HPYmerqb9KMNqcJ86VFkUh4XdVFQgew"
 
 ; Other
-
-; Miraheze subdomains
-io		DYNA	geoip!cp
-dpl3		DYNA	geoip!cp
-cosmos		DYNA	geoip!cp
-polcompball	DYNA	geoip!cp
-trueearth	DYNA	geoip!cp
-timshotwheels	DYNA	geoip!cp
-homevideo	DYNA	geoip!cp
-sherlockholmes	DYNA	geoip!cp
-videocreditarchive	DYNA	geoip!cp
-elysium		DYNA	geoip!cp
-4tourney	DYNA	geoip!cp
-termsofservice	DYNA	geoip!cp
-shatteredisles	DYNA	geoip!cp
-miitopia	DYNA	geoip!cp
-ticmedia	DYNA	geoip!cp
-lgbtqidentity	DYNA	geoip!cp
-mwcosmos	DYNA	geoip!cp
-redemption	DYNA	geoip!cp
-pocketdragons	DYNA	geoip!cp
-dccomics	DYNA	geoip!cp
-cqmics		DYNA	geoip!cp
-mirapedia	DYNA	geoip!cp
-growevertree	DYNA	geoip!cp
-singaporeshuttlebuses	DYNA	geoip!cp
