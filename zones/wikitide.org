@@ -82,4 +82,3 @@ cqmics		DYNA	geoip!cp
 mirapedia	DYNA	geoip!cp
 growevertree	DYNA	geoip!cp
 singaporeshuttlebuses	DYNA	geoip!cp
-mirapedia	DYNA	geoip!cp
