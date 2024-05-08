@@ -50,7 +50,7 @@ issue-tracker	DYNA	geoip!cp
 
 ; Miscellaneous
 wikitide.org.   TXT     "google-site-verification=-lmNHv-Q2Cx9n12Jd2Orr4Ns3_Vobd8Ys-ArC91taXA"
-_acme-challenge.wikitide.org.   TXT     "gKAFRDxdx8ZN2lE4dB5doHQwmka640LM64_XKeUiX9U"
-_acme-challenge.wikitide.org.   TXT     "Kxk4pK7hERuhqMr_2fOg-ZUdPz3Rk9GLQaepAUngDuo"
+_acme-challenge.wikitide.org.   TXT     "JQfQdTaA4L5Njd7ebJmsNXk1YeqaYNFoFs31tmhNUeY"
+_acme-challenge.wikitide.org.   TXT     "c273oIwNGmBqnuFbGP_GrIwJw7LXsaVebOnW9bRNUqU"
 
 ; Other
