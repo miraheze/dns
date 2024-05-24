@@ -25,7 +25,14 @@ $ORIGIN rainverse.wiki.
 ; Servers
 
 ; Services
+shrink		CNAME	blankeclair.github.io.
+downscale	A	45.79.218.85
+		AAAA	2600:3c02::f03c:92ff:fe46:06b6
+downscaled	CNAME	downscale
+downscaler	CNAME	downscale
+downscales	CNAME	downscale
 
 ; load balancers
 
 ; Other
+_github-pages-challenge-BlankEclair.shrink	TXT	"764b61c4c870465c3e4e8ffc9e6985"
