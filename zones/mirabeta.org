@@ -33,4 +33,4 @@ $ORIGIN mirabeta.org.
 
 ; Other
 
-_acme-challenge.mirabeta.org.		TXT	"4EfEtm5wuj1fWpqsefIY3dFIVK3ChHk06EQO--bHcSs"
+_acme-challenge.mirabeta.org.		TXT	"SLgapLD08KxzokoNxH2NFl9_cTgDSTxzBJQWaCQbjeg"
