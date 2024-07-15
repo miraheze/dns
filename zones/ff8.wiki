@@ -25,6 +25,7 @@ $ORIGIN ff8.wiki.
 ; Servers
 
 ; Services
+tools		CNAME	ff8-speedruns.github.io.
 
 ; load balancers
 
