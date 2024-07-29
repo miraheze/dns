@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN clubpenguinfanon.wiki.
 
 @		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
-		20240723000001	; serial
+		20240729000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
