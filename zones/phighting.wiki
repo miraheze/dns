@@ -34,6 +34,6 @@ phighting.wiki.		TXT	"v=spf1 include:spf.messagingengine.com ?all"
 ; load balancers
 
 ; Other
-fm1._domainkey		CNAME	fm1.phighting.wiki.dkim.fmhosted.com
-fm2._domainkey		CNAME	fm2.phighting.wiki.dkim.fmhosted.com
-fm3._domainkey		CNAME	fm3.phighting.wiki.dkim.fmhosted.com
+fm1._domainkey		CNAME	fm1.phighting.wiki.dkim.fmhosted.com.
+fm2._domainkey		CNAME	fm2.phighting.wiki.dkim.fmhosted.com.
+fm3._domainkey		CNAME	fm3.phighting.wiki.dkim.fmhosted.com.
