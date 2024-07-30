@@ -21,6 +21,11 @@ $ORIGIN phighting.wiki.
 @		TYPE257 \# 36 0005696F6465666D61696C746F3A636161706F6C6963794077696B69746964652E6F7267
 
 ; Mail exchangers
+@		MX	10	in1-smtp.messagingengine.com.
+@		MX	20	in2-smtp.messagingengine.com.
+
+; Mail policies
+phighting.wiki.		TXT	"v=spf1 include:spf.messagingengine.com ?all"
 
 ; Servers
 
@@ -29,3 +34,6 @@ $ORIGIN phighting.wiki.
 ; load balancers
 
 ; Other
+fm1._domainkey		CNAME	fm1.phighting.wiki.dkim.fmhosted.com
+fm2._domainkey		CNAME	fm2.phighting.wiki.dkim.fmhosted.com
+fm3._domainkey		CNAME	fm3.phighting.wiki.dkim.fmhosted.com
