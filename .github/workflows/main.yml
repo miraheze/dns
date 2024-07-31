@@ -1,0 +1,20 @@
+name: gdnsd checkconf
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+
+jobs:
+  checkconf-job:
+    runs-on: ubuntu-latest
+    name: A job that runs gdnsd checkconf on this repository
+    steps:
+      - uses: actions/checkout@v4
+      - id: checkconf
+        uses: miraheze/dns-check-action@master
+        with:
+          geoip2-directory: '/usr/share/GeoIP'
+          geoip2-filename: 'GeoLite2-Country.mmdb'
