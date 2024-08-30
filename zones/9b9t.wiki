@@ -10,7 +10,7 @@ $ORIGIN 9b9t.wiki.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp
+@		CNAME cf-lb.miraheze.org.
 
 ; Name servers
 @		NS	ns1.wikitide.net.
@@ -29,5 +29,3 @@ $ORIGIN 9b9t.wiki.
 ; load balancers
 
 ; Other
-_acme-challenge.9b9t.wiki. TXT "bgALKOrSVyTSEywV7xJsg9vA8wEBSZf0tx0Plg4FpzA"
-_cf-custom-hostname.9b9t.wiki. TXT "f112e8b5-262c-4ed3-99ce-643189a6cde6"
