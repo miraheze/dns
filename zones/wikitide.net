@@ -162,7 +162,7 @@ pbs2			A	172.245.40.222
 ; Services
 prometheus-pushgateway	A	10.0.15.116
 accounts		DYNA	geoip!cp
-analytics		CNAME	matomo-cf.miraheze.org.
+analytics		DYNA	geoip!cp
 grafana			DYNA	geoip!cp
 health			DYNA	geoip!cp
 monitoring		DYNA	geoip!cp
