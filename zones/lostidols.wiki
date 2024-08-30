@@ -25,7 +25,7 @@ $ORIGIN lostidols.wiki.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp
+www		CNAME	cf-lb.miraheze.org.
 blog		CNAME	1042329122148943.cn-hangzhou.fc.aliyuncs.com.
 archive		CNAME	lostidols.netlify.app.
 
