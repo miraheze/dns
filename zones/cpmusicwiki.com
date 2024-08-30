@@ -25,7 +25,7 @@ $ORIGIN cpmusicwiki.com.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp
+www		CNAME	cf-lb.miraheze.org.
 
 ; load balancers
 
