@@ -28,7 +28,7 @@ $ORIGIN rosettacode.org.
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp
+www		CNAME	cf-lb.miraheze.org.
 mail		CNAME	mail.rosettacode.org.cust.b.hostedemail.com.
 
 ; load balancers
