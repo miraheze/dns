@@ -27,7 +27,7 @@ $ORIGIN mwcosmos.com.
 ; Servers
 
 ; Services
-www			DYNA	geoip!cp
+www			CNAME	cf-lb.miraheze.org.
 discord-chatlogs	CNAME	universal-omega.github.io.
 
 ; load balancers
