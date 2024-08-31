@@ -181,5 +181,3 @@ opensearch-mw		CNAME	os162-private
 mw-lb			DYNA	geoip!cp
 
 ; Other
-
-_acme-challenge.wikitide.net.			TXT	"v_ZADN-nzsaBt-zK7okr8R37y7eJ-Y9-x_4CmhLUYC8"
