@@ -10,7 +10,7 @@ $ORIGIN wikitide.net.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp
+@		HTTPS	0	cf-lb.miraheze.org.
 
 ; Name servers
 @		NS	ns1.wikitide.net.
@@ -161,13 +161,13 @@ pbs2			A	172.245.40.222
 
 ; Services
 prometheus-pushgateway	A	10.0.15.116
-accounts		DYNA	geoip!cp
-analytics		DYNA	geoip!cp
-grafana			DYNA	geoip!cp
-health			DYNA	geoip!cp
-monitoring		DYNA	geoip!cp
-phorge-static		DYNA	geoip!cp
-jobrunner		DYNA	weighted!jobrunner
+accounts		HTTPS	0	cf-lb.miraheze.org.
+analytics		HTTPS	0	cf-lb.miraheze.org.
+grafana			HTTPS	0	cf-lb.miraheze.org.
+health			HTTPS	0	cf-lb.miraheze.org.
+monitoring		HTTPS	0	cf-lb.miraheze.org.
+phorge-static		HTTPS	0	cf-lb.miraheze.org.
+jobrunner		HTTPS	weighted!jobrunner
 graphite		CNAME	graphite151
 logging			CNAME	graylog161
 ldap			CNAME	ldap171
@@ -179,6 +179,6 @@ bastion			CNAME	bast161
 swift-lb		CNAME	swiftproxy1
 opensearch		CNAME	os151-private
 opensearch-mw		CNAME	os162-private
-mw-lb			DYNA	geoip!cp
+mw-lb			HTTPS	0	cf-lb.miraheze.org.
 
 ; Other
