@@ -25,6 +25,7 @@ $ORIGIN kagaga.jp.
 ; Servers
 
 ; Services
+www		CNAME	cf-lb.miraheze.org.
 
 ; load balancers
 
