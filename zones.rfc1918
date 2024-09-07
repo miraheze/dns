@@ -1,0 +1,8 @@
+/*
+ * How to add new zones:
+ * 1. Create a zonefile for it with all the records you want in `/zones/`.
+ * 2. Add a zone block for it here, like so:
+ *  zone "miraheze.org" { type master; file "/etc/bind/zones/miraheze.org"; };
+ * 3. Commit and push.
+ * We don't use zone transfers because Puppet will already download the zonefile to all nameservers; they can both think they're masters, no problem.
+ */

@@ -1,0 +1,40 @@
+//
+// Do any local configuration here
+//
+
+// Use the zones.rfc1918 file for adding zones
+include "/etc/bind/zones.rfc1918";
+
+// this options block and the following logging block are based on the ones at https://bind9.readthedocs.io/en/latest/chapter3.html#primary-authoritative-name-server
+options {
+  // all relative paths use this directory as a base
+  directory "/var";
+  // version statement for security to avoid hacking known weaknesses
+  // if the real version number is revealed
+  version "not currently available";
+  // This is the default - allows user queries from any IP
+  allow-query { any; };
+  // normal server operations may place items in the cache
+  // this prevents any user query from accessing these items
+  // only authoritative zone data will be returned
+  allow-query-cache { none; };
+  // Do not provide recursive service to user queries
+  recursion no;
+};
+
+// logging clause
+// log to /var/log/named/named.log all events from info UP in severity (no debug)
+// uses 3 files in rotation swaps files when size reaches 250K
+// failure messages that occur before logging is established are
+// in syslog (/var/log/messages)
+//
+logging {
+  channel default_log {
+    file "/var/log/named/named.log" versions 3 size 250k;
+    // only log info and up messages - all others discarded
+    severity info;
+  };
+  category default {
+    default_log;
+  };
+};

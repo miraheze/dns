@@ -10,7 +10,7 @@ $ORIGIN satepedia.com.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp
+@		HTTPS	0	cf-lb.miraheze.org.
 
 ; Name servers
 @		NS	ns1.wikitide.net.
