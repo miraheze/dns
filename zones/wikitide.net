@@ -54,6 +54,10 @@ wt17.mgmt		A	38.46.218.228
 wt18.mgmt		A	38.46.218.157
 
 ; Servers
+;; VPS servers
+mattermost1		A	15.204.87.20
+			AAAA	2604:2dc0:202:300::7c6
+
 ;; Cloud1 (WikiTide's Cloud Server)
 cloud1			A	63.141.240.2
 cp1			A	63.141.240.6
