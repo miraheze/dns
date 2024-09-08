@@ -176,7 +176,7 @@ jobrunner		DYNA	weighted!jobrunner
 graphite		CNAME	graphite151
 logging			CNAME	graylog161
 ldap			CNAME	ldap171
-mattermost		CNAME	cp26
+mattermost		CNAME	mattermost1
 status			CNAME	d87q9nstfv0s.stspg-customer.com.
 
 ; Load Balancers
