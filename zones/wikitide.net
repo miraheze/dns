@@ -163,7 +163,6 @@ status			CNAME	d87q9nstfv0s.stspg-customer.com.
 
 ; Load Balancers
 bastion			CNAME	bast161
-swift-lb		CNAME	swiftproxy1
 opensearch		CNAME	os151-private
 opensearch-mw		CNAME	os162-private
 mw-lb			DYNA	geoip!cp
