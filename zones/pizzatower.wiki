@@ -29,3 +29,4 @@ $ORIGIN pizzatower.wiki.
 ; load balancers
 
 ; Other
+_atproto		TXT	"did=did:plc:u6vrp47335w6xrkd6nmkoagl"
