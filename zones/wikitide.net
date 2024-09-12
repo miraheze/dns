@@ -50,8 +50,8 @@ ownercheck.mattermost1.wikitide.net.	TXT	"55dd6141"
 
 ; Management Interfaces
 wt15.mgmt		A	38.46.218.155
-wt16.mgmt		A	38.46.218.226
-wt17.mgmt		A	38.46.218.228
+wt16.mgmt		A	38.46.218.227
+wt17.mgmt		A	38.46.218.229
 wt18.mgmt		A	38.46.218.157
 
 ; Servers
