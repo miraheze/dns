@@ -169,3 +169,4 @@ opensearch-mw		CNAME	os162-private
 mw-lb			DYNA	geoip!cp
 
 ; Other
+help.static		CNAME	miraheze.github.io.
