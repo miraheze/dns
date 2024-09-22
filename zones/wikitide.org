@@ -41,6 +41,7 @@ _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@wikitide.org; ruf=mailto:dmar
 default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTide_BIMI.svg;a="
 
 ; Servers
+jobrunner		A	10.0.15.118
 
 ; Services
 www		DYNA	geoip!cp
