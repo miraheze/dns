@@ -36,7 +36,6 @@ plugins => {
 			}
 		},
 		jobrunner => {
-			multi => true
 			addrs_v4 => {
 				mwtask151 = [ 10.0.15.150, 1 ]
 				mwtask161 = [ 10.0.16.157, 1 ]
