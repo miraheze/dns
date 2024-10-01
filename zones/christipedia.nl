@@ -24,7 +24,7 @@ $ORIGIN christipedia.nl.
 ; Servers
 
 ; Services
-www		CNAME	cf-lb.miraheze.org.
+www		DYNA	geoip!cp
 
 ; load balancers
 
