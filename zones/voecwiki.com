@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN voecwiki.com.
 
 @		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
-		20241008000001	; serial
+		20241010000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
