@@ -19,7 +19,7 @@ jobs:
           geoip-directory: '/usr/share/GeoIP'
           geoip-filename: 'GeoLite2-Country.mmdb'
   notify-irc:
-    needs: build
+    needs: checkconf-job
     runs-on: ubuntu-latest
     if: ${{ always() && github.repository_owner == 'miraheze' && ( github.ref == 'refs/heads/master' || github.event_name == 'pull_request' ) }}
     steps:
