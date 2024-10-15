@@ -84,7 +84,6 @@ cloud16			A	38.46.218.226
 			AAAA	2602:294:0:b13::100
 bast161			A	38.46.223.203
 			AAAA	2602:294:0:b13::101
-bast161-private		A	10.0.16.127
 db161			AAAA	2602:294:0:b13::102
 os161			AAAA	2602:294:0:b13::103
 os161-private		A	10.0.16.129
@@ -166,7 +165,7 @@ status			CNAME	d87q9nstfv0s.stspg-customer.com.
 videoscaler		DYNA	weighted!jobrunner
 
 ; Load Balancers
-bastion			CNAME	bast161-private
+bastion			CNAME	bast161
 opensearch		CNAME	os151-private
 opensearch-mw		CNAME	os162-private
 mw-lb			DYNA	geoip!cp
