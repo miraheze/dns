@@ -1,0 +1,43 @@
+$TTL 300
+$ORIGIN ief.wiki.
+
+@		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
+		20241020000001	; serial
+		7200		; refresh
+		30M		; retry
+		3D		; expire
+		900		; ncache
+)
+
+; Wildcard services
+@		DYNA	geoip!cp
+
+; Name servers
+@		NS	ns1.wikitide.net.
+@		NS	ns2.wikitide.net.
+
+; CAA (issue: letsencrypt.org, iodef: mailto:caapolicy@wikitide.org)
+@		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
+@		TYPE257 \# 36 0005696F6465666D61696C746F3A636161706F6C6963794077696B69746964652E6F7267
+
+; Mail exchangers
+@			MX	5	 mx1.hostinger.com.
+@			MX	10	mx2.hostinger.com.
+
+; Mail policies
+ief.wiki.		TXT	"v=spf1 include:_spf.mail.hostinger.com ~all"
+
+; Servers
+
+; Services
+hostingermail-a._domainkey		CNAME	hostingermail-a.dkim.mail.hostinger.com.
+hostingermail-b._domainkey		CNAME	hostingermail-b.dkim.mail.hostinger.com.
+hostingermail-c._domainkey		CNAME	hostingermail-c.dkim.mail.hostinger.com.
+autoconfig		CNAME	autoconfig.mail.hostinger.com.
+autodiscover		CNAME	autodiscover.mail.hostinger.com.
+
+; load balancers
+
+; Miscellaneous
+
+; Other
