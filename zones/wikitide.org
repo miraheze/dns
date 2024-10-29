@@ -52,5 +52,7 @@ issue-tracker	DYNA	geoip!cp
 wikitide.org.   TXT     "google-site-verification=-lmNHv-Q2Cx9n12Jd2Orr4Ns3_Vobd8Ys-ArC91taXA"
 _acme-challenge.wikitide.org.   TXT    "IrpEcq5kkDNMMBn_hQH3stzzElZg2JxQVpcUAUlCH8E"
 _acme-challenge.wikitide.org.   TXT    "w6pOybtPworwHrZH0whW1zPIYQLsl4zmRThTvD4rsvo"
+_acme-challenge.wikitide.org.   TXT    "ocvVCeYgozQ4VOCKUmI76scp_pon_yIMKILB0Mg8SKc"
+_acme-challenge.wikitide.org.   TXT    "EZ6iYqoGk5iXgcua-11VslCsz3cZESkEQjxfaTcFTek"
 
 ; Other
