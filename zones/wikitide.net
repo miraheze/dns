@@ -156,7 +156,7 @@ analytics		DYNA	geoip!cp
 grafana			DYNA	geoip!cp
 health			DYNA	geoip!cp
 monitoring		DYNA	geoip!cp
-phorge-static		CNAME	cf-lb.miraheze.org.
+phorge-static		DYNA	geoip!cp
 jobrunner		DYNA	weighted!jobrunner
 jobrunner-high		DYNA	weighted!jobrunner
 graphite		CNAME	graphite151
