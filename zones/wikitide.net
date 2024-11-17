@@ -152,10 +152,10 @@ pbs2			A	172.245.40.222
 ; Services
 prometheus-pushgateway	A	10.0.15.116
 accounts		DYNA	geoip!cp
-analytics		CNAME	cf-lb.miraheze.org.
-grafana			CNAME	cf-lb.miraheze.org.
+analytics		DYNA	geoip!cp
+grafana			DYNA	geoip!cp
 health			DYNA	geoip!cp
-monitoring		CNAME	cf-lb.miraheze.org.
+monitoring		DYNA	geoip!cp
 phorge-static		CNAME	cf-lb.miraheze.org.
 jobrunner		DYNA	weighted!jobrunner
 jobrunner-high		DYNA	weighted!jobrunner
