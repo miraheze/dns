@@ -29,3 +29,4 @@ $ORIGIN otherkin.wiki.
 ; load balancers
 
 ; Other
+_atproto	TXT	"did=did:plc:r3z73iqqturtwvgmmete26mx"
