@@ -30,6 +30,7 @@ $ORIGIN aryavratpedia.co.
 www		CNAME	cf-lb.miraheze.org.
 en		CNAME	cf-lb.miraheze.org.
 gu		CNAME	cf-lb.miraheze.org.
+hi		CNAME	cf-lb.miraheze.org.
 
 ; load balancers
 
