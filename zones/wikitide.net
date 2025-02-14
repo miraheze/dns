@@ -73,7 +73,6 @@ prometheus151		AAAA	2602:294:0:c8::107
 swiftobject151		AAAA	2602:294:0:c8::108
 test151			AAAA	2602:294:0:c8::109
 rdb151			AAAA	2602:294:0:c8::110
-graphite151		AAAA	2602:294:0:c8::111
 changeprop151		AAAA	2602:294:0:c8::112
 mw153			AAAA	2602:294:0:c8::113
 mw154			AAAA	2602:294:0:c8::114
@@ -158,7 +157,6 @@ monitoring		DYNA	geoip!cp
 phorge-static		DYNA	geoip!cp
 jobrunner		DYNA	weighted!jobrunner
 jobrunner-high		DYNA	weighted!jobrunner
-graphite		CNAME	graphite151
 logging			CNAME	graylog161
 ldap			CNAME	ldap171
 mattermost		CNAME	mattermost1
