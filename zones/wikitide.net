@@ -148,10 +148,12 @@ mw184			AAAA	2602:294:0:b12::114
 ;; Cloud19
 cloud19			A	38.46.218.157
 			AAAA	2602:294:0:b33::100
+swiftobject191		AAAA	2602:294:0:b33::101
 
 ;; Cloud20
 cloud20			A	38.46.218.155
 			AAAA	2602:294:0:b39::100
+swiftobject201		AAAA	2602:294:0:b39::101
 
 ;; Proxmox Backup
 pbs1			A	104.168.123.210
