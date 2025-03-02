@@ -170,7 +170,7 @@ analytics		CNAME	cf-lb.miraheze.org.
 grafana			CNAME	cf-lb.miraheze.org.
 health			DYNA	geoip!cp
 monitoring		CNAME	cf-lb.miraheze.org.
-phorge-static		CNAME	cf-lb.miraheze.org.
+phorge-static           CNAME	cf-lb.miraheze.org.
 jobrunner		DYNA	weighted!jobrunner
 jobrunner-high		DYNA	weighted!jobrunner
 logging			CNAME	graylog161
