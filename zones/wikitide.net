@@ -158,6 +158,7 @@ swiftobject201		AAAA	2602:294:0:b39::101
 mw201		        AAAA	2602:294:0:b39::102
 mw202		        AAAA	2602:294:0:b39::103
 mw203		        AAAA	2602:294:0:b39::104
+mem201		        AAAA	2602:294:0:b39::105
 
 ;; Proxmox Backup
 pbs1			A	104.168.123.210
