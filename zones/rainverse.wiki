@@ -36,3 +36,4 @@ s		CNAME	downscale
 
 ; Other
 _github-pages-challenge-BlankEclair.shrink	TXT	"764b61c4c870465c3e4e8ffc9e6985"
+_servfail-challenge	TXT	"0xS73TXNBP3CdXuNi1tRIIJQI."
