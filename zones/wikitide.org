@@ -43,8 +43,8 @@ default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiT
 ; Servers
 
 ; Services
-www		DYNA	geoip!cp
-issue-tracker	DYNA	geoip!cp
+www		CNAME	cf-lb.miraheze.org.
+issue-tracker	CNAME	cf-lb.miraheze.org.
 
 ; load balancers
 
