@@ -179,6 +179,7 @@ static			CNAME	cf-lb.miraheze.org.
 status			CNAME	cf-lb.miraheze.org.
 swift-lb		AAAA	2602:294:0:b13::109
 videoscaler		DYNA	weighted!jobrunner
+appservers		600     DYNA	metafo!prod_appservers
 
 ; Load Balancers
 bastion			CNAME	bast161-private
