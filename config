@@ -38,6 +38,7 @@ plugins => {
 	metafo => {
 		resources => {
 			prod_appservers => {
+				plugin => multifo
 				service_types => [ mw_backend ]
 				datacenters => [ appservers ]
 				dcmap => {
