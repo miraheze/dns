@@ -21,51 +21,9 @@ service_types => {
 		interval => 7,
 		timeout => 5,
 	}
-	mw_backend => {
-		plugin => http_status
-		vhost => health.wikitide.net,
-		ok_codes => [ 204 ],
-		url_path => /check,
-		up_thresh => 3,
-		ok_thresh => 3,
-		down_thresh => 4,
-		interval => 8,
-		timeout => 7,
-	}
 }
 
 plugins => {
-	metafo => {
-		resources => {
-			prod_appservers => {
-				plugin => multifo
-				service_types => [ mw_backend ]
-				datacenters => [ appservers ]
-				dcmap => {
-					appservers => {
-						mw151 => 10.0.15.114,
-						mw152 => 10.0.15.115,
-						mw153 => 10.0.15.140,
-						mw161 => 10.0.16.132,
-						mw162 => 10.0.16.133,
-						mw163 => 10.0.16.151,
-						mw171 => 10.0.17.122,
-						mw172 => 10.0.17.123,
-						mw173 => 10.0.17.153,
-						mw181 => 10.0.18.104,
-						mw182 => 10.0.18.105,
-						mw183 => 10.0.18.155,
-						mw191 => 10.0.19.160,
-						mw192 => 10.0.19.161,
-						mw193 => 10.0.19.164,
-						mw201 => 10.0.20.162,
-						mw202 => 10.0.20.163,
-						mw203 => 10.0.20.165
-					}
-				}
-			}
-		}
-	}
 	weighted => {
 		multi = false
 		service_types = up # need to monitor
