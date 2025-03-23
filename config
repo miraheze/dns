@@ -29,8 +29,8 @@ service_types => {
 		up_thresh => 3,
 		ok_thresh => 3,
 		down_thresh => 4,
-		interval => 10,
-		timeout => 10,
+		interval => 8,
+		timeout => 7,
 	}
 }
 
