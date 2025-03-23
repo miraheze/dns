@@ -21,12 +21,24 @@ service_types => {
 		interval => 7,
 		timeout => 5,
 	}
+	mw_backend => {
+		plugin => http_status
+		vhost => health.wikitide.net,
+		ok_codes => [ 204 ],
+		url_path => /check,
+		up_thresh => 3,
+		ok_thresh => 3,
+		down_thresh => 4,
+		interval => 5,
+		timeout => 10,
+	}
 }
 
 plugins => {
 	metafo => {
 		resources => {
 			prod_appservers => {
+				service_types => [ mw_backend ]
 				datacenters => [ appservers ]
 				dcmap => {
 					appservers => {
