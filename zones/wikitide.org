@@ -58,5 +58,7 @@ _acme-challenge.wikitide.org.   TXT    "EZ6iYqoGk5iXgcua-11VslCsz3cZESkEQjxfaTcF
 _acme-challenge.wikitide.org.   TXT    "3sV0A86lFp_ApgBTPJwWTdyizCgal1anxFPs3l6kXK8"
 _acme-challenge.wikitide.org.   TXT    "2IemUikKkju1P9aVwSFOrGpZEKBSCxPDlgJDikT2NhY"
 _acme-challenge.wikitide.org.   TXT    "gYBofCH2nf5tjQcsGOIVmEp5sMowMNlF6Q8hxe_oHn8"
+_acme-challenge.wikitide.org.   TXT    "h_7eFssZtRmzkGu1p5DTuUAryQtDFgcluIYO92lGkHs"
+_acme-challenge.wikitide.org.   TXT    "BtIdnuHHl2UQI5Ah-Q7a37swW4ZRE7cjr4t-5S7obSk"
 
 ; Other
