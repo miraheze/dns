@@ -49,7 +49,7 @@ issue-tracker	CNAME	cf-lb.miraheze.org.
 ; load balancers
 
 ; Miscellaneous
-wikitide.org.   TXT     "google-site-verification=-lmNHv-Q2Cx9n12Jd2Orr4Ns3_Vobd8Ys-ArC91taXA"
+wikitide.org.   TXT     "google-site-verification=2H9ugfXLc7WqxAJiLUGewd4ISrZEFG76NQQN1BJNCe4"
 wikitide.org.   TXT     "atlassian-domain-verification=seLpRBEOK9uaTCZrJSqptkG8Km60/0kkJUmi4Z6kaSS8SFufgAYFfvLOyqE1FGZw"
 _acme-challenge.wikitide.org.   TXT    "IrpEcq5kkDNMMBn_hQH3stzzElZg2JxQVpcUAUlCH8E"
 _acme-challenge.wikitide.org.   TXT    "w6pOybtPworwHrZH0whW1zPIYQLsl4zmRThTvD4rsvo"
