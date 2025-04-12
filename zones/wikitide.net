@@ -188,6 +188,7 @@ mw-lb			DYNA	geoip!cp
 
 ; Other
 help.static		CNAME	miraheze.github.io.
+wikitide.net.   TXT     "google-site-verification=bv4s5wmWTcHmyc_hne1A_QNohw-GXA8jzopgYKF3BbU"
 _acme-challenge.wikitide.net.			TXT	"Lk7tRqN6OAfheVSgo9cEZhGPgeflUa6NxjqH6WsHUvw"
 _acme-challenge.wikitide.net.			TXT	"XZclTtAGwBnkF6FY8leFDWMExMfjN7DUPmEVYNYBjHY"
 _acme-challenge.wikitide.net.			TXT	"dhl4ooy66H3BJfW8l0QYPog7zeQZXv5YzSFlR8_KQn4"
