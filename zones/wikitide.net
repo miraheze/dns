@@ -189,12 +189,5 @@ mw-lb			DYNA	geoip!cp
 ; Other
 help.static		CNAME	miraheze.github.io.
 wikitide.net.   TXT     "google-site-verification=bv4s5wmWTcHmyc_hne1A_QNohw-GXA8jzopgYKF3BbU"
-_acme-challenge.wikitide.net.			TXT	"Lk7tRqN6OAfheVSgo9cEZhGPgeflUa6NxjqH6WsHUvw"
-_acme-challenge.wikitide.net.			TXT	"XZclTtAGwBnkF6FY8leFDWMExMfjN7DUPmEVYNYBjHY"
-_acme-challenge.wikitide.net.			TXT	"dhl4ooy66H3BJfW8l0QYPog7zeQZXv5YzSFlR8_KQn4"
-_acme-challenge.wikitide.net.			TXT	"H-O0ClyOB_49kEI-qEjEkjpYP88RA_mfUfgm7Eu5a4w"
-_acme-challenge.wikitide.net.			TXT	"TIYkUXD3crgxLps2JaMK7eegRElHcjviFlNW2S2VXRg"
-_acme-challenge.wikitide.net.			TXT	"bUVcoj0Tn8IShspaT_kATndZAUdE69wOW-sn-WAagCU"
-_acme-challenge.wikitide.net.			TXT	"KEE-0xAFwg3jPoJubs-5uIOpgIOE7ri1lG-53GTXoCk"
-_acme-challenge.wikitide.net.			TXT	"hXSA9tuR6qg3-ezbt-eWu3svs0z8UX4OMVFLyDEbhWo"
-_acme-challenge.wikitide.net.			TXT	"jwrP7uOoyIpv3rChl_sLyhCFA9lQDF2NArQ2hKLgfoU"
+_acme-challenge.wikitide.net.			TXT	"pq_U1X-Qv-X1TKsNpLpsyrFSiZ69x10sy4WH8cn1fKk"
+_acme-challenge.wikitide.net.			TXT	"xdl_2QGCDA3b4ASD2wQ_2GATtXdk7l_byUSxyxAAT_Y"
