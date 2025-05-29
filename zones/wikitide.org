@@ -51,14 +51,9 @@ issue-tracker	CNAME	cf-lb.miraheze.org.
 ; Miscellaneous
 wikitide.org.   TXT     "google-site-verification=2H9ugfXLc7WqxAJiLUGewd4ISrZEFG76NQQN1BJNCe4"
 wikitide.org.   TXT     "atlassian-domain-verification=seLpRBEOK9uaTCZrJSqptkG8Km60/0kkJUmi4Z6kaSS8SFufgAYFfvLOyqE1FGZw"
-_acme-challenge.wikitide.org.   TXT    "IrpEcq5kkDNMMBn_hQH3stzzElZg2JxQVpcUAUlCH8E"
-_acme-challenge.wikitide.org.   TXT    "w6pOybtPworwHrZH0whW1zPIYQLsl4zmRThTvD4rsvo"
-_acme-challenge.wikitide.org.   TXT    "ocvVCeYgozQ4VOCKUmI76scp_pon_yIMKILB0Mg8SKc"
-_acme-challenge.wikitide.org.   TXT    "EZ6iYqoGk5iXgcua-11VslCsz3cZESkEQjxfaTcFTek"
-_acme-challenge.wikitide.org.   TXT    "3sV0A86lFp_ApgBTPJwWTdyizCgal1anxFPs3l6kXK8"
-_acme-challenge.wikitide.org.   TXT    "2IemUikKkju1P9aVwSFOrGpZEKBSCxPDlgJDikT2NhY"
-_acme-challenge.wikitide.org.   TXT    "gYBofCH2nf5tjQcsGOIVmEp5sMowMNlF6Q8hxe_oHn8"
 _acme-challenge.wikitide.org.   TXT    "h_7eFssZtRmzkGu1p5DTuUAryQtDFgcluIYO92lGkHs"
 _acme-challenge.wikitide.org.   TXT    "BtIdnuHHl2UQI5Ah-Q7a37swW4ZRE7cjr4t-5S7obSk"
+_acme-challenge.wikitide.org.   TXT    "ks_jDrdfy2qMh_AaMYWC4D6BC8jtaBSwUuT9nWa4-IA"
+_acme-challenge.wikitide.org.   TXT    "ZdXVgJwZv3APhol6HK8XOQ7MprejgG3z7pQbK8kgUlg"
 
 ; Other
