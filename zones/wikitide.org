@@ -46,6 +46,9 @@ default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiT
 www		CNAME	cf-lb.miraheze.org.
 issue-tracker	CNAME	cf-lb.miraheze.org.
 
+; Wiki (Temporarily)
+polcompball	CNAME	cf-lb.miraheze.org.
+
 ; load balancers
 
 ; Miscellaneous
