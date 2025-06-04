@@ -1,9 +1,9 @@
 @	1H	IN	SOA	ns1.wikitide.net. hostmaster.wikitide.net. (
 		2025060401 ; serial
-		7200       ; refresh
-		1800       ; retry
-		259200     ; expire
-		900        ; minimum
+		12H        ; refresh
+		2H         ; retry
+		1W         ; expire
+		1H         ; ncache
 )
 
 ; Name servers
