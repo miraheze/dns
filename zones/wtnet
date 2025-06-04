@@ -10,7 +10,7 @@
 @	1D	NS	ns1.wikitide.net.
 @	1D	NS	ns2.wikitide.net.
 
-$TTL 300 ; Default TTL for records
+$TTL 5M ; Default TTL for records
 
 ; FSSLC (FiberState Salt Lake City)
 $ORIGIN fsslc.wtnet.
