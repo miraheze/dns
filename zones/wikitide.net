@@ -169,8 +169,9 @@ pbs2			A	172.245.40.222
 
 ; Services
 prometheus-pushgateway	A	10.0.15.116
-accounts		DYNA	geoip!cp
+accounts		CNAME	cf-lb.miraheze.org.
 analytics		CNAME	cf-lb.miraheze.org.
+dns			CNAME	cf-lb.miraheze.org.
 grafana			CNAME	cf-lb.miraheze.org.
 health			DYNA	geoip!cp
 monitoring		CNAME	cf-lb.miraheze.org.
@@ -189,7 +190,7 @@ videoscaler		DYNA	weighted!jobrunner
 bastion			CNAME	bast161-private
 opensearch		CNAME	os151-private
 opensearch-mw		CNAME	os162-private
-mw-lb			DYNA	geoip!cp
+mw-lb			CNAME	cf-lb.miraheze.org.
 
 ; Other
 help.static		CNAME	miraheze.github.io.
