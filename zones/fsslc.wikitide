@@ -1,0 +1,118 @@
+$TTL 300
+$ORIGIN fsslc.wikitide.
+
+@			IN	SOA	ns1 hostmaster (
+				2025060401 ; serial
+				7200       ; refresh
+				1800       ; retry
+				259200     ; expire
+				900        ; minimum
+)
+
+@			IN	NS	ns1
+@			IN	NS	ns2
+
+; Cloud15
+cloud15			A	10.0.15.1
+db151			A	10.0.15.110
+os151			A	10.0.15.111
+matomo151		A	10.0.15.112
+mem151			A	10.0.15.113
+mw151			A	10.0.15.114
+mw152			A	10.0.15.115
+prometheus151		A	10.0.15.116
+swiftobject151		A	10.0.15.117
+test151			A	10.0.15.118
+mw153			A	10.0.15.140
+rdb151			A	10.0.15.142
+mwtask151		A	10.0.15.150
+opensearch		A	10.0.15.111 ; os151
+prometheus-pushgateway	A	10.0.15.116 ; prometheus151
+
+; Cloud16
+cloud16			A	10.0.16.1
+bast161			A	10.0.16.127
+db161			A	10.0.16.128
+os161			A	10.0.16.129
+graylog161		A	10.0.16.130
+mem161			A	10.0.16.131
+mw161			A	10.0.16.132
+mw162			A	10.0.16.133
+swiftobject161		A	10.0.16.134
+swiftproxy161		A	10.0.16.135
+cp36			A	10.0.16.137
+os162			A	10.0.16.141
+mw163			A	10.0.16.151
+mwtask161		A	10.0.16.157
+opensearch-mw		A	10.0.16.141 ; os162
+logging			A	10.0.16.130 ; graylog161
+
+; Cloud17
+cloud17			A	10.0.17.1
+swiftproxy171		A	10.0.17.108
+db171			A	10.0.17.119
+ldap171			A	10.0.17.121
+mw171			A	10.0.17.122
+mw172			A	10.0.17.123
+phorge171		A	10.0.17.124
+swiftac171		A	10.0.17.125
+swiftobject171		A	10.0.17.126
+ns1			A	10.0.17.136
+ns2			A	10.0.17.136 ; ns2 uses same IP as ns1 to avoid external services.
+cp37			A	10.0.17.138
+reports171		A	10.0.17.139
+bots171			A	10.0.17.143
+mwtask171		A	10.0.17.144
+mw173			A	10.0.17.153
+db172			A	10.0.17.158
+ldap			A	10.0.17.121 ; ldap171
+phorge			A	10.0.17.124 ; phorge171
+
+; Cloud18
+cloud18			A	10.0.18.1
+puppet181		A	10.0.18.100
+bast181			A	10.0.18.101
+db181			A	10.0.18.102
+db182			A	10.0.18.103
+mw181			A	10.0.18.104
+mw182			A	10.0.18.105
+mwtask181		A	10.0.18.106
+swiftobject181		A	10.0.18.107
+mon181			A	10.0.18.109
+eventgate181		A	10.0.18.147
+mw183			A	10.0.18.155
+kafka181		A	10.0.18.159
+
+; Cloud19
+cloud19			A	10.0.19.1
+swiftobject191		A	10.0.19.120
+cp38			A	10.0.19.146
+os191			A	10.0.19.152
+mem191			A	10.0.19.154
+mw191			A	10.0.19.160
+mw192			A	10.0.19.161
+mw193			A	10.0.19.164
+
+; Cloud20
+cloud20			A	10.0.20.1
+swiftobject201		A	10.0.20.145
+mem201			A	10.0.20.148
+changeprop201		A	10.0.20.149
+os201			A	10.0.20.156
+mw201			A	10.0.20.162
+mw202			A	10.0.20.163
+mw203			A	10.0.20.165
+
+; Load balancers
+swift-lb		A	10.0.16.135 ; swiftproxy161
+
+; Management interfaces
+wt15.mgmt		A	10.20.3.50
+wt16.mgmt		A	10.20.3.59
+wt17.mgmt		A	10.20.3.60
+wt18.mgmt		A	10.20.3.38
+wt19.mgmt		A	10.20.4.178
+wt20.mgmt		A	10.20.4.179
+
+; Aliases
+bastion			A	10.0.16.127 ; bast161
