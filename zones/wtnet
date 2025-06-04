@@ -1,16 +1,18 @@
 $TTL 300
-$ORIGIN fsslc.wikitide.
-
-@			IN	SOA	ns1 hostmaster (
-				2025060401 ; serial
-				7200       ; refresh
-				1800       ; retry
-				259200     ; expire
-				900        ; minimum
+@		IN	SOA	ns1.wikitide.net. hostmaster.wikitide.net. (
+			2025060401 ; serial
+			7200       ; refresh
+			1800       ; retry
+			259200     ; expire
+			900        ; minimum
 )
 
-@			IN	NS	ns1
-@			IN	NS	ns2
+; Name servers
+@		NS	ns1.wikitide.net.
+@		NS	ns2.wikitide.net.
+
+; FSSLC (FiberState Salt Lake City)
+$ORIGIN fsslc.wtnet.
 
 ; Cloud15
 cloud15			A	10.0.15.1
@@ -57,8 +59,6 @@ mw172			A	10.0.17.123
 phorge171		A	10.0.17.124
 swiftac171		A	10.0.17.125
 swiftobject171		A	10.0.17.126
-ns1			A	10.0.17.136
-ns2			A	10.0.17.136 ; ns2 uses same IP as ns1 to avoid external services.
 cp37			A	10.0.17.138
 reports171		A	10.0.17.139
 bots171			A	10.0.17.143
