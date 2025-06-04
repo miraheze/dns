@@ -168,7 +168,6 @@ pbs1			A	104.168.123.210
 pbs2			A	172.245.40.222
 
 ; Services
-prometheus-pushgateway	A	10.0.15.116
 accounts		CNAME	cf-lb.miraheze.org.
 analytics		CNAME	cf-lb.miraheze.org.
 dns			CNAME	cf-lb.miraheze.org.
