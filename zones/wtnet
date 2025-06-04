@@ -67,7 +67,6 @@ mwtask171		A	10.0.17.144
 mw173			A	10.0.17.153
 db172			A	10.0.17.158
 ldap			A	10.0.17.121 ; ldap171
-phorge			A	10.0.17.124 ; phorge171
 
 ; Cloud18
 cloud18			A	10.0.18.1
