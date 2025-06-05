@@ -12,6 +12,17 @@
 
 $TTL 5M ; Default TTL for records
 
+; VPS servers (OVH)
+; OVHGB (OVH United Kingdom)
+$ORIGIN ovhgb.wtnet.
+ns2		A	51.75.170.66
+		AAAA	2001:41d0:801:2000::4089
+
+; OVHUS (OVH United States)
+$ORIGIN ovhus.wtnet.
+mattermost1	A	15.204.87.20
+		AAAA	2604:2dc0:202:300::7c6
+
 ; FSSLC (FiberState Salt Lake City)
 $ORIGIN fsslc.wtnet.
 
@@ -29,8 +40,6 @@ test151			A	10.0.15.118
 mw153			A	10.0.15.140
 rdb151			A	10.0.15.142
 mwtask151		A	10.0.15.150
-opensearch		A	10.0.15.111 ; os151
-prometheus-pushgateway	A	10.0.15.116 ; prometheus151
 
 ; Cloud16
 cloud16			A	10.0.16.1
@@ -47,7 +56,6 @@ cp36			A	10.0.16.137
 os162			A	10.0.16.141
 mw163			A	10.0.16.151
 mwtask161		A	10.0.16.157
-opensearch-mw		A	10.0.16.141 ; os162
 
 ; Cloud17
 cloud17			A	10.0.17.1
@@ -59,6 +67,7 @@ mw172			A	10.0.17.123
 phorge171		A	10.0.17.124
 swiftac171		A	10.0.17.125
 swiftobject171		A	10.0.17.126
+ns1			A	10.0.17.136
 cp37			A	10.0.17.138
 reports171		A	10.0.17.139
 bots171			A	10.0.17.143
@@ -101,16 +110,19 @@ mw201			A	10.0.20.162
 mw202			A	10.0.20.163
 mw203			A	10.0.20.165
 
-; Load balancers
-swift-lb		A	10.0.16.135 ; swiftproxy161
-
 ; Management interfaces
-wt15.mgmt		A	10.20.3.50
-wt16.mgmt		A	10.20.3.59
-wt17.mgmt		A	10.20.3.60
-wt18.mgmt		A	10.20.3.38
-wt19.mgmt		A	10.20.4.178
-wt20.mgmt		A	10.20.4.179
+$ORIGIN mgmt.fsslc.wtnet.
+
+cloud15			A	10.20.3.50
+cloud16			A	10.20.3.59
+cloud17			A	10.20.3.60
+cloud18			A	10.20.3.38
+cloud19			A	10.20.4.178
+cloud20			A	10.20.4.179
 
 ; Aliases
 bastion			A	10.0.16.127 ; bast161
+opensearch		A	10.0.15.111 ; os151
+opensearch-mw		A	10.0.16.141 ; os162
+prometheus-pushgateway	A	10.0.15.116 ; prometheus151
+swift-lb		A	10.0.16.135 ; swiftproxy161
