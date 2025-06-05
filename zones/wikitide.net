@@ -45,17 +45,6 @@ _dmarc			TXT	"v=DMARC1; p=reject; pct=100; fo=1"
 ; BIMI - Used for verified emails
 default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTide_BIMI.svg;a="
 
-; Miscellaneous
-ownercheck.mattermost1.wikitide.net.	TXT	"55dd6141"
-
-; Management Interfaces
-wt15.mgmt		A	10.20.3.50
-wt16.mgmt		A	10.20.3.59
-wt17.mgmt		A	10.20.3.60
-wt18.mgmt		A	10.20.3.38
-wt19.mgmt		A	10.20.4.178
-wt20.mgmt		A	10.20.4.179
-
 ; Servers
 ;; VPS servers
 mattermost1		A	15.204.87.20
@@ -160,34 +149,27 @@ pbs1			A	104.168.123.210
 pbs2			A	172.245.40.222
 
 ; Services
+health			DYNA	geoip!cp
+opensearch		CNAME	os151.fsslc.wtnet.
+opensearch-mw		CNAME	os162.fsslc.wtnet.
+jobrunner		DYNA	weighted!jobrunner
+jobrunner-high		DYNA	weighted!jobrunner
+logging			CNAME	graylog161.fsslc.wtnet.
+ldap			CNAME	ldap171.fsslc.wtnet.
+mattermost		CNAME	mattermost1
+swift-lb		AAAA	2602:294:0:b13::109
+videoscaler		DYNA	weighted!jobrunner
+
+; Load Balanced
 accounts		CNAME	cf-lb.miraheze.org.
 analytics		CNAME	cf-lb.miraheze.org.
 dns			CNAME	cf-lb.miraheze.org.
 grafana			CNAME	cf-lb.miraheze.org.
-health			DYNA	geoip!cp
 monitoring		CNAME	cf-lb.miraheze.org.
+mw-lb			CNAME	cf-lb.miraheze.org.
 phorge-static           CNAME	cf-lb.miraheze.org.
-jobrunner		DYNA	weighted!jobrunner
-jobrunner-high		DYNA	weighted!jobrunner
-logging			CNAME	graylog161
-ldap			CNAME	ldap171
-mattermost		CNAME	mattermost1
 static			CNAME	cf-lb.miraheze.org.
 status			CNAME	cf-lb.miraheze.org.
-swift-lb		AAAA	2602:294:0:b13::109
-videoscaler		DYNA	weighted!jobrunner
-
-; Load Balancers
-opensearch		CNAME	os151.fsslc.wtnet.
-opensearch-mw		CNAME	os162.fsslc.wtnet.
-mw-lb			CNAME	cf-lb.miraheze.org.
 
 ; Other
 help.static		CNAME	miraheze.github.io.
-wikitide.net.   TXT     "google-site-verification=bv4s5wmWTcHmyc_hne1A_QNohw-GXA8jzopgYKF3BbU"
-_acme-challenge.wikitide.net.			TXT	"pkc9znAotKLpCAbunbgOruBmZQZXPA2xPKPDmrUNgRY"
-_acme-challenge.wikitide.net.			TXT	"-ur_rgWNah3TyiGz1jHFklkFj_-Ro5ktjEmfAAc7UB4"
-_acme-challenge.wikitide.net.			TXT	"VG2MvaejsSKqpSRL-NuDI5k6ZOzbMGfqNRs6SHtULLo"
-_acme-challenge.wikitide.net.			TXT	"2bAfyjwzcU0c8vY9R2QE3-fEzzeyavGkAOsjqY02vMQ"
-_acme-challenge.wikitide.net.			TXT	"C94QNgmy3vf3ujq-YMVQXJ4jF9UAs5EMXIaYMaXOINo"
-_acme-challenge.wikitide.net.			TXT	"zstdr-n22JrAJmwe1hDmftvRs_RiqPxL_S1V3_7HHfg"
