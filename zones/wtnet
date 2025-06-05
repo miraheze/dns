@@ -123,7 +123,7 @@ cloud18			A	10.20.3.38
 cloud19			A	10.20.4.178
 cloud20			A	10.20.4.179
 
-; Servers that are only VPSes, not in any DC
+; VPS servers
 $ORIGIN vps.wtnet.
 
 mattermost1		A	15.204.87.20
