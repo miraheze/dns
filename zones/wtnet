@@ -111,7 +111,6 @@ $ORIGIN ext.fsslc.wtnet.
 
 bots171			AAAA	2602:294:0:b23::113
 graylog161		AAAA	2602:294:0:b13::104
-puppet181		AAAA	2602:294:0:b12::101
 
 ; Management interfaces
 $ORIGIN mgmt.fsslc.wtnet.
