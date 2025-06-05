@@ -110,6 +110,13 @@ mw201			A	10.0.20.162
 mw202			A	10.0.20.163
 mw203			A	10.0.20.165
 
+; Aliases
+bastion			A	10.0.16.127 ; bast161
+opensearch		A	10.0.15.111 ; os151
+opensearch-mw		A	10.0.16.141 ; os162
+prometheus-pushgateway	A	10.0.15.116 ; prometheus151
+swift-lb		A	10.0.16.135 ; swiftproxy161
+
 ; Management interfaces
 $ORIGIN mgmt.fsslc.wtnet.
 
@@ -119,10 +126,3 @@ cloud17			A	10.20.3.60
 cloud18			A	10.20.3.38
 cloud19			A	10.20.4.178
 cloud20			A	10.20.4.179
-
-; Aliases
-bastion			A	10.0.16.127 ; bast161
-opensearch		A	10.0.15.111 ; os151
-opensearch-mw		A	10.0.16.141 ; os162
-prometheus-pushgateway	A	10.0.15.116 ; prometheus151
-swift-lb		A	10.0.16.135 ; swiftproxy161
