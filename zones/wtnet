@@ -106,6 +106,13 @@ opensearch-mw		A	10.0.16.141 ; os162
 prometheus-pushgateway	A	10.0.15.116 ; prometheus151
 swift-lb		A	10.0.16.135 ; swiftproxy161
 
+; Servers that need to be accessed externally
+$ORIGIN ext.fsslc.wtnet.
+
+bots171			AAAA	2602:294:0:b23::113
+graylog161		AAAA	2602:294:0:b13::104
+puppet181		AAAA	2602:294:0:b12::101
+
 ; Management interfaces
 $ORIGIN mgmt.fsslc.wtnet.
 
@@ -115,3 +122,11 @@ cloud17			A	10.20.3.60
 cloud18			A	10.20.3.38
 cloud19			A	10.20.4.178
 cloud20			A	10.20.4.179
+
+; Servers that are only VPSes, not any DC
+$ORIGIN vps.wtnet.
+
+mattermost1		A	15.204.87.20
+			AAAA	2604:2dc0:202:300::7c6
+ns2			A	51.75.170.66
+			AAAA	2001:41d0:801:2000::4089
