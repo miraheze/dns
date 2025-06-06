@@ -10,7 +10,7 @@
 @	1D	NS	ns1.wikitide.net.
 @	1D	NS	ns2.wikitide.net.
 
-$TTL 5M ; Default TTL for records
+$TTL 1H ; Default TTL for records
 
 ; Cloud15
 $ORIGIN 15.0.@Z
