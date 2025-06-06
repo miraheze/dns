@@ -17,6 +17,8 @@ ns2	1D	A	51.75.170.66
 		AAAA	2001:41d0:801:2000::4089 ; OVH (GB)
 
 $TTL 5M ; Default TTL for records
+; Wildcard services
+@		DYNA	geoip!cp
 
 ; CAA (issue: letsencrypt.org, iodef: mailto:caapolicy@wikitide.org)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
