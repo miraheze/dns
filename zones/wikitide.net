@@ -143,10 +143,6 @@ mem201		        AAAA	2602:294:0:b39::105
 changeprop201		AAAA	2602:294:0:b39::106
 os201		        AAAA	2602:294:0:b39::107
 
-;; Proxmox Backup
-pbs1			A	104.168.123.210
-pbs2			A	172.245.40.222
-
 ; Services
 health			DYNA	geoip!cp
 opensearch		CNAME	os151.fsslc.wtnet.
