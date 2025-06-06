@@ -162,7 +162,6 @@ videoscaler		DYNA	weighted!jobrunner
 ; Load Balanced
 accounts		CNAME	cf-lb.miraheze.org.
 analytics		CNAME	cf-lb.miraheze.org.
-dns			CNAME	cf-lb.miraheze.org.
 grafana			CNAME	cf-lb.miraheze.org.
 monitoring		CNAME	cf-lb.miraheze.org.
 mw-lb			CNAME	cf-lb.miraheze.org.
