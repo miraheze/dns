@@ -13,7 +13,7 @@
 $TTL 5M ; Default TTL for records
 
 ; Cloud15
-$ORIGIN 15.0.10.@Z
+$ORIGIN 15.0.@Z
 1		PTR	cloud15.fsslc.wtnet.
 110		PTR	db151.fsslc.wtnet.
 111		PTR	os151.fsslc.wtnet.
@@ -29,7 +29,7 @@ $ORIGIN 15.0.10.@Z
 150		PTR	mwtask151.fsslc.wtnet.
 
 ; Cloud16
-$ORIGIN 16.0.10.@Z
+$ORIGIN 16.0.@Z
 1		PTR	cloud16.fsslc.wtnet.
 127		PTR	bast161.fsslc.wtnet.
 128		PTR	db161.fsslc.wtnet.
@@ -46,7 +46,7 @@ $ORIGIN 16.0.10.@Z
 157		PTR	mwtask161.fsslc.wtnet.
 
 ; Cloud17
-$ORIGIN 17.0.10.@Z
+$ORIGIN 17.0.@Z
 1		PTR	cloud17.fsslc.wtnet.
 108		PTR	swiftproxy171.fsslc.wtnet.
 119		PTR	db171.fsslc.wtnet.
@@ -65,7 +65,7 @@ $ORIGIN 17.0.10.@Z
 158		PTR	db172.fsslc.wtnet.
 
 ; Cloud18
-$ORIGIN 18.0.10.@Z
+$ORIGIN 18.0.@Z
 1		PTR	cloud18.fsslc.wtnet.
 100		PTR	puppet181.fsslc.wtnet.
 101		PTR	bast181.fsslc.wtnet.
@@ -81,7 +81,7 @@ $ORIGIN 18.0.10.@Z
 159		PTR	kafka181.fsslc.wtnet.
 
 ; Cloud19
-$ORIGIN 19.0.10.@Z
+$ORIGIN 19.0.@Z
 1		PTR	cloud19.fsslc.wtnet.
 120		PTR	swiftobject191.fsslc.wtnet.
 146		PTR	cp38.fsslc.wtnet.
@@ -92,7 +92,7 @@ $ORIGIN 19.0.10.@Z
 164		PTR	mw193.fsslc.wtnet.
 
 ; Cloud20
-$ORIGIN 20.0.10.@Z
+$ORIGIN 20.0.@Z
 1		PTR	cloud20.fsslc.wtnet.
 145		PTR	swiftobject201.fsslc.wtnet.
 148		PTR	mem201.fsslc.wtnet.
