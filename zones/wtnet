@@ -1,9 +1,9 @@
 @	1H	IN	SOA	ns1.wikitide.net. hostmaster.wikitide.net. (
-		2025060401 ; serial
-		12H        ; refresh
-		2H         ; retry
-		1W         ; expire
-		1H         ; ncache
+			2025060401	; serial
+			12H		; refresh
+			2H		; retry
+			1W		; expire
+			1H		; ncache
 )
 
 ; Name servers
@@ -13,7 +13,7 @@
 $TTL 5M ; Default TTL for records
 
 ; FSSLC (FiberState Salt Lake City)
-$ORIGIN fsslc.wtnet.
+$ORIGIN fsslc.@Z
 
 ; Cloud15
 cloud15			A	10.0.15.1
@@ -107,13 +107,13 @@ prometheus-pushgateway	A	10.0.15.116 ; prometheus151
 swift-lb		A	10.0.16.135 ; swiftproxy161
 
 ; Servers that need to have public IP access
-$ORIGIN public.fsslc.wtnet.
+$ORIGIN public.fsslc.@Z
 
 bots171			AAAA	2602:294:0:b23::113
 graylog161		AAAA	2602:294:0:b13::104
 
 ; Management interfaces
-$ORIGIN mgmt.fsslc.wtnet.
+$ORIGIN mgmt.fsslc.@Z
 
 cloud15			A	10.20.3.50
 cloud16			A	10.20.3.59
@@ -123,7 +123,7 @@ cloud19			A	10.20.4.178
 cloud20			A	10.20.4.179
 
 ; VPS servers
-$ORIGIN vps.wtnet.
+$ORIGIN vps.@Z
 
 mattermost1		A	15.204.87.20
 			AAAA	2604:2dc0:202:300::7c6
