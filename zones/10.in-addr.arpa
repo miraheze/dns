@@ -1,0 +1,97 @@
+@	1H	IN	SOA	ns1.wikitide.net. hostmaster.wikitide.net. (
+		2025060501 ; serial
+		12H        ; refresh
+		2H         ; retry
+		1W         ; expire
+		1H         ; ncache
+)
+
+; Name servers
+@	1D	NS	ns1.wikitide.net.
+@	1D	NS	ns2.wikitide.net.
+
+$TTL 5M ; Default TTL for records
+
+; Cloud15
+1.15.0		PTR	cloud15.fsslc.wtnet.
+110.15.0	PTR	db151.fsslc.wtnet.
+111.15.0	PTR	os151.fsslc.wtnet.
+112.15.0	PTR	matomo151.fsslc.wtnet.
+113.15.0	PTR	mem151.fsslc.wtnet.
+114.15.0	PTR	mw151.fsslc.wtnet.
+115.15.0	PTR	mw152.fsslc.wtnet.
+116.15.0	PTR	prometheus151.fsslc.wtnet.
+117.15.0	PTR	swiftobject151.fsslc.wtnet.
+118.15.0	PTR	test151.fsslc.wtnet.
+140.15.0	PTR	mw153.fsslc.wtnet.
+142.15.0	PTR	rdb151.fsslc.wtnet.
+150.15.0	PTR	mwtask151.fsslc.wtnet.
+
+; Cloud16
+1.16.0		PTR	cloud16.fsslc.wtnet.
+127.16.0	PTR	bast161.fsslc.wtnet.
+128.16.0	PTR	db161.fsslc.wtnet.
+129.16.0	PTR	os161.fsslc.wtnet.
+130.16.0	PTR	graylog161.fsslc.wtnet.
+131.16.0	PTR	mem161.fsslc.wtnet.
+132.16.0	PTR	mw161.fsslc.wtnet.
+133.16.0	PTR	mw162.fsslc.wtnet.
+134.16.0	PTR	swiftobject161.fsslc.wtnet.
+135.16.0	PTR	swiftproxy161.fsslc.wtnet.
+137.16.0	PTR	cp36.fsslc.wtnet.
+141.16.0	PTR	os162.fsslc.wtnet.
+151.16.0	PTR	mw163.fsslc.wtnet.
+157.16.0	PTR	mwtask161.fsslc.wtnet.
+
+; Cloud17
+1.17.0		PTR	cloud17.fsslc.wtnet.
+108.17.0	PTR	swiftproxy171.fsslc.wtnet.
+119.17.0	PTR	db171.fsslc.wtnet.
+121.17.0	PTR	ldap171.fsslc.wtnet.
+122.17.0	PTR	mw171.fsslc.wtnet.
+123.17.0	PTR	mw172.fsslc.wtnet.
+124.17.0	PTR	phorge171.fsslc.wtnet.
+125.17.0	PTR	swiftac171.fsslc.wtnet.
+126.17.0	PTR	swiftobject171.fsslc.wtnet.
+136.17.0	PTR	ns1.fsslc.wtnet.
+138.17.0	PTR	cp37.fsslc.wtnet.
+139.17.0	PTR	reports171.fsslc.wtnet.
+143.17.0	PTR	bots171.fsslc.wtnet.
+144.17.0	PTR	mwtask171.fsslc.wtnet.
+153.17.0	PTR	mw173.fsslc.wtnet.
+158.17.0	PTR	db172.fsslc.wtnet.
+
+; Cloud18
+1.18.0		PTR	cloud18.fsslc.wtnet.
+100.18.0	PTR	puppet181.fsslc.wtnet.
+101.18.0	PTR	bast181.fsslc.wtnet.
+102.18.0	PTR	db181.fsslc.wtnet.
+103.18.0	PTR	db182.fsslc.wtnet.
+104.18.0	PTR	mw181.fsslc.wtnet.
+105.18.0	PTR	mw182.fsslc.wtnet.
+106.18.0	PTR	mwtask181.fsslc.wtnet.
+107.18.0	PTR	swiftobject181.fsslc.wtnet.
+109.18.0	PTR	mon181.fsslc.wtnet.
+147.18.0	PTR	eventgate181.fsslc.wtnet.
+155.18.0	PTR	mw183.fsslc.wtnet.
+159.18.0	PTR	kafka181.fsslc.wtnet.
+
+; Cloud19
+1.19.0		PTR	cloud19.fsslc.wtnet.
+120.19.0	PTR	swiftobject191.fsslc.wtnet.
+146.19.0	PTR	cp38.fsslc.wtnet.
+152.19.0	PTR	os191.fsslc.wtnet.
+154.19.0	PTR	mem191.fsslc.wtnet.
+160.19.0	PTR	mw191.fsslc.wtnet.
+161.19.0	PTR	mw192.fsslc.wtnet.
+164.19.0	PTR	mw193.fsslc.wtnet.
+
+; Cloud20
+1.20.0		PTR	cloud20.fsslc.wtnet.
+145.20.0	PTR	swiftobject201.fsslc.wtnet.
+148.20.0	PTR	mem201.fsslc.wtnet.
+149.20.0	PTR	changeprop201.fsslc.wtnet.
+156.20.0	PTR	os201.fsslc.wtnet.
+162.20.0	PTR	mw201.fsslc.wtnet.
+163.20.0	PTR	mw202.fsslc.wtnet.
+165.20.0	PTR	mw203.fsslc.wtnet.
