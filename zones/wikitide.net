@@ -152,7 +152,7 @@ jobrunner-high		DYNA	weighted!jobrunner
 logging			CNAME	graylog161.fsslc.wtnet.
 ldap			CNAME	ldap171.fsslc.wtnet.
 mattermost		CNAME	mattermost1.vps.wtnet.
-swift-lb		CNAME	swift-lb.fsslc.wtnet.
+swift-lb		CNAME	swiftproxy161.fsslc.wtnet.
 videoscaler		DYNA	weighted!jobrunner
 
 ; Load Balanced
