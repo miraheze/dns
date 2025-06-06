@@ -6,10 +6,11 @@
 		1H         ; ncache
 )
 
-@     1D	NS	ns1.wikitide.net.
-@     1D	NS	ns2.wikitide.net.
+; Name servers
+@	1D	NS	ns1.wikitide.net.
+@	1D	NS	ns2.wikitide.net.
 
-$TTL 5M
+$TTL 5M ; Default TTL for records
 
 ; Cloud15
 1.15.0		PTR	cloud15.fsslc.wtnet.
