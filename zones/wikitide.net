@@ -151,7 +151,7 @@ jobrunner		DYNA	weighted!jobrunner
 jobrunner-high		DYNA	weighted!jobrunner
 logging			CNAME	graylog161.fsslc.wtnet.
 ldap			CNAME	ldap171.fsslc.wtnet.
-mattermost		CNAME	mattermost1.vps.wtnet.
+mattermost		CNAME	mattermost1
 swift-lb		CNAME	swiftproxy161.fsslc.wtnet.
 videoscaler		DYNA	weighted!jobrunner
 
