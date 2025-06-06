@@ -1,26 +1,22 @@
-$TTL 5M ; Default TTL for records
-$ORIGIN wikitide.net.
-
-@		SOA ns1 hostmaster (
-		2024011501	; serial
-		2H		; refresh
-		30M		; retry
-		3D		; expire
-		15M		; ncache
+@	1H	IN	SOA	ns1 hostmaster (
+			2024011501	; serial
+			12H		; refresh
+			2H		; retry
+			1W		; expire
+			1H		; ncache
 )
 
-; Wildcard services
-@		DYNA	geoip!cp
-
 ; Name servers
-@		NS	ns1.wikitide.net.
-@		NS	ns2.wikitide.net.
+@	1D	NS	ns1
+@	1D	NS	ns2
 
 ;; Records
-ns1		A	38.46.223.204
+ns1	1D	A	38.46.223.204
 		AAAA	2602:294:0:b23::111 ; cloud17
-ns2		A	51.75.170.66
+ns2	1D	A	51.75.170.66
 		AAAA	2001:41d0:801:2000::4089 ; OVH (GB)
+
+$TTL 5M ; Default TTL for records
 
 ; CAA (issue: letsencrypt.org, iodef: mailto:caapolicy@wikitide.org)
 @		TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
@@ -30,7 +26,7 @@ ns2		A	51.75.170.66
 @		MX	10	smtp.google.com.
 
 ; Mail policies
-wikitide.net.	TXT	"v=spf1 include:_spf.google.com ~all"
+@		TXT	"v=spf1 include:_spf.google.com ~all"
 
 ; Mail autodiscovery
 _imaps._tcp		IN SRV	0 0 993	imap.gmail.com.
