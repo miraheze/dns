@@ -171,11 +171,9 @@ swift-lb		CNAME	swiftproxy161.fsslc.wtnet.
 
 ; Load Balanced
 ;; Cloudflare
-accounts		CNAME	cf-lb.miraheze.org.
 analytics		CNAME	cf-lb.miraheze.org.
 grafana			CNAME	cf-lb.miraheze.org.
 monitoring		CNAME	cf-lb.miraheze.org.
-mw-lb			CNAME	cf-lb.miraheze.org.
 phorge-static		CNAME	cf-lb.miraheze.org.
 static			CNAME	cf-lb.miraheze.org.
 status			CNAME	cf-lb.miraheze.org.
