@@ -47,9 +47,6 @@ default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiT
 
 ; Servers
 ; TODO: Remove once FQDNs have been updated to use wtnet
-;; VPS servers
-mattermost1		CNAME	mattermost1.vps.wtnet.
-
 ;; Cloud15
 cloud15			A	38.46.218.154
 			AAAA	2602:294:0:c8::100
@@ -69,7 +66,6 @@ os161			CNAME	os161.fsslc.wtnet.
 graylog161		CNAME	graylog161.fsslc.wtnet.
 mem161			CNAME	mem161.fsslc.wtnet.
 swiftobject161		CNAME	swiftobject161.fsslc.wtnet.
-swiftproxy161		CNAME	swiftproxy161.fsslc.wtnet.
 os162			CNAME	os162.fsslc.wtnet.
 
 ;; Cloud17
@@ -80,7 +76,6 @@ ldap171			CNAME	ldap171.fsslc.wtnet.
 phorge171		CNAME	phorge171.fsslc.wtnet.
 swiftac171		CNAME	swiftac171.fsslc.wtnet.
 swiftobject171		CNAME	swiftobject171.fsslc.wtnet.
-swiftproxy171		CNAME	swiftproxy171.fsslc.wtnet.
 reports171		CNAME	reports171.fsslc.wtnet.
 bots171			CNAME	bots171.fsslc.wtnet.
 db172			CNAME	db172.fsslc.wtnet.
