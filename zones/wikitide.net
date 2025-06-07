@@ -88,7 +88,7 @@ db172			CNAME	db172.fsslc.wtnet.
 ;; Cloud18
 cloud18			A	38.46.218.156
 			AAAA	2602:294:0:b12::100
-puppet181		AAAA	2602:294:0:b12::101
+puppet181		CNAME	puppet181.fsslc.wtnet.
 db181			CNAME	db181.fsslc.wtnet.
 db182			CNAME	db182.fsslc.wtnet.
 swiftobject181		CNAME	swiftobject181.fsslc.wtnet.
