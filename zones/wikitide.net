@@ -54,7 +54,7 @@ mattermost1		A	15.204.87.20
 ;; Cloud15
 cloud15			A	38.46.218.154
 			AAAA	2602:294:0:c8::100
-db151			AAAA	2602:294:0:c8::101
+db151			CNAME	db151.fsslc.wtnet.
 os151			CNAME	os151.fsslc.wtnet.
 matomo151		AAAA	2602:294:0:c8::103
 mem151			AAAA	2602:294:0:c8::104
@@ -65,7 +65,7 @@ rdb151			AAAA	2602:294:0:c8::110
 ;; Cloud16
 cloud16			A	38.46.218.226
 			AAAA	2602:294:0:b13::100
-db161			AAAA	2602:294:0:b13::102
+db161			CNAME	db161.fsslc.wtnet.
 os161			CNAME	os161.fsslc.wtnet.
 graylog161		CNAME	graylog161.fsslc.wtnet.
 mem161			AAAA	2602:294:0:b13::105
@@ -76,7 +76,7 @@ os162			CNAME	os162.fsslc.wtnet.
 ;; Cloud17
 cloud17			A	38.46.218.228
 			AAAA	2602:294:0:b23::100
-db171			AAAA	2602:294:0:b23::101
+db171			CNAME	db171.fsslc.wtnet.
 ldap171			CNAME	ldap171.fsslc.wtnet.
 phorge171		AAAA	2602:294:0:b23::106
 swiftac171		AAAA	2602:294:0:b23::107
@@ -90,7 +90,7 @@ db172			CNAME	db172.fsslc.wtnet.
 cloud18			A	38.46.218.156
 			AAAA	2602:294:0:b12::100
 puppet181		AAAA	2602:294:0:b12::101
-db181			AAAA	2602:294:0:b12::103
+db181			CNAME	db181.fsslc.wtnet.
 db182			CNAME	db182.fsslc.wtnet.
 swiftobject181		AAAA	2602:294:0:b12::108
 mon181			AAAA	2602:294:0:b12::110
