@@ -48,8 +48,7 @@ default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiT
 ; Servers
 ; TODO: Remove once FQDNs have been updated to use wtnet
 ;; VPS servers
-mattermost1		A	15.204.87.20
-			AAAA	2604:2dc0:202:300::7c6
+mattermost1		CNAME	mattermost1.vps.wtnet.
 
 ;; Cloud15
 cloud15			A	38.46.218.154
