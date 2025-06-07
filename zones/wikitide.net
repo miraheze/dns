@@ -93,8 +93,8 @@ db181			CNAME	db181.fsslc.wtnet.
 db182			CNAME	db182.fsslc.wtnet.
 swiftobject181		AAAA	2602:294:0:b12::108
 mon181			AAAA	2602:294:0:b12::110
-kafka181		AAAA	2602:294:0:b12::111
-eventgate181		AAAA	2602:294:0:b12::112
+kafka181		CNAME	kafka181.fsslc.wtnet.
+eventgate181		CNAME	eventgate181.fsslc.wtnet.
 
 ;; Cloud19
 cloud19			A	38.46.218.157
@@ -108,7 +108,7 @@ cloud20			A	38.46.218.155
 			AAAA	2602:294:0:b39::100
 swiftobject201		AAAA	2602:294:0:b39::101
 mem201			CNAME	mem201.fsslc.wtnet.
-changeprop201		AAAA	2602:294:0:b39::106
+changeprop201		CNAME	changeprop201.fsslc.wtnet.
 os201			CNAME	os201.fsslc.wtnet.
 
 ; Server Aliases
