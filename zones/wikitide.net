@@ -58,7 +58,7 @@ os151			CNAME	os151.fsslc.wtnet.
 matomo151		CNAME	matomo151.fsslc.wtnet.
 mem151			CNAME	mem151.fsslc.wtnet.
 prometheus151		CNAME	prometheus151.fsslc.wtnet.
-swiftobject151		AAAA	2602:294:0:c8::108
+swiftobject151		CNAME 	swiftobject151.fsslc.wtnet.
 rdb151			CNAME	rdb151.fsslc.wtnet.
 
 ;; Cloud16
@@ -68,8 +68,8 @@ db161			CNAME	db161.fsslc.wtnet.
 os161			CNAME	os161.fsslc.wtnet.
 graylog161		CNAME	graylog161.fsslc.wtnet.
 mem161			CNAME	mem161.fsslc.wtnet.
-swiftobject161		AAAA	2602:294:0:b13::108
-swiftproxy161		AAAA	2602:294:0:b13::109
+swiftobject161		CNAME	swiftobject161.fsslc.wtnet.
+swiftproxy161		CNAME	swiftproxy161.fsslc.wtnet.
 os162			CNAME	os162.fsslc.wtnet.
 
 ;; Cloud17
@@ -78,9 +78,9 @@ cloud17			A	38.46.218.228
 db171			CNAME	db171.fsslc.wtnet.
 ldap171			CNAME	ldap171.fsslc.wtnet.
 phorge171		CNAME	phorge171.fsslc.wtnet.
-swiftac171		AAAA	2602:294:0:b23::107
-swiftobject171		AAAA	2602:294:0:b23::108
-swiftproxy171		AAAA	2602:294:0:b23::109
+swiftac171		CNAME	swiftac171.fsslc.wtnet.
+swiftobject171		CNAME	swiftobject171.fsslc.wtnet.
+swiftproxy171		CNAME	swiftproxy171.fsslc.wtnet.
 reports171		CNAME	reports171.fsslc.wtnet.
 bots171			AAAA	2602:294:0:b23::113
 db172			CNAME	db172.fsslc.wtnet.
@@ -91,7 +91,7 @@ cloud18			A	38.46.218.156
 puppet181		AAAA	2602:294:0:b12::101
 db181			CNAME	db181.fsslc.wtnet.
 db182			CNAME	db182.fsslc.wtnet.
-swiftobject181		AAAA	2602:294:0:b12::108
+swiftobject181		CNAME	swiftobject181.fsslc.wtnet.
 mon181			AAAA	2602:294:0:b12::110
 kafka181		CNAME	kafka181.fsslc.wtnet.
 eventgate181		CNAME	eventgate181.fsslc.wtnet.
@@ -99,14 +99,14 @@ eventgate181		CNAME	eventgate181.fsslc.wtnet.
 ;; Cloud19
 cloud19			A	38.46.218.157
 			AAAA	2602:294:0:b33::100
-swiftobject191		AAAA	2602:294:0:b33::101
+swiftobject191		CNAME	swiftobject191.fsslc.wtnet.
 os191			CNAME	os191.fsslc.wtnet.
 mem191			CNAME	mem191.fsslc.wtnet.
 
 ;; Cloud20
 cloud20			A	38.46.218.155
 			AAAA	2602:294:0:b39::100
-swiftobject201		AAAA	2602:294:0:b39::101
+swiftobject201		CNAME	swiftobject201.fsslc.wtnet.
 mem201			CNAME	mem201.fsslc.wtnet.
 changeprop201		CNAME	changeprop201.fsslc.wtnet.
 os201			CNAME	os201.fsslc.wtnet.
