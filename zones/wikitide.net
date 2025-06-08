@@ -105,7 +105,7 @@ os201			CNAME	os201.fsslc.wtnet.
 ; Server Aliases
 ; Define these aliases only when:
 ; - External (public) access is necessary (bastions, cache proxies, mattermost)
-; - Internal HTTPS access is required (e.g., for mwdeploy status checks)
+; - Internal HTTPS access is required
 
 ;; Bastions
 bast161			A	38.46.223.203
@@ -123,35 +123,6 @@ cp38			AAAA	2602:294:0:b33::102 ; cloud19
 ;; Mattermost
 mattermost		A	15.204.87.20
 			AAAA	2604:2dc0:202:300::7c6 ; mattermost1 (OVH US/Oregon)
-
-;; MediaWiki Backends
-mw151			CNAME	mw151.fsslc.wtnet.
-mw152			CNAME	mw152.fsslc.wtnet.
-mw153			CNAME	mw153.fsslc.wtnet.
-mw161			CNAME	mw161.fsslc.wtnet.
-mw162			CNAME	mw162.fsslc.wtnet.
-mw163			CNAME	mw163.fsslc.wtnet.
-mw171			CNAME	mw171.fsslc.wtnet.
-mw172			CNAME	mw172.fsslc.wtnet.
-mw173			CNAME	mw173.fsslc.wtnet.
-mw181			CNAME	mw181.fsslc.wtnet.
-mw182			CNAME	mw182.fsslc.wtnet.
-mw183			CNAME	mw183.fsslc.wtnet.
-mw191			CNAME	mw191.fsslc.wtnet.
-mw192			CNAME	mw192.fsslc.wtnet.
-mw193			CNAME	mw193.fsslc.wtnet.
-mw201			CNAME	mw201.fsslc.wtnet.
-mw202			CNAME	mw202.fsslc.wtnet.
-mw203			CNAME	mw203.fsslc.wtnet.
-
-;; MediaWiki Task Servers
-mwtask151		CNAME	mwtask151.fsslc.wtnet.
-mwtask161		CNAME	mwtask161.fsslc.wtnet.
-mwtask171		CNAME	mwtask171.fsslc.wtnet.
-mwtask181		CNAME	mwtask181.fsslc.wtnet.
-
-;; MediaWiki Test Server
-test151			CNAME	test151.fsslc.wtnet.
 
 ; Service Aliases
 ldap			CNAME	ldap171.fsslc.wtnet.
