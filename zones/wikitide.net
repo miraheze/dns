@@ -49,7 +49,6 @@ cloud15			A	38.46.218.154
 db151			CNAME	db151.fsslc.wtnet.
 os151			CNAME	os151.fsslc.wtnet.
 mem151			CNAME	mem151.fsslc.wtnet.
-prometheus151		CNAME	prometheus151.fsslc.wtnet.
 swiftobject151		CNAME 	swiftobject151.fsslc.wtnet.
 rdb151			CNAME	rdb151.fsslc.wtnet.
 
@@ -66,10 +65,8 @@ os162			CNAME	os162.fsslc.wtnet.
 cloud17			A	38.46.218.228
 			AAAA	2602:294:0:b23::100
 db171			CNAME	db171.fsslc.wtnet.
-ldap171			CNAME	ldap171.fsslc.wtnet.
 swiftac171		CNAME	swiftac171.fsslc.wtnet.
 swiftobject171		CNAME	swiftobject171.fsslc.wtnet.
-bots171			CNAME	bots171.fsslc.wtnet.
 db172			CNAME	db172.fsslc.wtnet.
 
 ;; Cloud18
