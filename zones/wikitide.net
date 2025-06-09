@@ -79,7 +79,6 @@ puppet181		CNAME	puppet181.fsslc.wtnet.
 db181			CNAME	db181.fsslc.wtnet.
 db182			CNAME	db182.fsslc.wtnet.
 swiftobject181		CNAME	swiftobject181.fsslc.wtnet.
-mon181			CNAME	mon181.fsslc.wtnet.
 kafka181		CNAME	kafka181.fsslc.wtnet.
 eventgate181		CNAME	eventgate181.fsslc.wtnet.
 
