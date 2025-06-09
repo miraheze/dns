@@ -71,7 +71,6 @@ db171			CNAME	db171.fsslc.wtnet.
 ldap171			CNAME	ldap171.fsslc.wtnet.
 swiftac171		CNAME	swiftac171.fsslc.wtnet.
 swiftobject171		CNAME	swiftobject171.fsslc.wtnet.
-reports171		CNAME	reports171.fsslc.wtnet.
 bots171			CNAME	bots171.fsslc.wtnet.
 db172			CNAME	db172.fsslc.wtnet.
 
