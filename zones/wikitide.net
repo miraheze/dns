@@ -48,7 +48,6 @@ cloud15			A	38.46.218.154
 			AAAA	2602:294:0:c8::100
 db151			CNAME	db151.fsslc.wtnet.
 os151			CNAME	os151.fsslc.wtnet.
-matomo151		CNAME	matomo151.fsslc.wtnet.
 mem151			CNAME	mem151.fsslc.wtnet.
 prometheus151		CNAME	prometheus151.fsslc.wtnet.
 swiftobject151		CNAME 	swiftobject151.fsslc.wtnet.
