@@ -41,31 +41,18 @@ _dmarc			TXT	"v=DMARC1; p=reject; pct=100; fo=1"
 ; BIMI - Used for verified emails
 default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTide_BIMI.svg;a="
 
-; Servers
+; Cloud Servers
 ; TODO: Remove once FQDNs have been updated to use wtnet
-;; Cloud15
 cloud15			A	38.46.218.154
 			AAAA	2602:294:0:c8::100
-
-;; Cloud16
 cloud16			A	38.46.218.226
 			AAAA	2602:294:0:b13::100
-
-;; Cloud17
 cloud17			A	38.46.218.228
 			AAAA	2602:294:0:b23::100
-
-;; Cloud18
 cloud18			A	38.46.218.156
 			AAAA	2602:294:0:b12::100
-puppet181		CNAME	puppet181.fsslc.wtnet.
-kafka181		CNAME	kafka181.fsslc.wtnet.
-
-;; Cloud19
 cloud19			A	38.46.218.157
 			AAAA	2602:294:0:b33::100
-
-;; Cloud20
 cloud20			A	38.46.218.155
 			AAAA	2602:294:0:b39::100
 
@@ -90,6 +77,9 @@ cp38			AAAA	2602:294:0:b33::102 ; cloud19
 ;; Mattermost
 mattermost		A	15.204.87.20
 			AAAA	2604:2dc0:202:300::7c6 ; mattermost1 (OVH US/Oregon)
+
+; Puppet
+puppet181		CNAME	puppet181.fsslc.wtnet.
 
 ; Service Aliases
 ldap			CNAME	ldap171.fsslc.wtnet.
