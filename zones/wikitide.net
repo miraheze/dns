@@ -64,7 +64,6 @@ cloud18			A	38.46.218.156
 puppet181		CNAME	puppet181.fsslc.wtnet.
 swiftobject181		CNAME	swiftobject181.fsslc.wtnet.
 kafka181		CNAME	kafka181.fsslc.wtnet.
-eventgate181		CNAME	eventgate181.fsslc.wtnet.
 
 ;; Cloud19
 cloud19			A	38.46.218.157
@@ -75,7 +74,6 @@ swiftobject191		CNAME	swiftobject191.fsslc.wtnet.
 cloud20			A	38.46.218.155
 			AAAA	2602:294:0:b39::100
 swiftobject201		CNAME	swiftobject201.fsslc.wtnet.
-changeprop201		CNAME	changeprop201.fsslc.wtnet.
 
 ; Server Aliases
 ; Define these aliases only when:
