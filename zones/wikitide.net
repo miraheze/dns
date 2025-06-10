@@ -46,34 +46,28 @@ default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiT
 ;; Cloud15
 cloud15			A	38.46.218.154
 			AAAA	2602:294:0:c8::100
-swiftobject151		CNAME 	swiftobject151.fsslc.wtnet.
 
 ;; Cloud16
 cloud16			A	38.46.218.226
 			AAAA	2602:294:0:b13::100
-swiftobject161		CNAME	swiftobject161.fsslc.wtnet.
 
 ;; Cloud17
 cloud17			A	38.46.218.228
 			AAAA	2602:294:0:b23::100
-swiftobject171		CNAME	swiftobject171.fsslc.wtnet.
 
 ;; Cloud18
 cloud18			A	38.46.218.156
 			AAAA	2602:294:0:b12::100
 puppet181		CNAME	puppet181.fsslc.wtnet.
-swiftobject181		CNAME	swiftobject181.fsslc.wtnet.
 kafka181		CNAME	kafka181.fsslc.wtnet.
 
 ;; Cloud19
 cloud19			A	38.46.218.157
 			AAAA	2602:294:0:b33::100
-swiftobject191		CNAME	swiftobject191.fsslc.wtnet.
 
 ;; Cloud20
 cloud20			A	38.46.218.155
 			AAAA	2602:294:0:b39::100
-swiftobject201		CNAME	swiftobject201.fsslc.wtnet.
 
 ; Server Aliases
 ; Define these aliases only when:
