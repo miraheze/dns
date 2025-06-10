@@ -40,7 +40,7 @@ $ORIGIN 16.0.@Z
 133		PTR	mw162.fsslc.wtnet.
 134		PTR	swiftobject161.fsslc.wtnet.
 135		PTR	swiftproxy161.fsslc.wtnet.
-137		PTR	cp36.fsslc.wtnet.
+137		PTR	cp161.fsslc.wtnet.
 141		PTR	os162.fsslc.wtnet.
 151		PTR	mw163.fsslc.wtnet.
 157		PTR	mwtask161.fsslc.wtnet.
@@ -57,7 +57,7 @@ $ORIGIN 17.0.@Z
 125		PTR	swiftac171.fsslc.wtnet.
 126		PTR	swiftobject171.fsslc.wtnet.
 136		PTR	ns1.fsslc.wtnet.
-138		PTR	cp37.fsslc.wtnet.
+138		PTR	cp171.fsslc.wtnet.
 139		PTR	reports171.fsslc.wtnet.
 143		PTR	bots171.fsslc.wtnet.
 144		PTR	mwtask171.fsslc.wtnet.
@@ -84,7 +84,7 @@ $ORIGIN 18.0.@Z
 $ORIGIN 19.0.@Z
 1		PTR	cloud19.fsslc.wtnet.
 120		PTR	swiftobject191.fsslc.wtnet.
-146		PTR	cp38.fsslc.wtnet.
+146		PTR	cp191.fsslc.wtnet.
 152		PTR	os191.fsslc.wtnet.
 154		PTR	mem191.fsslc.wtnet.
 160		PTR	mw191.fsslc.wtnet.
