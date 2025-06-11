@@ -78,7 +78,7 @@ cp191			AAAA	2602:294:0:b33::102
 mattermost		A	15.204.87.20
 			AAAA	2604:2dc0:202:300::7c6 ; mattermost1 (OVH US/Oregon)
 
-; Puppet
+;; Puppet
 puppet181		CNAME	puppet181.fsslc.wtnet.
 
 ; Service Aliases
@@ -88,8 +88,7 @@ opensearch		CNAME	os151.fsslc.wtnet.
 opensearch-mw		CNAME	os162.fsslc.wtnet.
 swift-lb		CNAME	swiftproxy161.fsslc.wtnet.
 
-; Load Balanced
-;; Cloudflare
+; Load Balanced (Cloudflare)
 analytics		CNAME	cf-lb.miraheze.org.
 grafana			CNAME	cf-lb.miraheze.org.
 monitoring		CNAME	cf-lb.miraheze.org.
@@ -97,12 +96,8 @@ phorge-static		CNAME	cf-lb.miraheze.org.
 static			CNAME	cf-lb.miraheze.org.
 status			CNAME	cf-lb.miraheze.org.
 
-;; GDNSD
-;; TODO: Move to wtnet with CNAME aliases here where necessary
+; Healthcheck
 health			DYNA	geoip!cp
-jobrunner		DYNA	weighted!jobrunner
-jobrunner-high		DYNA	weighted!jobrunner
-videoscaler		DYNA	weighted!jobrunner
 
 ; Static Help Documentation
 $ORIGIN static.@Z
