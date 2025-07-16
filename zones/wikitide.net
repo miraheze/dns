@@ -103,3 +103,6 @@ health			DYNA	geoip!cp
 ; Static Help Documentation
 $ORIGIN static.@Z
 help			CNAME	miraheze.github.io.
+
+; SSL Verification
+_acme-challenge.wikitide.net.			TXT	"zSWDMojBW3klS7_B-IfxGy4cg3FNYpTQ7IYcs46AFdY"
