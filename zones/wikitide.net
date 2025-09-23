@@ -83,6 +83,7 @@ mattermost		A	15.204.87.20
 puppet181		CNAME	puppet181.fsslc.wtnet.
 
 ; Service Aliases
+ai			CNAME	llm191.fsslc.wtnet.
 ldap			CNAME	ldap171.fsslc.wtnet.
 logging			CNAME	graylog161.fsslc.wtnet.
 opensearch		CNAME	os151.fsslc.wtnet.
