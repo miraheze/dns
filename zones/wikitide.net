@@ -107,3 +107,5 @@ help			CNAME	miraheze.github.io.
 
 ; SSL Verification
 _acme-challenge.wikitide.net.			TXT	"VDX-B98TZVnsvxCLKi3ZfF7Gwz4peY5bqzsM3AkDPBM"
+_acme-challenge.wikitide.net.			TXT	"CO6cjG2fgvg5QP5YLV8pxzdv59NoGUUJ4IYZMLkeftk"
+_acme-challenge.wikitide.net.			TXT	"Jplf27n0E4ABEddFOzrIqanY5dFwNqhutdjczujbnXY"
