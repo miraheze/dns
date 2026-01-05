@@ -54,11 +54,9 @@ polcompball	CNAME	cf-lb.miraheze.org.
 ; Miscellaneous
 wikitide.org.   TXT     "google-site-verification=2H9ugfXLc7WqxAJiLUGewd4ISrZEFG76NQQN1BJNCe4"
 wikitide.org.   TXT     "atlassian-domain-verification=seLpRBEOK9uaTCZrJSqptkG8Km60/0kkJUmi4Z6kaSS8SFufgAYFfvLOyqE1FGZw"
-_acme-challenge.wikitide.org.   TXT    "In01SlV5qadlfdDuGy0U9nHmUBjDjI_Oq4uqPoc5A88"
-_acme-challenge.wikitide.org.   TXT    "ws95GBWfyj-gcFo6P4ko4RT7BjWZ4M0Q4HvRXhDxMDU"
-_acme-challenge.wikitide.org.   TXT    "M_1LDCOWn8qSZ-jHi91VAot1I8wAXvdF0BQawqD0HJY"
-_acme-challenge.wikitide.org.   TXT    "AvZpEWLHiboBs0-txtR0b1J99lfsOCNceJtn1uxh8n8"
 _acme-challenge.wikitide.org.   TXT    "KK9uYrmJR51Xe-I2wnP5E9Tyd58rfyknIt-SCGJH63Q"
 _acme-challenge.wikitide.org.   TXT    "Zj9EQvftOK_sk7Eh-keEtybyXnfEVMKx_k-RmRAB5Fw"
+_acme-challenge.wikitide.org.   TXT    "lfdnZnxwJUquwGZTJo87xJmNbo-d9IrHH2K_O7yerbo"
+_acme-challenge.wikitide.org.   TXT    "uguS3ql5gWBiX4OB4XkCTcHjyHtOLdqjEJZ9c6LXm7k"
 
 ; Other
