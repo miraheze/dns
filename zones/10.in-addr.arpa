@@ -56,7 +56,7 @@ $ORIGIN 17.0.@Z
 124		PTR	phorge171.fsslc.wtnet.
 125		PTR	swiftac171.fsslc.wtnet.
 126		PTR	swiftobject171.fsslc.wtnet.
-136		PTR	ns1.fsslc.wtnet.
+171		PTR	ns1.fsslc.wtnet.
 138		PTR	cp171.fsslc.wtnet.
 139		PTR	reports171.fsslc.wtnet.
 143		PTR	bots171.fsslc.wtnet.
