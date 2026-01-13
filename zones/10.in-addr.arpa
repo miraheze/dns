@@ -77,6 +77,7 @@ $ORIGIN 18.0.@Z
 107		PTR	swiftobject181.fsslc.wtnet.
 109		PTR	mon181.fsslc.wtnet.
 147		PTR	eventgate181.fsslc.wtnet.
+136		PTR	eventgate182.fsslc.wtnet.
 155		PTR	mw183.fsslc.wtnet.
 159		PTR	kafka181.fsslc.wtnet.
 
