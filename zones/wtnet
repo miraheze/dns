@@ -1,5 +1,5 @@
 @	1H	IN	SOA	ns1.wikitide.net. hostmaster.wikitide.net. (
-			2026011401	; serial
+			2026011402	; serial
 			12H		; refresh
 			2H		; retry
 			1W		; expire
@@ -77,7 +77,6 @@ swiftobject181		A	10.0.18.107
 mon181			A	10.0.18.109
 eventgate182		A	10.0.18.136
 mw183			A	10.0.18.155
-kafka181		A	10.0.18.159
 kafka182		A	10.0.18.142
 
 ; Cloud19
