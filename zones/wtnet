@@ -1,5 +1,5 @@
 @	1H	IN	SOA	ns1.wikitide.net. hostmaster.wikitide.net. (
-			2026011401	; serial
+			2026011402	; serial
 			12H		; refresh
 			2H		; retry
 			1W		; expire
