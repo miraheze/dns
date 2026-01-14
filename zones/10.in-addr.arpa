@@ -78,6 +78,7 @@ $ORIGIN 18.0.@Z
 136		PTR	eventgate182.fsslc.wtnet.
 155		PTR	mw183.fsslc.wtnet.
 159		PTR	kafka181.fsslc.wtnet.
+142		PTR	kafka182.fsslc.wtnet.
 
 ; Cloud19
 $ORIGIN 19.0.@Z
