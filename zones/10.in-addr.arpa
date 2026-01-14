@@ -91,6 +91,7 @@ $ORIGIN 19.0.@Z
 161		PTR	mw192.fsslc.wtnet.
 164		PTR	mw193.fsslc.wtnet.
 170		PTR	db192.fsslc.wtnet.
+149		PTR	rdb191.fsslc.wtnet.
 
 ; Cloud20
 $ORIGIN 20.0.@Z
