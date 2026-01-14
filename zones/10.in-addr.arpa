@@ -99,6 +99,7 @@ $ORIGIN 20.0.@Z
 145		PTR	swiftobject201.fsslc.wtnet.
 148		PTR	mem201.fsslc.wtnet.
 149		PTR	changeprop201.fsslc.wtnet.
+147		PTR	changeprop202.fsslc.wtnet.
 156		PTR	os201.fsslc.wtnet.
 162		PTR	mw201.fsslc.wtnet.
 163		PTR	mw202.fsslc.wtnet.
