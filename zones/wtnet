@@ -137,8 +137,6 @@ cloud20			A	10.20.4.179
 ; VPS servers
 $ORIGIN vps.wtnet.
 
-mattermost1		A	15.204.87.20
-			AAAA	2604:2dc0:202:300::7c6
 mattermost2		A	15.204.95.61
 			AAAA	2604:2dc0:202:300::3569
 ns2			A	51.75.170.66
