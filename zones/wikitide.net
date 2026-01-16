@@ -76,8 +76,8 @@ cp191			AAAA	2602:294:0:b33::102
 cp201			AAAA	2602:294:0:b39::166
 
 ;; Mattermost
-mattermost		A	15.204.87.20
-			AAAA	2604:2dc0:202:300::7c6 ; mattermost1 (OVH US/Oregon)
+mattermost		A	15.204.95.61
+			AAAA	2604:2dc0:202:300::3569 ; mattermost2 (OVH US/Oregon)
 
 ;; Puppet
 puppet181		CNAME	puppet181.fsslc.wtnet.
