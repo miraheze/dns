@@ -106,8 +106,8 @@ os202			A	10.0.20.167
 db201			A	10.0.20.169
 
 ; Aliases
-bastion			A	10.0.16.127 ; bast181
-ntp			A	10.0.16.127 ; bast181
+bastion			A	10.0.18.101 ; bast181
+ntp			A	10.0.18.101 ; bast181
 prometheus-pushgateway	A	10.0.15.116 ; prometheus151
 
 ; Servers that need to have public IP access
