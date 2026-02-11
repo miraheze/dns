@@ -105,3 +105,7 @@ $ORIGIN 20.0.@Z
 166		PTR	cp201.fsslc.wtnet.
 167		PTR	os202.fsslc.wtnet.
 169		PTR	db201.fsslc.wtnet.
+
+; Cloud21
+$ORIGIN 21.0.@Z
+1		PTR	cloud21.fsslc.wtnet.
