@@ -55,6 +55,8 @@ cloud19			A	38.46.218.157
 			AAAA	2602:294:0:b33::100
 cloud20			A	38.46.218.155
 			AAAA	2602:294:0:b39::100
+cloud21			A	38.147.104.249
+			AAAA	2602:294:0:f702::100
 
 ; Server Aliases
 ; Define these aliases only when:
