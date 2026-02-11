@@ -105,6 +105,9 @@ cp201			A	10.0.20.166
 os202			A	10.0.20.167
 db201			A	10.0.20.169
 
+; Cloud21
+cloud21			A	10.0.21.1
+
 ; Aliases
 bastion			A	10.0.18.101 ; bast181
 ntp			A	10.0.18.101 ; bast181
@@ -133,6 +136,7 @@ cloud17			A	10.20.3.60
 cloud18			A	10.20.3.38
 cloud19			A	10.20.4.178
 cloud20			A	10.20.4.179
+cloud21			A	10.20.5.29
 
 ; VPS servers
 $ORIGIN vps.wtnet.
