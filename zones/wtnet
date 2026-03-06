@@ -107,6 +107,7 @@ db201			A	10.0.20.169
 
 ; Cloud21
 cloud21			A	10.0.21.1
+swiftobject211		A	10.0.21.159
 
 ; Aliases
 bastion			A	10.0.18.101 ; bast181
