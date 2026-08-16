@@ -47,7 +47,7 @@ www		CNAME	cf-lb.miraheze.org.
 issue-tracker	CNAME	cf-lb.miraheze.org.
 
 ; Wiki (Temporarily)
-polcompball	CNAME	cf-lb.miraheze.org.
+homevideo	CNAME	cf-lb.miraheze.org.
 
 ; load balancers
 
