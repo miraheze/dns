@@ -62,5 +62,5 @@ _acme-challenge.wikitide.org.   TXT    "ZC_qAZMuTM1LXAab_7OMBTxgJiTFCNxl_Eoh-J6b
 _acme-challenge.wikitide.org.   TXT    "ssWDRPSrgmg6Q3QxTPoEStIkb2a8Iet_GYnUrPAhk-o"
 
 ; Other
-_acme-challenge.homevideo.wikitide.org	TXT	"axfhInU9c-aFjKgf-x-aGadDdGJPvuJP5z0LlkUrAAc"
-_acme-challenge.homevideo.wikitide.org	TXT	"6gIbuX5cbiGPbaGs6rsDlklL_k52KEIkmhJABO_DSdY"
+_acme-challenge.homevideo.wikitide.org.	TXT	"axfhInU9c-aFjKgf-x-aGadDdGJPvuJP5z0LlkUrAAc"
+_acme-challenge.homevideo.wikitide.org.	TXT	"6gIbuX5cbiGPbaGs6rsDlklL_k52KEIkmhJABO_DSdY"
