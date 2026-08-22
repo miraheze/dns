@@ -90,6 +90,7 @@ ldap			CNAME	ldap171.fsslc.wtnet.
 logging			CNAME	graylog161.fsslc.wtnet.
 opensearch		CNAME	os151.fsslc.wtnet.
 opensearch-mw		CNAME	os162.fsslc.wtnet.
+speedscope		CNAME	speedscope211.fsslc.wtnet.
 swift-lb		CNAME	swiftproxy161.fsslc.wtnet.
 
 ; Load Balanced (Cloudflare)
