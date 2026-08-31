@@ -13,8 +13,8 @@
 ;; Records
 ns1	1D	A	38.46.223.204
 		AAAA	2602:294:0:b23::111 ; cloud17
-ns2	1D	A	51.75.170.66
-		AAAA	2001:41d0:801:2000::4089 ; OVH (GB)
+ns2	1D	A	40.160.87.37
+		AAAA	2604:2dc0:121::1153 ; OVH
 
 $TTL 5M ; Default TTL for records
 
