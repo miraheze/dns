@@ -1,5 +1,5 @@
 @	1H	IN	SOA	ns1 hostmaster (
-			2024011501	; serial
+			2025083101	; serial
 			12H		; refresh
 			2H		; retry
 			1W		; expire
