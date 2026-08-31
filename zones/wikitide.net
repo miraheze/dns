@@ -109,7 +109,6 @@ $ORIGIN static.@Z
 help			CNAME	miraheze.github.io.
 
 ; SSL Verification
-ownercheck.ns2.wikitide.net.    IN    TXT    "3cc0fd38"
 _acme-challenge.wikitide.net.			TXT	"dXV-WG1HSfKj9chkXvjy0X5q-ScVnXaaTxBprJAmJiM"
 _acme-challenge.wikitide.net.			TXT	"slli6_Jem91kA7L0rD9RACc1RPqWEcVlCEqU_hDlrZk"
 _acme-challenge.wikitide.net.			TXT	"OvYzgond8vxJHdhzgfLuumavq9ZnjkuD9HF7htnqkjY"
