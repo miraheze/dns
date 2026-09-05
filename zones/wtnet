@@ -109,6 +109,7 @@ db201			A	10.0.20.169
 cloud21			A	10.0.21.1
 swiftobject211		A	10.0.21.159
 speedscope211		A	10.0.21.172
+matomo211		A	10.0.21.173
 
 ; Aliases
 bastion			A	10.0.16.127 ; bast161
