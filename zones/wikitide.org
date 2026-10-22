@@ -11,7 +11,7 @@ $ORIGIN wikitide.org.
 
 ; Wildcard services
 @		DYNA	geoip!cp
-*		DYNA	geoip!cp
+*		CNAME	cf-lb.miraheze.org.
 
 ; Name servers
 @		NS	ns1.wikitide.net.
@@ -40,46 +40,6 @@ _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:dmarc@wikitide.org; ruf=mailto:dmar
 ; BIMI - Used for verified emails
 default._bimi		TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTide_BIMI.svg;a="
 
-; Servers
-
-; Services
-www		CNAME	cf-lb.miraheze.org.
-foundation	CNAME	cf-lb.miraheze.org.
-issue-tracker	CNAME	cf-lb.miraheze.org.
-
-; Wiki (Temporarily)
-4tourney		CNAME	cf-lb.miraheze.org.
-darkangel		CNAME	cf-lb.miraheze.org.
-dpl3			CNAME	cf-lb.miraheze.org.
-dpl4			CNAME	cf-lb.miraheze.org.
-elysium			CNAME	cf-lb.miraheze.org.
-growevertree		CNAME	cf-lb.miraheze.org.
-homevideo		CNAME	cf-lb.miraheze.org.
-indomita		CNAME	cf-lb.miraheze.org.
-io			CNAME	cf-lb.miraheze.org.
-lgbtqidentity		CNAME	cf-lb.miraheze.org.
-miitopia		CNAME	cf-lb.miraheze.org.
-mirapedia		CNAME	cf-lb.miraheze.org.
-sherlockholmes		CNAME	cf-lb.miraheze.org.
-staff			CNAME	cf-lb.miraheze.org.
-sweethopesandprayers	CNAME	cf-lb.miraheze.org.
-termsofservice		CNAME	cf-lb.miraheze.org.
-ticmedia		CNAME	cf-lb.miraheze.org.
-trueearth		CNAME	cf-lb.miraheze.org.
-videocreditarchive	CNAME	cf-lb.miraheze.org.
-
-; load balancers
-
 ; Miscellaneous
 wikitide.org.   TXT     "google-site-verification=2H9ugfXLc7WqxAJiLUGewd4ISrZEFG76NQQN1BJNCe4"
 wikitide.org.   TXT     "atlassian-domain-verification=seLpRBEOK9uaTCZrJSqptkG8Km60/0kkJUmi4Z6kaSS8SFufgAYFfvLOyqE1FGZw"
-_acme-challenge.wikitide.org.   TXT    "RGZk_w0XyJtDu84j5tjF4GwL46UerxveaRlrJkpRUpY"
-_acme-challenge.wikitide.org.   TXT    "xxTGt8J8SuOmVUswd8OY7-a3bNxGL-7S7JD2Cp_01PQ"
-_acme-challenge.wikitide.org.   TXT    "ZC_qAZMuTM1LXAab_7OMBTxgJiTFCNxl_Eoh-J6b9YE"
-_acme-challenge.wikitide.org.   TXT    "ssWDRPSrgmg6Q3QxTPoEStIkb2a8Iet_GYnUrPAhk-o"
-_acme-challenge.wikitide.org.   TXT    "HE76nUnp4xSfStrYDrXKXBoEB8-VL_q_zbNmIRTyM_U"
-_acme-challenge.wikitide.org.   TXT    "wGmEyb2vbfks9Y0NGINKnU_tWvWWRpSdGcEBzz6rEuw"
-
-; Other
-_acme-challenge.homevideo.wikitide.org.	TXT	"axfhInU9c-aFjKgf-x-aGadDdGJPvuJP5z0LlkUrAAc"
-_acme-challenge.homevideo.wikitide.org.	TXT	"6gIbuX5cbiGPbaGs6rsDlklL_k52KEIkmhJABO_DSdY"
