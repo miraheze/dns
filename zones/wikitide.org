@@ -47,7 +47,25 @@ www		CNAME	cf-lb.miraheze.org.
 issue-tracker	CNAME	cf-lb.miraheze.org.
 
 ; Wiki (Temporarily)
-homevideo	CNAME	cf-lb.miraheze.org.
+4tourney		CNAME	cf-lb.miraheze.org.
+darkangel		CNAME	cf-lb.miraheze.org.
+dpl3			CNAME	cf-lb.miraheze.org.
+dpl4			CNAME	cf-lb.miraheze.org.
+elysium			CNAME	cf-lb.miraheze.org.
+growevertree		CNAME	cf-lb.miraheze.org.
+homevideo		CNAME	cf-lb.miraheze.org.
+indomita		CNAME	cf-lb.miraheze.org.
+io			CNAME	cf-lb.miraheze.org.
+lgbtqidentity		CNAME	cf-lb.miraheze.org.
+miitopia		CNAME	cf-lb.miraheze.org.
+mirapedia		CNAME	cf-lb.miraheze.org.
+sherlockholmes		CNAME	cf-lb.miraheze.org.
+staff			CNAME	cf-lb.miraheze.org.
+sweethopesandprayers	CNAME	cf-lb.miraheze.org.
+termsofservice		CNAME	cf-lb.miraheze.org.
+ticmedia		CNAME	cf-lb.miraheze.org.
+trueearth		CNAME	cf-lb.miraheze.org.
+videocreditarchive	CNAME	cf-lb.miraheze.org.
 
 ; load balancers
 
