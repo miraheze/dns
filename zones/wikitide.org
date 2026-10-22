@@ -49,6 +49,7 @@ issue-tracker	CNAME	cf-lb.miraheze.org.
 ; Wiki (Temporarily)
 4tourney		CNAME	cf-lb.miraheze.org.
 darkangel		CNAME	cf-lb.miraheze.org.
+dpl3			CNAME	cf-lb.miraheze.org.
 dpl4			CNAME	cf-lb.miraheze.org.
 elysium			CNAME	cf-lb.miraheze.org.
 growevertree		CNAME	cf-lb.miraheze.org.
