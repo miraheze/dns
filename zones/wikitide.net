@@ -101,9 +101,6 @@ speedscope		CNAME	cf-lb.miraheze.org.
 static			CNAME	cf-lb.miraheze.org.
 status			CNAME	cf-lb.miraheze.org.
 
-; Healthcheck
-health			DYNA	geoip!cp
-
 ; Static Help Documentation
 $ORIGIN static.@Z
 help			CNAME	miraheze.github.io.
