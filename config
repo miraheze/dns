@@ -9,21 +9,6 @@ options => {
 	tcp_clients_per_thread = 1024,
 }
 
-service_types => {
-	cpweb => {
-		plugin => http_status,
-		port => 80,
-		ok_codes => [ 200 ],
-		url_path => /check
-		vhost => health.wikitide.net
-		up_thresh => 3,
-		ok_thresh => 3,
-		down_thresh => 3,
-		interval => 7,
-		timeout => 5,
-	}
-}
-
 plugins => {
 	weighted => {
 		multi = false
@@ -42,33 +27,6 @@ plugins => {
 				mwtask161 = [ 10.0.16.157, 1 ]
 				mwtask171 = [ 10.0.17.144, 1 ]
 				mwtask181 = [ 10.0.18.106, 1 ]
-			}
-		}
-	}
-	geoip => {
-		maps => {
-			generic-map => {
-				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
-				datacenters => [us]
-				map => {
-					default => [us],
-				},
-			},
-		},
-		resources => {
-			cp => {
-				map => generic-map
-				service_types => cpweb
-				dcmap => {
-					us => {
-						addrs_v4 => {
-							cp161 => 38.46.223.205
-						},
-						addrs_v6 => {
-							cp161 => 2602:294:0:b13::110
-						}
-					}
-				}
 			}
 		}
 	}
