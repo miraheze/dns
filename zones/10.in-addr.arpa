@@ -113,3 +113,6 @@ $ORIGIN 21.0.@Z
 159		PTR	swiftobject211.fsslc.wtnet.
 172		PTR	speedscope211.fsslc.wtnet.
 173		PTR	matomo211.fsslc.wtnet.
+175		PTR	mw211.fsslc.wtnet.
+176		PTR	mw212.fsslc.wtnet.
+177		PTR	mw213.fsslc.wtnet.
