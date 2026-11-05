@@ -121,9 +121,7 @@ ntp			A	10.0.18.101 ; bast181
 prometheus-pushgateway	A	10.0.15.116 ; prometheus151
 
 ; Servers that need to have public IP access
-$ORIGIN public.fsslc.wtnet.
-
-puppet181		AAAA	2602:294:0:b12::101
+; $ORIGIN public.fsslc.wtnet.
 
 ; Services
 $ORIGIN svc.fsslc.wtnet.
